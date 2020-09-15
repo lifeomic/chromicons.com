@@ -1,15 +1,15 @@
 import { CheckCircle } from '@lifeomic/chromicons/react/lined';
-import { Chroma } from '../components/icons/chroma';
+import { Chroma } from '@lifeomic/chromicons/react/lined';
 import { Chromicons } from '../components/icons/chromicons';
 import { Flag } from '@lifeomic/chromicons/react/lined';
 import { IconModal } from '../components/iconModal';
 import { Lifeology } from '@lifeomic/chromicons/react/lined';
 import { LifeOmic } from '../components/icons/lifeomic';
-import { SearchField } from '../components/searchField';
 import { Tile } from '../components/tile';
 import { useState } from 'react';
 import * as allLinedChromicons from '@lifeomic/chromicons/react/lined';
 import Head from 'next/head';
+import metadata from '../util/metadata';
 
 const getChromicons = () => {
   const iconNames = Object.keys(allLinedChromicons);
@@ -17,6 +17,8 @@ const getChromicons = () => {
   return iconNames?.map((icon) => {
     return {
       name: icon,
+      description: metadata[icon]?.description,
+      categories: metadata[icon]?.categories,
       reactComponent: allLinedChromicons[icon],
     };
   });
@@ -36,12 +38,9 @@ export default function IndexPage({ pkgVersion }) {
       <Head>
         <title>CHROMICONS</title>
       </Head>
-      <IconModal
-        iconInView={iconInView}
-        onDismiss={() => setIconInView(null)}
-      />
+      <IconModal icon={iconInView} onDismiss={() => setIconInView(null)} />
       <header className="px-4 sm:px-6 lg:px-16 bg-gray-800 pb-16">
-        <div className="max-w-container mx-auto">
+        <div className="max-w-container mx-auto flex justify-between">
           <div className="py-12 flex items-center text-white space-x-2">
             <Chroma />
             <Chromicons />
@@ -50,6 +49,24 @@ export default function IndexPage({ pkgVersion }) {
               <dt className="sr-only">Chromicons version</dt>
               <dd>{pkgVersion}</dd>
             </dl>
+          </div>
+          <div className="flex items-center text-white text-sm">
+            <a
+              className="flex items-center duration-300 ease-in-out transition-opacity hover:opacity-75 focus:outline-none focus-visible:shadow-outline focus-visible:underline"
+              href="https://github.com/lifeomic/chromicons"
+              target="_blank"
+            >
+              <svg
+                className="mr-2"
+                viewBox="0 0 24 24"
+                height={24}
+                width={24}
+                fill="currentColor"
+              >
+                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+              </svg>
+              GitHub
+            </a>
           </div>
         </div>
         <div className="w-full flex-none text-center space-y-6 xl:w-auto xl:flex-auto">
@@ -85,12 +102,6 @@ export default function IndexPage({ pkgVersion }) {
       </header>
 
       <main className="bg-white text-gray-600">
-        <div className="flex flex-col md:flex-row px-8 py-6 items-center w-full shadow-md">
-          <div className="ml-auto hidden md:block">
-            <SearchField />
-          </div>
-        </div>
-
         <div className="grid grid-cols-2 gap-2 px-4 my-4 sm:px-6 lg:px-16 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
           {getChromicons().map((icon) => {
             const Icon = icon.reactComponent;
@@ -101,7 +112,7 @@ export default function IndexPage({ pkgVersion }) {
                 isOpen={iconInView?.name === icon?.name}
                 onClick={() => setIconInView(icon)}
               >
-                <Icon className="h-8 w-8" />
+                <Icon className="h-6 w-6" />
               </Tile>
             );
           })}
@@ -120,7 +131,7 @@ export default function IndexPage({ pkgVersion }) {
             <p>
               Designed by{' '}
               <a
-                className="font-bold"
+                className="font-bold duration-300 ease-in-out transition-opacity hover:opacity-75 focus:outline-none focus-visible:shadow-outline focus-visible:underline"
                 href="https://twitter.com/pixelcrat"
                 target="_blank"
               >
@@ -138,7 +149,7 @@ export default function IndexPage({ pkgVersion }) {
             <p>
               Developed by{' '}
               <a
-                className="font-bold"
+                className="font-bold duration-300 ease-in-out transition-opacity hover:opacity-75 focus:outline-none focus-visible:shadow-outline focus-visible:underline"
                 href="https://twitter.com/_ynotdraw"
                 target="_blank"
               >
@@ -151,7 +162,7 @@ export default function IndexPage({ pkgVersion }) {
             <p>
               Built at{' '}
               <a
-                className="font-bold"
+                className="font-bold duration-300 ease-in-out transition-opacity hover:opacity-75 focus:outline-none focus-visible:shadow-outline focus-visible:underline"
                 href="https://www.lifeomic.com"
                 target="_blank"
               >
