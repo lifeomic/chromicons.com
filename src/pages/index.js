@@ -19,7 +19,13 @@ const ALL_ICONS = Array(40).fill(
   </svg>
 );
 
-export default function IndexPage() {
+export function getStaticProps() {
+  return {
+    props: { pkgVersion: require('@lifeomic/chromicons/package.json').version },
+  };
+}
+
+export default function IndexPage({ pkgVersion }) {
   const [iconInView, setIconInView] = useState(null);
 
   return (
@@ -39,7 +45,7 @@ export default function IndexPage() {
 
             <dl className="mt-0 mb-1 inline-flex items-center px-2 rounded-full text-xs bg-gradient-to-r from-super-orange to-super-blue">
               <dt className="sr-only">Chromicons version</dt>
-              <dd>1.0</dd>
+              <dd>{pkgVersion}</dd>
             </dl>
           </div>
         </div>
