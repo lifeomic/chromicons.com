@@ -1,4 +1,8 @@
-module.exports = {
+const withTranspileModules = require('next-transpile-modules')([
+  '@lifeomic/chromicons',
+]);
+
+module.exports = withTranspileModules({
   experimental: {
     modern: true,
     polyfillsOptimization: true,
@@ -20,4 +24,4 @@ module.exports = {
 
     return config;
   },
-};
+});
