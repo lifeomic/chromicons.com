@@ -1,5 +1,5 @@
 import { DialogOverlay, DialogContent } from '@reach/dialog';
-import { useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import clsx from 'clsx';
 
 const Button = ({ className, children, ...rootProps }) => (
@@ -18,6 +18,19 @@ export const IconModal = ({ iconInView, onDismiss }) => {
   const Icon = iconInView?.reactComponent;
 
   const iconContainerRef = useRef();
+
+  const [copyState, setCopyState] = useState('default');
+
+  useEffect(() => {
+    if (copyState === 'clicked') {
+      const handler = window.setTimeout(() => {
+        setCopyState('default');
+      }, 1500);
+      return () => {
+        window.clearTimeout(handler);
+      };
+    }
+  }, [copyState]);
 
   return (
     <DialogOverlay
@@ -52,18 +65,18 @@ export const IconModal = ({ iconInView, onDismiss }) => {
         <div className="flex flex-col space-y-3 justify-between md:space-y-0 md:flex-row sm:space-x-1">
           <Button
             className="bg-orange-400"
-            onClick={() =>
+            onClick={() => {
               navigator.clipboard.writeText(
                 `${iconContainerRef?.current?.innerHTML}`.replace(
                   / class="(.*?)"/s,
                   ''
                 )
-              )
-            }
+              );
+              setCopyState('clicked');
+            }}
           >
-            SVG
+            {copyState === 'default' ? 'Copy as SVG' : 'Copied to Clipboard!'}
           </Button>
-          <Button className="bg-blue-500">React</Button>
         </div>
 
         <button
