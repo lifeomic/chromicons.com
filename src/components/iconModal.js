@@ -17,8 +17,8 @@ const Button = ({ className, children, ...rootProps }) => (
   </button>
 );
 
-export const IconModal = ({ iconInView, onDismiss }) => {
-  const Icon = iconInView?.reactComponent;
+export const IconModal = ({ icon, onDismiss }) => {
+  const Icon = icon?.reactComponent;
 
   const iconContainerRef = useRef();
 
@@ -38,7 +38,7 @@ export const IconModal = ({ iconInView, onDismiss }) => {
   return (
     <DialogOverlay
       className="transition-opacity flex flex-col justify-end sm:justify-center"
-      isOpen={Boolean(iconInView)}
+      isOpen={Boolean(icon)}
       onDismiss={onDismiss}
     >
       <DialogContent
@@ -46,7 +46,7 @@ export const IconModal = ({ iconInView, onDismiss }) => {
         className="bg-white text-black rounded-lg space-y-6 relative w-9/12 sm:max-w-sm"
       >
         <h3 className="text-lg leading-6 font-medium text-gray-800">
-          {iconInView?.name}
+          {icon?.name}
         </h3>
 
         <div
@@ -56,14 +56,7 @@ export const IconModal = ({ iconInView, onDismiss }) => {
           {Boolean(Icon) && <Icon className="h-8 w-8" />}
         </div>
 
-        <p className="text-sm">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-          pellentesque dui eget mauris tincidunt cursus. Aliquam erat volutpat.
-          Integer fringilla ipsum at luctus pretium. Sed quis bibendum urna.
-          Praesent tristique imperdiet eros, sit amet viverra turpis faucibus
-          tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et
-          ultrices posuere cubilia curae.
-        </p>
+        {icon?.description && <p className="text-sm">{icon.description}</p>}
 
         <div className="flex flex-col space-y-3 justify-between md:space-y-0 md:flex-row sm:space-x-1">
           <Button

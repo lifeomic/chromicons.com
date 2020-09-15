@@ -5,11 +5,11 @@ import { Flag } from '@lifeomic/chromicons/react/lined';
 import { IconModal } from '../components/iconModal';
 import { Lifeology } from '@lifeomic/chromicons/react/lined';
 import { LifeOmic } from '../components/icons/lifeomic';
-import { SearchField } from '../components/searchField';
 import { Tile } from '../components/tile';
 import { useState } from 'react';
 import * as allLinedChromicons from '@lifeomic/chromicons/react/lined';
 import Head from 'next/head';
+import metadata from '../util/metadata';
 
 const getChromicons = () => {
   const iconNames = Object.keys(allLinedChromicons);
@@ -17,6 +17,8 @@ const getChromicons = () => {
   return iconNames?.map((icon) => {
     return {
       name: icon,
+      description: metadata[icon]?.description,
+      categories: metadata[icon]?.categories,
       reactComponent: allLinedChromicons[icon],
     };
   });
@@ -36,10 +38,7 @@ export default function IndexPage({ pkgVersion }) {
       <Head>
         <title>CHROMICONS</title>
       </Head>
-      <IconModal
-        iconInView={iconInView}
-        onDismiss={() => setIconInView(null)}
-      />
+      <IconModal icon={iconInView} onDismiss={() => setIconInView(null)} />
       <header className="px-4 sm:px-6 lg:px-16 bg-gray-800 pb-16">
         <div className="max-w-container mx-auto">
           <div className="py-12 flex items-center text-white space-x-2">
@@ -85,12 +84,6 @@ export default function IndexPage({ pkgVersion }) {
       </header>
 
       <main className="bg-white text-gray-600">
-        <div className="flex flex-col md:flex-row px-8 py-6 items-center w-full shadow-md">
-          <div className="ml-auto hidden md:block">
-            <SearchField />
-          </div>
-        </div>
-
         <div className="grid grid-cols-2 gap-2 px-4 my-4 sm:px-6 lg:px-16 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
           {getChromicons().map((icon) => {
             const Icon = icon.reactComponent;
