@@ -1,5 +1,5 @@
 import { CheckCircle } from '@lifeomic/chromicons/react/lined';
-import { Chroma } from '../components/icons/chroma';
+import { Chroma } from '@lifeomic/chromicons/react/lined';
 import { Chromicons } from '../components/icons/chromicons';
 import { Flag } from '@lifeomic/chromicons/react/lined';
 import { IconModal } from '../components/iconModal';
