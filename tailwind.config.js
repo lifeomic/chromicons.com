@@ -20,6 +20,10 @@ module.exports = {
       },
     },
   },
-  variants: {},
+  variants: {
+    outline: ['focus', 'hover', 'focus-visible'],
+    boxShadow: ['focus', 'hover', 'focus-visible'],
+    textDecoration: ['focus', 'hover', 'focus-visible'],
+  },
   plugins: [],
 };

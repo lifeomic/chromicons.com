@@ -52,7 +52,7 @@ export default function IndexPage({ pkgVersion }) {
           </div>
           <div className="flex items-center text-white text-sm">
             <a
-              className="flex items-center"
+              className="flex items-center duration-300 ease-in-out transition-opacity hover:opacity-75 focus:outline-none focus-visible:shadow-outline focus-visible:underline"
               href="https://github.com/lifeomic/chromicons"
               target="_blank"
             >
@@ -131,7 +131,7 @@ export default function IndexPage({ pkgVersion }) {
             <p>
               Designed by{' '}
               <a
-                className="font-bold"
+                className="font-bold duration-300 ease-in-out transition-opacity hover:opacity-75 focus:outline-none focus-visible:shadow-outline focus-visible:underline"
                 href="https://twitter.com/pixelcrat"
                 target="_blank"
               >
@@ -149,7 +149,7 @@ export default function IndexPage({ pkgVersion }) {
             <p>
               Developed by{' '}
               <a
-                className="font-bold"
+                className="font-bold duration-300 ease-in-out transition-opacity hover:opacity-75 focus:outline-none focus-visible:shadow-outline focus-visible:underline"
                 href="https://twitter.com/_ynotdraw"
                 target="_blank"
               >
@@ -162,7 +162,7 @@ export default function IndexPage({ pkgVersion }) {
             <p>
               Built at{' '}
               <a
-                className="font-bold"
+                className="font-bold duration-300 ease-in-out transition-opacity hover:opacity-75 focus:outline-none focus-visible:shadow-outline focus-visible:underline"
                 href="https://www.lifeomic.com"
                 target="_blank"
               >

@@ -8,7 +8,7 @@ import clsx from 'clsx';
 const Button = ({ className, children, ...rootProps }) => (
   <button
     className={clsx(
-      'w-full py-2 text-sm font-bold h-12 text-white rounded-md relative duration-300 transition-shadow focus:outline-none focus:shadow-lg',
+      'w-full py-2 text-sm font-bold h-12 text-white rounded-md relative duration-300 transition-shadow focus:outline-none focus:shadow-lg focus-visible:shadow-outline',
       className
     )}
     {...rootProps}
@@ -107,7 +107,7 @@ export const IconModal = ({ icon, onDismiss }) => {
 
         <button
           aria-label="Close modal"
-          className="absolute text-white rounded-full p-2"
+          className="absolute text-white rounded-full p-2 focus:outline-none focus-visible:shadow-outline"
           onClick={onDismiss}
           style={{ top: '-3rem', right: '-3rem' }}
         >
