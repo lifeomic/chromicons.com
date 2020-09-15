@@ -1,23 +1,26 @@
+import { CheckCircle } from '@lifeomic/chromicons/react/lined';
 import { Chroma } from '../components/icons/chroma';
 import { Chromicons } from '../components/icons/chromicons';
+import { Flag } from '@lifeomic/chromicons/react/lined';
 import { IconModal } from '../components/iconModal';
+import { Lifeology } from '@lifeomic/chromicons/react/lined';
 import { LifeOmic } from '../components/icons/lifeomic';
 import { SearchField } from '../components/searchField';
 import { Tile } from '../components/tile';
 import { useState } from 'react';
+import * as allLinedChromicons from '@lifeomic/chromicons/react/lined';
 import Head from 'next/head';
 
-const ALL_ICONS = Array(40).fill(
-  <svg className="h-12 w-12" viewBox="0 0 56 57" fill="none">
-    <path
-      d="M36.078 22.53a12.66 12.66 0 014.19 0c3.956.698 7.215 3.956 8.146 7.913 1.396 6.75-3.724 12.802-10.242 12.802h-17.69c-3.49 0-6.75-1.164-9.077-3.492-2.793-3.025-4.422-6.75-4.422-10.94 0-8.146 6.75-15.128 14.896-15.128 8.38-.233 15.362 6.75 15.362 15.129"
-      stroke="currentColor"
-      strokeWidth={4}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>
-);
+const getChromicons = () => {
+  const iconNames = Object.keys(allLinedChromicons);
+
+  return iconNames?.map((icon) => {
+    return {
+      name: icon,
+      reactComponent: allLinedChromicons[icon],
+    };
+  });
+};
 
 export function getStaticProps() {
   return {
@@ -59,17 +62,23 @@ export default function IndexPage({ pkgVersion }) {
             <span className="text-red-600"> ♥️ </span>by the team at LifeOmic.
           </p>
           <dl className="flex flex-wrap justify-center whitespace-no-wrap text-sm font-medium leading-5">
-            <div className="flex items-center mx-3 sm:mx-4 xl:ml-0 xl:mr-8">
-              <dt className="sr-only">icon here soon™</dt>
-              <dd className="text-orange-400">100 ICONS</dd>
+            <div className="flex items-center mx-3 space-x-2 text-orange-400 sm:mx-4 xl:ml-0 xl:mr-8">
+              <dt>
+                <Lifeology className="h-6 w-6" role="img" aria-hidden />
+              </dt>
+              <dd className="uppercase">100 icons</dd>
             </div>
-            <div className="flex items-center mx-3 sm:mx-4 xl:ml-0 xl:mr-8">
-              <dt className="sr-only">icon here soon™</dt>
-              <dd className="text-teal-300">MIT LICENSED</dd>
+            <div className="flex items-center mx-3 space-x-2 text-teal-300 sm:mx-4 xl:ml-0 xl:mr-8">
+              <dt>
+                <CheckCircle className="h-6 w-6" role="img" aria-hidden />
+              </dt>
+              <dd className="uppercase">MIT Licensed</dd>
             </div>
-            <div className="flex items-center mx-3 sm:mx-4 xl:ml-0 xl:mr-8">
-              <dt className="sr-only">icon here soon™</dt>
-              <dd className="text-purple-400">VERSION 1.0</dd>
+            <div className="flex items-center mx-3 space-x-2 text-purple-400 sm:mx-4 xl:ml-0 xl:mr-8">
+              <dt>
+                <Flag className="h-6 w-6" role="img" aria-hidden />
+              </dt>
+              <dd className="uppercase">Version {pkgVersion}</dd>
             </div>
           </dl>
         </div>
@@ -83,11 +92,14 @@ export default function IndexPage({ pkgVersion }) {
         </div>
 
         <div className="grid grid-cols-2 gap-2 px-4 my-4 sm:px-6 lg:px-16 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
-          {ALL_ICONS?.map((icon, index) => (
-            <Tile key={index} onClick={() => setIconInView(icon)}>
-              {icon}
-            </Tile>
-          ))}
+          {getChromicons().map((icon) => {
+            const Icon = icon.reactComponent;
+            return (
+              <Tile key={icon.name} onClick={() => setIconInView(icon)}>
+                <Icon className="h-8 w-8" />
+              </Tile>
+            );
+          })}
         </div>
       </main>
 

@@ -14,6 +14,8 @@ const Button = ({ className, children, ...rootProps }) => (
 );
 
 export const IconModal = ({ iconInView, onDismiss }) => {
+  const Icon = iconInView?.reactComponent;
+
   return (
     <DialogOverlay
       className="transition-opacity flex flex-col justify-end sm:justify-center"
@@ -25,11 +27,11 @@ export const IconModal = ({ iconInView, onDismiss }) => {
         className="bg-white text-black rounded-lg space-y-6 relative w-9/12 sm:max-w-sm"
       >
         <h3 className="text-lg leading-6 font-medium text-gray-800">
-          Icon Name
+          {iconInView?.name}
         </h3>
 
         <div className="flex justify-center items-center p-8 bg-gray-300 rounded-md">
-          {iconInView}
+          {Boolean(Icon) && <Icon className="h-8 w-8" />}
         </div>
 
         <p className="text-sm">
