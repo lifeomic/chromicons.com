@@ -95,7 +95,11 @@ export default function IndexPage({ pkgVersion }) {
           {getChromicons().map((icon) => {
             const Icon = icon.reactComponent;
             return (
-              <Tile key={icon.name} onClick={() => setIconInView(icon)}>
+              <Tile
+                key={icon.name}
+                isOpen={iconInView?.name === icon?.name}
+                onClick={() => setIconInView(icon)}
+              >
                 <Icon className="h-8 w-8" />
               </Tile>
             );
