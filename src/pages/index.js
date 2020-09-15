@@ -112,7 +112,7 @@ export default function IndexPage({ pkgVersion }) {
                 isOpen={iconInView?.name === icon?.name}
                 onClick={() => setIconInView(icon)}
               >
-                <Icon className="h-8 w-8" />
+                <Icon className="h-6 w-6" />
               </Tile>
             );
           })}
