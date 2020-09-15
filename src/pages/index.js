@@ -96,6 +96,7 @@ export default function IndexPage({ pkgVersion }) {
             const Icon = icon.reactComponent;
             return (
               <Tile
+                name={icon.name}
                 key={icon.name}
                 isOpen={iconInView?.name === icon?.name}
                 onClick={() => setIconInView(icon)}

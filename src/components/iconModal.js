@@ -1,11 +1,14 @@
+import { CheckCircle } from '@lifeomic/chromicons/react/lined';
 import { DialogOverlay, DialogContent } from '@reach/dialog';
+import { Transition } from '@tailwindui/react';
 import { useEffect, useRef, useState } from 'react';
+import Alert from '@reach/alert';
 import clsx from 'clsx';
 
 const Button = ({ className, children, ...rootProps }) => (
   <button
     className={clsx(
-      'w-full py-2 text-sm font-bold text-white rounded-md',
+      'w-full py-2 text-sm font-bold h-12 text-white rounded-md relative duration-300 transition-shadow focus:outline-none focus:shadow-lg',
       className
     )}
     {...rootProps}
@@ -75,7 +78,37 @@ export const IconModal = ({ iconInView, onDismiss }) => {
               setCopyState('clicked');
             }}
           >
-            {copyState === 'default' ? 'Copy as SVG' : 'Copied to Clipboard!'}
+            <Transition
+              show={copyState === 'default'}
+              enter="transition-opacity duration-300 ease-in-out"
+              enterFrom="opacity-0"
+              enterTo="opacity-100"
+              leave="transition-opacity duration-100 ease-in-out"
+              leaveFrom="opacity-100"
+              leaveTo="opacity-0"
+            >
+              <span>Copy as SVG</span>
+            </Transition>
+            <Transition
+              show={copyState === 'clicked'}
+              enter="transition-opacity duration-300 ease-in-out"
+              enterFrom="opacity-0"
+              enterTo="opacity-100"
+              leave="transition-opacity duration-100 ease-in-out"
+              leaveFrom="opacity-100"
+              leaveTo="opacity-0"
+            >
+              {(ref) => (
+                <Alert
+                  aria-live="assertive"
+                  ref={ref}
+                  className="flex justify-center space-x-2"
+                >
+                  <CheckCircle aria-hidden />
+                  <span>Copied!</span>
+                </Alert>
+              )}
+            </Transition>
           </Button>
         </div>
 
