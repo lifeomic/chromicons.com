@@ -1,4 +1,5 @@
 import { DialogOverlay, DialogContent } from '@reach/dialog';
+import { useRef } from 'react';
 import clsx from 'clsx';
 
 const Button = ({ className, children, ...rootProps }) => (
@@ -16,6 +17,8 @@ const Button = ({ className, children, ...rootProps }) => (
 export const IconModal = ({ iconInView, onDismiss }) => {
   const Icon = iconInView?.reactComponent;
 
+  const iconContainerRef = useRef();
+
   return (
     <DialogOverlay
       className="transition-opacity flex flex-col justify-end sm:justify-center"
@@ -30,7 +33,10 @@ export const IconModal = ({ iconInView, onDismiss }) => {
           {iconInView?.name}
         </h3>
 
-        <div className="flex justify-center items-center p-8 bg-gray-300 rounded-md">
+        <div
+          ref={iconContainerRef}
+          className="flex justify-center items-center p-8 bg-gray-300 rounded-md"
+        >
           {Boolean(Icon) && <Icon className="h-8 w-8" />}
         </div>
 
@@ -44,8 +50,19 @@ export const IconModal = ({ iconInView, onDismiss }) => {
         </p>
 
         <div className="flex flex-col space-y-3 justify-between md:space-y-0 md:flex-row sm:space-x-1">
-          <Button className="bg-orange-400">SVG</Button>
-          <Button className="bg-green-600">PNG</Button>
+          <Button
+            className="bg-orange-400"
+            onClick={() =>
+              navigator.clipboard.writeText(
+                `${iconContainerRef?.current?.innerHTML}`.replace(
+                  / class="(.*?)"/s,
+                  ''
+                )
+              )
+            }
+          >
+            SVG
+          </Button>
           <Button className="bg-blue-500">React</Button>
         </div>
 
