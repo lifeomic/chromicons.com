@@ -1,10 +1,14 @@
+import { CheckCircle } from '@lifeomic/chromicons/react/lined';
 import { DialogOverlay, DialogContent } from '@reach/dialog';
+import { Transition } from '@tailwindui/react';
+import { useEffect, useRef, useState } from 'react';
+import Alert from '@reach/alert';
 import clsx from 'clsx';
 
 const Button = ({ className, children, ...rootProps }) => (
   <button
     className={clsx(
-      'w-full py-2 text-sm font-bold text-white rounded-md',
+      'w-full py-2 text-sm font-bold h-12 text-white rounded-md relative duration-300 transition-shadow focus:outline-none focus:shadow-lg',
       className
     )}
     {...rootProps}
@@ -14,6 +18,23 @@ const Button = ({ className, children, ...rootProps }) => (
 );
 
 export const IconModal = ({ iconInView, onDismiss }) => {
+  const Icon = iconInView?.reactComponent;
+
+  const iconContainerRef = useRef();
+
+  const [copyState, setCopyState] = useState('default');
+
+  useEffect(() => {
+    if (copyState === 'clicked') {
+      const handler = window.setTimeout(() => {
+        setCopyState('default');
+      }, 1500);
+      return () => {
+        window.clearTimeout(handler);
+      };
+    }
+  }, [copyState]);
+
   return (
     <DialogOverlay
       className="transition-opacity flex flex-col justify-end sm:justify-center"
@@ -25,11 +46,14 @@ export const IconModal = ({ iconInView, onDismiss }) => {
         className="bg-white text-black rounded-lg space-y-6 relative w-9/12 sm:max-w-sm"
       >
         <h3 className="text-lg leading-6 font-medium text-gray-800">
-          Icon Name
+          {iconInView?.name}
         </h3>
 
-        <div className="flex justify-center items-center p-8 bg-gray-300 rounded-md">
-          {iconInView}
+        <div
+          ref={iconContainerRef}
+          className="flex justify-center items-center p-8 bg-gray-300 rounded-md"
+        >
+          {Boolean(Icon) && <Icon className="h-8 w-8" />}
         </div>
 
         <p className="text-sm">
@@ -42,9 +66,50 @@ export const IconModal = ({ iconInView, onDismiss }) => {
         </p>
 
         <div className="flex flex-col space-y-3 justify-between md:space-y-0 md:flex-row sm:space-x-1">
-          <Button className="bg-orange-400">SVG</Button>
-          <Button className="bg-green-600">PNG</Button>
-          <Button className="bg-blue-500">React</Button>
+          <Button
+            className="bg-orange-400"
+            onClick={() => {
+              navigator.clipboard.writeText(
+                `${iconContainerRef?.current?.innerHTML}`.replace(
+                  / class="(.*?)"/s,
+                  ''
+                )
+              );
+              setCopyState('clicked');
+            }}
+          >
+            <Transition
+              show={copyState === 'default'}
+              enter="transition-opacity duration-300 ease-in-out"
+              enterFrom="opacity-0"
+              enterTo="opacity-100"
+              leave="transition-opacity duration-100 ease-in-out"
+              leaveFrom="opacity-100"
+              leaveTo="opacity-0"
+            >
+              <span>Copy as SVG</span>
+            </Transition>
+            <Transition
+              show={copyState === 'clicked'}
+              enter="transition-opacity duration-300 ease-in-out"
+              enterFrom="opacity-0"
+              enterTo="opacity-100"
+              leave="transition-opacity duration-100 ease-in-out"
+              leaveFrom="opacity-100"
+              leaveTo="opacity-0"
+            >
+              {(ref) => (
+                <Alert
+                  aria-live="assertive"
+                  ref={ref}
+                  className="flex justify-center space-x-2"
+                >
+                  <CheckCircle aria-hidden />
+                  <span>Copied!</span>
+                </Alert>
+              )}
+            </Transition>
+          </Button>
         </div>
 
         <button
