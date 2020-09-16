@@ -122,12 +122,12 @@ export default function IndexPage({ pkgVersion }) {
       </main>
 
       <footer className="flex flex-col justify-center bg-gray-200 border-gray-300 border-t py-12 space-y-6 md:py-14 px-4 sm:px-6 lg:px-16 leading-5">
-        <div className="max-w-container mx-auto text-center text-sm text-gray-700 space-y-6 md:space-x-10 md:space-y-0 md:text-left md:flex">
+        <div className="max-w-container mx-auto text-center text-sm text-gray-600 space-y-6 md:space-x-10 md:space-y-0 md:text-left md:flex">
           <div className="flex items-center space-x-2">
             <img
               src={require('../img/doryan400x400.jpg').default}
               alt="pixel crat avatar"
-              className="bg-gray-200 h-8 w-8 md:h-10 md:w-10 rounded-full"
+              className="bg-gray-200 h-8 w-8 md:h-8 md:w-8 rounded-full"
               loading="lazy"
             />
             <p>
@@ -145,7 +145,7 @@ export default function IndexPage({ pkgVersion }) {
             <img
               src={require('../img/tony400x400.jpg').default}
               alt="why not draw avatar"
-              className="bg-gray-200 h-8 w-8 md:h-10 md:w-10 rounded-full"
+              className="bg-gray-200 h-8 w-8 md:h-8 md:w-8 rounded-full"
               loading="lazy"
             />
             <p>
@@ -160,7 +160,7 @@ export default function IndexPage({ pkgVersion }) {
             </p>
           </div>
           <div className="flex items-center space-x-2">
-            <LifeOmic className="h-8 w-8" />
+            <LifeOmic className="h-6 w-6" />
             <p>
               Built at{' '}
               <a
