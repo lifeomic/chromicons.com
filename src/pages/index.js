@@ -88,7 +88,7 @@ export default function IndexPage({ pkgVersion }) {
       <IconModal icon={iconInView} onDismiss={() => setIconInView(null)} />
 
       <header className="px-4 sm:px-6 lg:px-16 bg-gray-800 pb-16">
-        <div className="max-w-limit mx-auto flex justify-between">
+        <div className="max-w-limit mx-auto flex justify-between mb-2">
           <div className="py-12 flex items-center text-white space-x-2">
             <Chroma />
             <Chromicons />
@@ -117,16 +117,16 @@ export default function IndexPage({ pkgVersion }) {
             </a>
           </div>
         </div>
-        <div className="w-full flex-none text-center space-y-6 xl:w-auto xl:flex-auto">
-          <h1 className="text-white text-3xl leading-9 font-semibold sm:text-4xl sm:leading-10">
+        <div className="w-full flex-none text-center space-y-6 font-hero xl:w-auto xl:flex-auto">
+          <h1 className="text-white text-2xl leading-9 font-semibold sm:text-4xl sm:leading-10">
             Handcrafted open source icons
           </h1>
-          <p className="text-gray-400 text-opacity-75 max-w-lg mx-auto">
+          <p className="text-gray-400 text-opacity-75 max-w-lg mx-auto text-sm sm:text-base">
             Ready to use in web, iOS, Android, and desktop apps. Support for SVG
             and web font. Completely open source, MIT licensed, and built with
             <span className="text-red-600"> ♥️ </span>by the team at LifeOmic.
           </p>
-          <dl className="flex flex-wrap justify-center whitespace-no-wrap text-sm font-medium leading-5">
+          <dl className="flex flex-wrap justify-center whitespace-no-wrap text-xs font-bold leading-5 sm:text-sm">
             <div className="flex items-center mx-3 space-x-2 text-orange-400 sm:mx-4 xl:ml-0 xl:mr-8">
               <dt>
                 <Lifeology className="h-6 w-6" role="img" aria-hidden />

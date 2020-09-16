@@ -12,6 +12,7 @@ module.exports = {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
         system: defaultTheme.fontFamily.sans,
+        hero: ['Comfortaa', 'Inter var', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         'accent-1': '#333',
