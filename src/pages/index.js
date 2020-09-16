@@ -83,7 +83,9 @@ export default function IndexPage({ pkgVersion }) {
               <dt>
                 <Lifeology className="h-6 w-6" role="img" aria-hidden />
               </dt>
-              <dd className="uppercase">100 icons</dd>
+              <dd className="uppercase">
+                {Object.keys(allLinedChromicons).length} icons
+              </dd>
             </div>
             <div className="flex items-center mx-3 space-x-2 text-teal-300 sm:mx-4 xl:ml-0 xl:mr-8">
               <dt>
