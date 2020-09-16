@@ -37,8 +37,56 @@ export default function IndexPage({ pkgVersion }) {
     <>
       <Head>
         <title>CHROMICONS</title>
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="apple-touch-icon-precomposed"
+          type="image/png"
+          sizes="144x144"
+          href="/chroma@2x.png"
+        />
+        <link
+          rel="apple-touch-icon-precomposed"
+          type="image/png"
+          sizes="114x114"
+          href="/chroma@2x.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="192x192"
+          href="/android-icon-192x192.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="512x512"
+          href="/android-icon-512x512.png"
+        />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="msapplication-TileImage" content="/chroma@2x.png" />
+        <meta name="theme-color" content="#ffffff" />
       </Head>
+
       <IconModal icon={iconInView} onDismiss={() => setIconInView(null)} />
+
       <header className="px-4 sm:px-6 lg:px-16 bg-gray-800 pb-16">
         <div className="max-w-limit mx-auto flex justify-between">
           <div className="py-12 flex items-center text-white space-x-2">
@@ -125,7 +173,7 @@ export default function IndexPage({ pkgVersion }) {
         <div className="max-w-limit mx-auto text-center text-sm text-gray-600 space-y-6 md:space-x-10 md:space-y-0 md:text-left md:flex">
           <div className="flex items-center space-x-2">
             <img
-              src={require('../img/doryan400x400.jpg').default}
+              src="/doryan400x400.jpg"
               alt="pixel crat avatar"
               className="bg-gray-200 h-8 w-8 md:h-8 md:w-8 rounded-full"
               loading="lazy"
@@ -143,7 +191,7 @@ export default function IndexPage({ pkgVersion }) {
           </div>
           <div className="flex items-center space-x-2">
             <img
-              src={require('../img/tony400x400.jpg').default}
+              src="/tony400x400.jpg"
               alt="why not draw avatar"
               className="bg-gray-200 h-8 w-8 md:h-8 md:w-8 rounded-full"
               loading="lazy"
