@@ -2,6 +2,7 @@ import { CheckCircle } from '@lifeomic/chromicons/react/lined';
 import { DialogOverlay, DialogContent } from '@reach/dialog';
 import { Transition } from '@tailwindui/react';
 import { useEffect, useRef, useState } from 'react';
+import { X } from '@lifeomic/chromicons/react/lined';
 import Alert from '@reach/alert';
 import clsx from 'clsx';
 
@@ -43,15 +44,15 @@ export const IconModal = ({ icon, onDismiss }) => {
     >
       <DialogContent
         aria-label="Icon Details"
-        className="bg-white text-black rounded-lg space-y-6 relative w-9/12 sm:max-w-sm"
+        className="bg-gray-800 text-white rounded-lg space-y-6 relative w-9/12 sm:max-w-sm"
       >
-        <h3 className="text-lg leading-6 font-medium text-gray-800">
+        <h3 className="text-lg leading-6 font-medium text-gray-100">
           {icon?.name}
         </h3>
 
         <div
           ref={iconContainerRef}
-          className="flex justify-center items-center p-8 bg-gray-300 rounded-md"
+          className="flex justify-center items-center p-8 text-white bg-gray-700 rounded-md"
         >
           {Boolean(Icon) && <Icon className="h-8 w-8" />}
         </div>
@@ -109,21 +110,9 @@ export const IconModal = ({ icon, onDismiss }) => {
           aria-label="Close modal"
           className="absolute text-white rounded-full p-2 focus:outline-none focus-visible:shadow-outline"
           onClick={onDismiss}
-          style={{ top: '-3rem', right: '-3rem' }}
+          style={{ top: '-4rem', right: '-3rem' }}
         >
-          <svg
-            className="w-8 h-8 text-white"
-            stroke="currentColor"
-            fill="none"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M6 18L18 6M6 6l12 12"
-            />
-          </svg>
+          <X className="text-white" />
         </button>
       </DialogContent>
     </DialogOverlay>
