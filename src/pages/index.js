@@ -40,7 +40,7 @@ export default function IndexPage({ pkgVersion }) {
       </Head>
       <IconModal icon={iconInView} onDismiss={() => setIconInView(null)} />
       <header className="px-4 sm:px-6 lg:px-16 bg-gray-800 pb-16">
-        <div className="max-w-container mx-auto flex justify-between">
+        <div className="max-w-limit mx-auto flex justify-between">
           <div className="py-12 flex items-center text-white space-x-2">
             <Chroma />
             <Chromicons />
@@ -103,7 +103,7 @@ export default function IndexPage({ pkgVersion }) {
         </div>
       </header>
 
-      <main className="bg-white text-gray-600">
+      <main className="bg-white text-gray-600 max-w-6xl mx-auto">
         <div className="grid grid-cols-2 gap-2 px-4 my-4 sm:px-6 lg:px-16 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
           {getChromicons().map((icon) => {
             const Icon = icon.reactComponent;
@@ -122,7 +122,7 @@ export default function IndexPage({ pkgVersion }) {
       </main>
 
       <footer className="flex flex-col justify-center bg-gray-200 border-gray-300 border-t py-12 space-y-6 md:py-14 px-4 sm:px-6 lg:px-16 leading-5">
-        <div className="max-w-container mx-auto text-center text-sm text-gray-600 space-y-6 md:space-x-10 md:space-y-0 md:text-left md:flex">
+        <div className="max-w-limit mx-auto text-center text-sm text-gray-600 space-y-6 md:space-x-10 md:space-y-0 md:text-left md:flex">
           <div className="flex items-center space-x-2">
             <img
               src={require('../img/doryan400x400.jpg').default}

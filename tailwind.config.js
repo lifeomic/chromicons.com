@@ -18,6 +18,9 @@ module.exports = {
         'super-blue': '#2CD9FF',
         'super-orange': '#F29B4A',
       },
+      maxWidth: {
+        limit: '80rem',
+      },
     },
   },
   variants: {
