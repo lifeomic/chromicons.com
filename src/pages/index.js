@@ -182,7 +182,7 @@ export default function IndexPage({ pkgVersion }) {
               Designed by{' '}
               <a
                 className="font-bold duration-300 ease-in-out transition-opacity hover:opacity-75 focus:outline-none focus-visible:shadow-outline focus-visible:underline"
-                href="https://twitter.com/pixelcrat"
+                href="https://www.instagram.com/pixelcrat/"
                 target="_blank"
               >
                 @pixelcrat
