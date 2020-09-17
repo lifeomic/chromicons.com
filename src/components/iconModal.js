@@ -85,10 +85,10 @@ export const IconModal = ({ icon, onDismiss }) => {
             </Transition>
             <Transition
               show={copyState === 'clicked'}
-              enter="transition-opacity duration-300 ease-in-out"
+              enter="transition-opacity duration-300 ease-in"
               enterFrom="opacity-0"
               enterTo="opacity-100"
-              leave="transition-opacity duration-100 ease-in-out"
+              leave="transition-opacity duration-250 ease-in-out"
               leaveFrom="opacity-100"
               leaveTo="opacity-0"
             >
@@ -96,7 +96,7 @@ export const IconModal = ({ icon, onDismiss }) => {
                 <Alert
                   aria-live="assertive"
                   ref={ref}
-                  className="flex justify-center space-x-2"
+                  className="flex justify-center space-x-2 absolute inset-0 items-center"
                 >
                   <CheckCircle aria-hidden />
                   <span>Copied!</span>
