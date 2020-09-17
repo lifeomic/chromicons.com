@@ -22,6 +22,9 @@ module.exports = {
       maxWidth: {
         limit: '80rem',
       },
+      boxShadow: {
+        'dark-mode-outline': '0 0 0 3px rgba(255, 255, 225, 0.95)',
+      },
     },
   },
   variants: {
