@@ -37,10 +37,58 @@ export default function IndexPage({ pkgVersion }) {
     <>
       <Head>
         <title>CHROMICONS</title>
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="apple-touch-icon-precomposed"
+          type="image/png"
+          sizes="144x144"
+          href="/chroma@2x.png"
+        />
+        <link
+          rel="apple-touch-icon-precomposed"
+          type="image/png"
+          sizes="114x114"
+          href="/chroma@2x.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="192x192"
+          href="/android-icon-192x192.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="512x512"
+          href="/android-icon-512x512.png"
+        />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="msapplication-TileImage" content="/chroma@2x.png" />
+        <meta name="theme-color" content="#ffffff" />
       </Head>
+
       <IconModal icon={iconInView} onDismiss={() => setIconInView(null)} />
-      <header className="px-4 sm:px-6 lg:px-16 bg-gray-800 pb-16">
-        <div className="max-w-container mx-auto flex justify-between">
+
+      <header className="px-4 sm:px-6 lg:px-16 bg-gray-800 pb-16 bg-hero bg-cover bg-no-repeat bg-center">
+        <div className="max-w-limit mx-auto flex justify-between mb-2">
           <div className="py-12 flex items-center text-white space-x-2">
             <Chroma />
             <Chromicons />
@@ -69,16 +117,16 @@ export default function IndexPage({ pkgVersion }) {
             </a>
           </div>
         </div>
-        <div className="w-full flex-none text-center space-y-6 xl:w-auto xl:flex-auto">
-          <h1 className="text-white text-3xl leading-9 font-semibold sm:text-4xl sm:leading-10">
+        <div className="w-full flex-none text-center space-y-6 font-hero xl:w-auto xl:flex-auto">
+          <h1 className="text-white text-2xl leading-9 font-semibold sm:text-4xl sm:leading-10">
             Handcrafted open source icons
           </h1>
-          <p className="text-gray-400 text-opacity-75 max-w-lg mx-auto">
+          <p className="text-gray-400 text-opacity-75 max-w-lg mx-auto text-sm sm:text-base">
             Ready to use in web, iOS, Android, and desktop apps. Support for SVG
             and web font. Completely open source, MIT licensed, and built with
             <span className="text-red-600"> ♥️ </span>by the team at LifeOmic.
           </p>
-          <dl className="flex flex-wrap justify-center whitespace-no-wrap text-sm font-medium leading-5">
+          <dl className="flex flex-wrap justify-center whitespace-no-wrap text-xs font-bold leading-5 sm:text-sm">
             <div className="flex items-center mx-3 space-x-2 text-orange-400 sm:mx-4 xl:ml-0 xl:mr-8">
               <dt>
                 <Lifeology className="h-6 w-6" role="img" aria-hidden />
@@ -103,7 +151,7 @@ export default function IndexPage({ pkgVersion }) {
         </div>
       </header>
 
-      <main className="bg-white text-gray-600">
+      <main className="bg-white text-gray-600 max-w-6xl mx-auto">
         <div className="grid grid-cols-2 gap-2 px-4 my-4 sm:px-6 lg:px-16 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
           {getChromicons().map((icon) => {
             const Icon = icon.reactComponent;
@@ -122,19 +170,19 @@ export default function IndexPage({ pkgVersion }) {
       </main>
 
       <footer className="flex flex-col justify-center bg-gray-200 border-gray-300 border-t py-12 space-y-6 md:py-14 px-4 sm:px-6 lg:px-16 leading-5">
-        <div className="max-w-container mx-auto text-center text-sm text-gray-700 space-y-6 md:space-x-10 md:space-y-0 md:text-left md:flex">
+        <div className="max-w-limit mx-auto text-center text-sm text-gray-600 space-y-6 md:space-x-10 md:space-y-0 md:text-left md:flex">
           <div className="flex items-center space-x-2">
             <img
-              src={require('../img/doryan400x400.jpg').default}
+              src="/doryan400x400.jpg"
               alt="pixel crat avatar"
-              className="bg-gray-200 h-8 w-8 md:h-10 md:w-10 rounded-full"
+              className="bg-gray-200 h-8 w-8 md:h-8 md:w-8 rounded-full"
               loading="lazy"
             />
             <p>
               Designed by{' '}
               <a
                 className="font-bold duration-300 ease-in-out transition-opacity hover:opacity-75 focus:outline-none focus-visible:shadow-outline focus-visible:underline"
-                href="https://twitter.com/pixelcrat"
+                href="https://www.instagram.com/pixelcrat/"
                 target="_blank"
               >
                 @pixelcrat
@@ -143,9 +191,9 @@ export default function IndexPage({ pkgVersion }) {
           </div>
           <div className="flex items-center space-x-2">
             <img
-              src={require('../img/tony400x400.jpg').default}
+              src="/tony400x400.jpg"
               alt="why not draw avatar"
-              className="bg-gray-200 h-8 w-8 md:h-10 md:w-10 rounded-full"
+              className="bg-gray-200 h-8 w-8 md:h-8 md:w-8 rounded-full"
               loading="lazy"
             />
             <p>
@@ -160,7 +208,7 @@ export default function IndexPage({ pkgVersion }) {
             </p>
           </div>
           <div className="flex items-center space-x-2">
-            <LifeOmic className="h-8 w-8" />
+            <LifeOmic className="h-6 w-6" />
             <p>
               Built at{' '}
               <a

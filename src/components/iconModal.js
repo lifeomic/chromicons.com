@@ -2,13 +2,14 @@ import { CheckCircle } from '@lifeomic/chromicons/react/lined';
 import { DialogOverlay, DialogContent } from '@reach/dialog';
 import { Transition } from '@tailwindui/react';
 import { useEffect, useRef, useState } from 'react';
+import { X } from '@lifeomic/chromicons/react/lined';
 import Alert from '@reach/alert';
 import clsx from 'clsx';
 
 const Button = ({ className, children, ...rootProps }) => (
   <button
     className={clsx(
-      'w-full py-2 text-sm font-bold h-12 text-white rounded-md relative duration-300 transition-shadow focus:outline-none focus:shadow-lg focus-visible:shadow-outline',
+      'w-full py-2 text-sm font-bold h-12 text-white rounded-md relative duration-300 transition-shadow focus:outline-none focus-visible:shadow-dark-mode-outline',
       className
     )}
     {...rootProps}
@@ -43,15 +44,15 @@ export const IconModal = ({ icon, onDismiss }) => {
     >
       <DialogContent
         aria-label="Icon Details"
-        className="bg-white text-black rounded-lg space-y-6 relative w-9/12 sm:max-w-sm"
+        className="bg-gray-800 text-white rounded-lg space-y-6 relative w-9/12 sm:max-w-sm"
       >
-        <h3 className="text-lg leading-6 font-medium text-gray-800">
+        <h3 className="text-lg leading-6 font-medium text-gray-100">
           {icon?.name}
         </h3>
 
         <div
           ref={iconContainerRef}
-          className="flex justify-center items-center p-8 bg-gray-300 rounded-md"
+          className="flex justify-center items-center p-8 text-white bg-gray-700 rounded-md"
         >
           {Boolean(Icon) && <Icon className="h-8 w-8" />}
         </div>
@@ -84,10 +85,10 @@ export const IconModal = ({ icon, onDismiss }) => {
             </Transition>
             <Transition
               show={copyState === 'clicked'}
-              enter="transition-opacity duration-300 ease-in-out"
+              enter="transition-opacity duration-300 ease-in"
               enterFrom="opacity-0"
               enterTo="opacity-100"
-              leave="transition-opacity duration-100 ease-in-out"
+              leave="transition-opacity duration-250 ease-in-out"
               leaveFrom="opacity-100"
               leaveTo="opacity-0"
             >
@@ -95,7 +96,7 @@ export const IconModal = ({ icon, onDismiss }) => {
                 <Alert
                   aria-live="assertive"
                   ref={ref}
-                  className="flex justify-center space-x-2"
+                  className="flex justify-center space-x-2 absolute inset-0 items-center"
                 >
                   <CheckCircle aria-hidden />
                   <span>Copied!</span>
@@ -107,23 +108,10 @@ export const IconModal = ({ icon, onDismiss }) => {
 
         <button
           aria-label="Close modal"
-          className="absolute text-white rounded-full p-2 focus:outline-none focus-visible:shadow-outline"
+          className="absolute icon-modal-close text-white rounded-full p-2 duration-300 transition-shadow  focus:outline-none focus-visible:shadow-dark-mode-outline"
           onClick={onDismiss}
-          style={{ top: '-3rem', right: '-3rem' }}
         >
-          <svg
-            className="w-8 h-8 text-white"
-            stroke="currentColor"
-            fill="none"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M6 18L18 6M6 6l12 12"
-            />
-          </svg>
+          <X className="text-white" />
         </button>
       </DialogContent>
     </DialogOverlay>
