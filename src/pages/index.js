@@ -87,7 +87,10 @@ export default function IndexPage({ pkgVersion }) {
 
       <IconModal icon={iconInView} onDismiss={() => setIconInView(null)} />
 
-      <header className="px-4 sm:px-6 lg:px-16 bg-gray-800 pb-16">
+      <header
+        className="px-4 sm:px-6 lg:px-16 bg-gray-800 pb-16 bg-cover bg-no-repeat bg-center"
+        style={{ backgroundImage: 'url(/bg-cover.svg)' }}
+      >
         <div className="max-w-limit mx-auto flex justify-between mb-2">
           <div className="py-12 flex items-center text-white space-x-2">
             <Chroma />
