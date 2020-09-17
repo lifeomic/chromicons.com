@@ -45,6 +45,10 @@
   right: -3rem;
 }
 
+.tile-hover-text-position {
+  bottom: 1.5rem;
+}
+
 /* Start purging... */
 @tailwind utilities;
 /* Stop purging. */

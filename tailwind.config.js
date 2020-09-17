@@ -28,8 +28,9 @@ module.exports = {
     },
   },
   variants: {
-    outline: ['focus', 'hover', 'focus-visible'],
     boxShadow: ['focus', 'hover', 'focus-visible'],
+    opacity: ['focus', 'hover', 'group-hover'],
+    outline: ['focus', 'hover', 'focus-visible'],
     textDecoration: ['focus', 'hover', 'focus-visible'],
   },
   plugins: [],
