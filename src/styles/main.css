@@ -36,6 +36,14 @@
 /* Stop purging. */
 
 /* Write you own custom component styles here */
+.bg-hero {
+  background-image: url(/bg-cover.svg);
+}
+
+.icon-modal-close {
+  top: -4rem;
+  right: -3rem;
+}
 
 /* Start purging... */
 @tailwind utilities;
