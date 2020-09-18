@@ -11,14 +11,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Exit if not on master branch
-        if: endsWith(github.ref, 'master') == false
         run: exit 0
       - uses: actions/setup-node@v1
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org
       - name: Build and publish to gh-pages
-        if: endsWith(github.ref, 'master') == true
         run: |
           yarn
           yarn deploy
