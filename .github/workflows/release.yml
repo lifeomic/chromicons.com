@@ -17,6 +17,8 @@ jobs:
           node-version: 12
           registry-url: https://registry.npmjs.org
       - name: Build and publish to gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           yarn
           yarn deploy
