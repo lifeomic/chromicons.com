@@ -175,7 +175,7 @@ export default function IndexPage({ pkgVersion }) {
             <img
               src="/doryan400x400.jpg"
               alt="pixel crat avatar"
-              className="bg-gray-200 h-8 w-8 md:h-8 md:w-8 rounded-full"
+              className="bg-gray-200 h-8 w-8 md:h-8 md:w-8 rounded-full shadow-inner"
               loading="lazy"
             />
             <p>
@@ -193,7 +193,7 @@ export default function IndexPage({ pkgVersion }) {
             <img
               src="/tony400x400.jpg"
               alt="why not draw avatar"
-              className="bg-gray-200 h-8 w-8 md:h-8 md:w-8 rounded-full"
+              className="bg-gray-200 h-8 w-8 md:h-8 md:w-8 rounded-full shadow-inner"
               loading="lazy"
             />
             <p>
@@ -221,7 +221,7 @@ export default function IndexPage({ pkgVersion }) {
             </p>
           </div>
         </div>
-        <div className="flex max-w-container mx-auto text-center text-xs text-gray-600">
+        <div className="flex max-w-limit mx-auto text-center text-xs text-gray-600">
           <p>
             Released under MIT License | Copyright &copy;{' '}
             {new Date().getFullYear()}
