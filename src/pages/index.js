@@ -37,63 +37,72 @@ export default function IndexPage({ pkgVersion }) {
     <>
       <Head>
         <title>CHROMICONS</title>
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <link
+          rel="shortcut icon"
+          href={`${process.env.BACKEND_URL}/favicon.ico`}
+        />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="/favicon-16x16.png"
+          href={`${process.env.BACKEND_URL}/favicon-16x16.png`}
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="/favicon-32x32.png"
+          href={`${process.env.BACKEND_URL}/favicon-32x32.png`}
         />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="/apple-touch-icon.png"
+          href={`${process.env.BACKEND_URL}/apple-touch-icon.png`}
         />
         <link
           rel="apple-touch-icon-precomposed"
           type="image/png"
           sizes="144x144"
-          href="/chroma@2x.png"
+          href={`${process.env.BACKEND_URL}/chroma@2x.png`}
         />
         <link
           rel="apple-touch-icon-precomposed"
           type="image/png"
           sizes="114x114"
-          href="/chroma@2x.png"
+          href={`${process.env.BACKEND_URL}/chroma@2x.png`}
         />
         <link
           rel="icon"
           type="image/png"
           sizes="192x192"
-          href="/android-icon-192x192.png"
+          href={`${process.env.BACKEND_URL}/android-icon-192x192.png`}
         />
         <link
           rel="icon"
           type="image/png"
           sizes="512x512"
-          href="/android-icon-512x512.png"
+          href={`${process.env.BACKEND_URL}/android-icon-512x512.png`}
         />
-        <link rel="manifest" href="/manifest.json" />
+        <link
+          rel="manifest"
+          href={`${process.env.BACKEND_URL}/manifest.json`}
+        />
         <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta name="msapplication-TileImage" content="/chroma@2x.png" />
+        <meta
+          name="msapplication-TileImage"
+          content={`${process.env.BACKEND_URL}/chroma@2x.png`}
+        />
         <meta name="theme-color" content="#ffffff" />
       </Head>
 
       <IconModal icon={iconInView} onDismiss={() => setIconInView(null)} />
 
       <header
-        className="px-4 sm:px-6 lg:px-16 bg-gray-800 pb-16 bg-cover bg-no-repeat bg-center"
+        className="px-4 sm:px-6 lg:px-16 bg-gray-800 pb-32 bg-cover bg-no-repeat bg-center"
         style={{
           backgroundImage: `url(${process.env.BACKEND_URL}/bg-cover.svg)`,
         }}
       >
-        <div className="max-w-limit mx-auto flex justify-between mb-2">
+        <div className="max-w-limit mx-auto flex justify-between mb-16 ">
           <div className="py-12 flex items-center text-white space-x-2">
             <Chroma />
             <Chromicons />
@@ -156,7 +165,7 @@ export default function IndexPage({ pkgVersion }) {
         </div>
       </header>
 
-      <main className="bg-white text-gray-600 max-w-6xl mx-auto">
+      <main className="bg-white text-gray-600 max-w-6xl mx-auto scrolling-touch">
         <div className="grid grid-cols-2 gap-2 px-4 my-4 sm:px-6 lg:px-16 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
           {getChromicons().map((icon) => {
             const Icon = icon.reactComponent;
