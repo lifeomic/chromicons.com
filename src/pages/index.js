@@ -87,7 +87,12 @@ export default function IndexPage({ pkgVersion }) {
 
       <IconModal icon={iconInView} onDismiss={() => setIconInView(null)} />
 
-      <header className="px-4 sm:px-6 lg:px-16 bg-gray-800 pb-16 bg-hero bg-cover bg-no-repeat bg-center">
+      <header
+        className="px-4 sm:px-6 lg:px-16 bg-gray-800 pb-16 bg-cover bg-no-repeat bg-center"
+        style={{
+          backgroundImage: `url(${process.env.BACKEND_URL}/bg-cover.svg)`,
+        }}
+      >
         <div className="max-w-limit mx-auto flex justify-between mb-2">
           <div className="py-12 flex items-center text-white space-x-2">
             <Chroma />
@@ -173,7 +178,7 @@ export default function IndexPage({ pkgVersion }) {
         <div className="max-w-limit mx-auto text-center text-sm text-gray-600 space-y-6 md:space-x-10 md:space-y-0 md:text-left md:flex">
           <div className="flex items-center space-x-2">
             <img
-              src="/doryan400x400.jpg"
+              src={`${process.env.BACKEND_URL}/doryan400x400.jpg`}
               alt="pixel crat avatar"
               className="bg-gray-200 h-8 w-8 md:h-8 md:w-8 rounded-full shadow-inner"
               loading="lazy"
@@ -191,7 +196,7 @@ export default function IndexPage({ pkgVersion }) {
           </div>
           <div className="flex items-center space-x-2">
             <img
-              src="/tony400x400.jpg"
+              src={`${process.env.BACKEND_URL}/tony400x400.jpg`}
               alt="why not draw avatar"
               className="bg-gray-200 h-8 w-8 md:h-8 md:w-8 rounded-full shadow-inner"
               loading="lazy"
