@@ -1,9 +1,11 @@
-import { CheckCircle } from '@lifeomic/chromicons/react/lined';
-import { Chroma } from '@lifeomic/chromicons/react/lined';
+import {
+  CheckCircle,
+  Chroma,
+  Lifeology,
+} from '@lifeomic/chromicons/react/lined';
 import { Chromicons } from '../components/icons/chromicons';
 import { Flag } from '@lifeomic/chromicons/react/lined';
 import { IconModal } from '../components/iconModal';
-import { Lifeology } from '@lifeomic/chromicons/react/lined';
 import { LifeOmic } from '../components/icons/lifeomic';
 import { Tile } from '../components/tile';
 import { useState } from 'react';
