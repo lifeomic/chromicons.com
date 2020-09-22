@@ -1051,10 +1051,10 @@
     postcss "7.0.32"
     purgecss "^2.3.0"
 
-"@lifeomic/chromicons@latest":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@lifeomic/chromicons/-/chromicons-0.0.2.tgz#6985a3dc6d16a15af53b8132069170183fc2ebae"
-  integrity sha512-4LaYB/aIM8v7UttaC+kmSTCGjft89C/PmDlBMFK21h8xFgzeEQVw2Uu63cuqJf3RHkQ0BAXhIV7sWSw+LByqyA==
+"@lifeomic/chromicons@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@lifeomic/chromicons/-/chromicons-0.0.3.tgz#7f0bb79dd83bfad0527f2463b5675b3d35de0c78"
+  integrity sha512-k5Z092wg/Q2DLdiLuOd2xmLVNCBAlTlmrZNGRtI+vggOb+hC7dNxRQyX2r5dC/Wgs+SWoSS+IjDDsPf6M6GAtg==
 
 "@next/react-dev-overlay@9.5.3":
   version "9.5.3"
