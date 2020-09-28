@@ -6,7 +6,10 @@ module.exports = {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
   },
-  purge: false,
+  purge: {
+    mode: 'all',
+    content: ['./src/**/*.js', './node_modules/@reach/**/*.js'],
+  },
   theme: {
     extend: {
       fontFamily: {
