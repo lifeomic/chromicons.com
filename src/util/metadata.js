@@ -11,6 +11,10 @@ export default {
     description: '',
     categories: [],
   },
+  Apple: {
+    description: '',
+    categories: [],
+  },
   Archive: {
     description: '',
     categories: [],
@@ -31,7 +35,7 @@ export default {
     description: '',
     categories: [],
   },
-  BarChart2: {
+  Award: {
     description: '',
     categories: [],
   },
@@ -39,11 +43,15 @@ export default {
     description: '',
     categories: [],
   },
-  BellOff: {
+  BarChart2: {
     description: '',
     categories: [],
   },
   Bell: {
+    description: '',
+    categories: [],
+  },
+  BellOff: {
     description: '',
     categories: [],
   },
@@ -55,11 +63,15 @@ export default {
     description: '',
     categories: [],
   },
+  Camera: {
+    description: '',
+    categories: [],
+  },
   CameraOff: {
     description: '',
     categories: [],
   },
-  Camera: {
+  Check: {
     description: '',
     categories: [],
   },
@@ -68,10 +80,6 @@ export default {
     categories: [],
   },
   CheckSquare: {
-    description: '',
-    categories: [],
-  },
-  Check: {
     description: '',
     categories: [],
   },
@@ -103,15 +111,15 @@ export default {
     description: '',
     categories: [],
   },
+  Cloud: {
+    description: '',
+    categories: [],
+  },
   CloudLightning: {
     description: '',
     categories: [],
   },
   CloudOff: {
-    description: '',
-    categories: [],
-  },
-  Cloud: {
     description: '',
     categories: [],
   },
@@ -135,6 +143,10 @@ export default {
     description: '',
     categories: [],
   },
+  Dna: {
+    description: '',
+    categories: [],
+  },
   DollarSign: {
     description: '',
     categories: [],
@@ -143,11 +155,11 @@ export default {
     description: '',
     categories: [],
   },
-  Edit2: {
+  Edit: {
     description: '',
     categories: [],
   },
-  Edit: {
+  Edit2: {
     description: '',
     categories: [],
   },
@@ -155,19 +167,19 @@ export default {
     description: '',
     categories: [],
   },
-  EyeOff: {
-    description: '',
-    categories: [],
-  },
   Eye: {
     description: '',
     categories: [],
   },
-  FileText: {
+  EyeOff: {
     description: '',
     categories: [],
   },
   File: {
+    description: '',
+    categories: [],
+  },
+  FileText: {
     description: '',
     categories: [],
   },
@@ -176,6 +188,10 @@ export default {
     categories: [],
   },
   Folder: {
+    description: '',
+    categories: [],
+  },
+  Hangup: {
     description: '',
     categories: [],
   },
@@ -247,11 +263,19 @@ export default {
     description: '',
     categories: [],
   },
+  MessageSquare: {
+    description: '',
+    categories: [],
+  },
   Mic: {
     description: '',
     categories: [],
   },
   MinusCircle: {
+    description: '',
+    categories: [],
+  },
+  Moon: {
     description: '',
     categories: [],
   },
@@ -271,7 +295,15 @@ export default {
     description: '',
     categories: [],
   },
+  Phone: {
+    description: '',
+    categories: [],
+  },
   PieChart: {
+    description: '',
+    categories: [],
+  },
+  Plus: {
     description: '',
     categories: [],
   },
@@ -283,15 +315,15 @@ export default {
     description: '',
     categories: [],
   },
-  Plus: {
-    description: '',
-    categories: [],
-  },
   RefreshCw: {
     description: '',
     categories: [],
   },
   RotateCcw: {
+    description: '',
+    categories: [],
+  },
+  Running: {
     description: '',
     categories: [],
   },
@@ -316,6 +348,10 @@ export default {
     categories: [],
   },
   SkipForward: {
+    description: '',
+    categories: [],
+  },
+  Smartphone: {
     description: '',
     categories: [],
   },
@@ -351,6 +387,10 @@ export default {
     description: '',
     categories: [],
   },
+  User: {
+    description: '',
+    categories: [],
+  },
   UserCheck: {
     description: '',
     categories: [],
@@ -363,11 +403,11 @@ export default {
     description: '',
     categories: [],
   },
-  User: {
+  Users: {
     description: '',
     categories: [],
   },
-  Users: {
+  Video: {
     description: '',
     categories: [],
   },
@@ -375,11 +415,11 @@ export default {
     description: '',
     categories: [],
   },
-  XCircle: {
+  X: {
     description: '',
     categories: [],
   },
-  X: {
+  XCircle: {
     description: '',
     categories: [],
   },

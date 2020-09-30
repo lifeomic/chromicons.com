@@ -1051,10 +1051,10 @@
     postcss "7.0.32"
     purgecss "^2.3.0"
 
-"@lifeomic/chromicons@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@lifeomic/chromicons/-/chromicons-0.0.3.tgz#7f0bb79dd83bfad0527f2463b5675b3d35de0c78"
-  integrity sha512-k5Z092wg/Q2DLdiLuOd2xmLVNCBAlTlmrZNGRtI+vggOb+hC7dNxRQyX2r5dC/Wgs+SWoSS+IjDDsPf6M6GAtg==
+"@lifeomic/chromicons@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@lifeomic/chromicons/-/chromicons-0.0.4.tgz#08f62fb3882f310169c3cd55ed2c260f49fb13c5"
+  integrity sha512-QU+HFRUjyELGziMIXal8bzta7MoGitMKcGD/Boo+a6o0v7pOZRCg1fkzmtK9t7CPwZhhEtKr39sxDD+mj3YmnQ==
 
 "@next/react-dev-overlay@9.5.3":
   version "9.5.3"
@@ -3641,7 +3641,7 @@ json5@^1.0.1:
   dependencies:
     minimist "^1.2.0"
 
-json5@^2.1.0, json5@^2.1.2:
+json5@^2.1.0, json5@^2.1.2, json5@^2.1.3:
   version "2.1.3"
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.1.3.tgz#c9b0f7fa9233bfe5807fe66fcf3a5617ed597d43"
   integrity sha512-KXPvOm8K9IJKFM0bmdn8QXh7udDh1g/giieX0NLCaMnb4hEiVFqnop2ImTXCc5e0/oHz3LTqmHGtExn5hfMkOA==
