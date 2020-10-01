@@ -40,7 +40,7 @@ export default function IndexPage({ pkgVersion }) {
   const router = useRouter();
 
   const [iconInView, setIconInView] = useState(null);
-  const [searchText, setSearchText] = useState(null);
+  const [searchText, setSearchText] = useState('');
 
   // On mount, get our `tab` query param and filter our icons based on it
   // NOTE: For whatever reason `router.query` is not updated on initial render.
