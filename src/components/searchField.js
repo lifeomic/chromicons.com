@@ -1,7 +1,7 @@
 import { Search } from '@lifeomic/chromicons/react/lined';
 import clsx from 'clsx';
 
-export const SearchField = ({ className, onChange }) => {
+export const SearchField = ({ className, onChange, value }) => {
   return (
     <form
       className={clsx('relative flex items-center', className)}
@@ -16,6 +16,7 @@ export const SearchField = ({ className, onChange }) => {
         placeholder="Search icons"
         className="appearance-none border border-grey bg-gray-200 rounded-lg pl-10 pr-4 py-2 text-black focus:outline-none focus:border-purple-400"
         onChange={onChange}
+        value={value}
       />
       <div className="absolute pl-3 flex items-center justify-center">
         <Search className="fill-current text-grey h-4 w-4" />

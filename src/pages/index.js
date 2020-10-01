@@ -1,15 +1,16 @@
 import { CategoryFilters } from '../components/categoryFilters';
 import { Chromicons } from '../components/icons/chromicons';
-import { Flag } from '@lifeomic/chromicons/react/lined';
 import { IconModal } from '../components/iconModal';
 import { LifeOmic } from '../components/icons/lifeomic';
 import { SearchField } from '../components/searchField';
 import { Tile } from '../components/tile';
+import { Transition } from '@tailwindui/react';
 import { useRouter } from 'next/router';
 import { useState } from 'react';
 import {
   CheckCircle,
   Chroma,
+  Flag,
   Lifeology,
 } from '@lifeomic/chromicons/react/lined';
 import * as allLinedChromicons from '@lifeomic/chromicons/react/lined';
@@ -39,6 +40,7 @@ export default function IndexPage({ pkgVersion }) {
   const router = useRouter();
 
   const [iconInView, setIconInView] = useState(null);
+  const [searchText, setSearchText] = useState(null);
 
   // On mount, get our `tab` query param and filter our icons based on it
   // NOTE: For whatever reason `router.query` is not updated on initial render.
@@ -136,6 +138,7 @@ export default function IndexPage({ pkgVersion }) {
               className="flex items-center duration-300 ease-in-out transition-opacity hover:opacity-75 focus:outline-none focus-visible:shadow-outline focus-visible:underline"
               href="https://github.com/lifeomic/chromicons"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <svg
                 className="mr-2"
@@ -189,6 +192,8 @@ export default function IndexPage({ pkgVersion }) {
           <CategoryFilters
             className="mt-4"
             onChange={(filter) => {
+              setSearchText('');
+
               if (filter === 'all') {
                 setVisibleIcons(getChromicons());
                 return;
@@ -224,9 +229,12 @@ export default function IndexPage({ pkgVersion }) {
           />
           <SearchField
             className="mb-4 md:mb-0"
+            value={searchText}
             onChange={(e) => {
               const { tab } = router.query;
               const search = e.target.value;
+
+              setSearchText(e.target.value);
 
               const filteredIcons = tab
                 ? getChromicons()?.filter((icon) =>
@@ -251,21 +259,48 @@ export default function IndexPage({ pkgVersion }) {
             }}
           />
         </div>
-        <div className="grid grid-cols-2 gap-2 px-4 my-4 max-w-6xl mx-auto sm:px-6 lg:px-16 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
-          {visibleIcons?.map((icon) => {
-            const Icon = icon.reactComponent;
-            return (
-              <Tile
-                name={icon.name}
-                key={icon.name}
-                isOpen={iconInView?.name === icon?.name}
-                onClick={() => setIconInView(icon)}
+        {visibleIcons?.length > 0 ? (
+          <div className="grid grid-cols-2 gap-2 px-4 my-4 max-w-6xl mx-auto sm:px-6 lg:px-16 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+            {visibleIcons?.map((icon) => {
+              const Icon = icon.reactComponent;
+              return (
+                <Tile
+                  name={icon.name}
+                  key={icon.name}
+                  isOpen={iconInView?.name === icon?.name}
+                  onClick={() => setIconInView(icon)}
+                >
+                  <Icon className="h-6 w-6" />
+                </Tile>
+              );
+            })}
+          </div>
+        ) : (
+          <Transition
+            appear={true}
+            show={true}
+            enter="transition-opacity duration-300 ease-in"
+            enterFrom="opacity-0"
+            enterTo="opacity-100"
+            leave="transition-opacity duration-250 ease-in-out"
+            leaveFrom="opacity-100"
+            leaveTo="opacity-0"
+          >
+            <div className="py-10 text-center font-bold space-y-2">
+              <p>It looks like we don't have an icon for that yet!</p>
+              <a
+                href={`https://github.com/lifeomic/chromicons/issues/new?title=${encodeURIComponent(
+                  `"${searchText}" icon request`
+                )}`}
+                className="text-sm text-blue-600 duration-300 ease-in-out transition-opacity hover:opacity-75 focus:outline-none focus-visible:shadow-outline focus-visible:underline"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <Icon className="h-6 w-6" />
-              </Tile>
-            );
-          })}
-        </div>
+                Please file a GitHub issue.
+              </a>
+            </div>
+          </Transition>
+        )}
       </main>
 
       <footer className="flex flex-col justify-center bg-gray-200 border-gray-300 border-t py-12 space-y-6 md:py-14 px-4 sm:px-6 lg:px-16 leading-5">
@@ -301,6 +336,7 @@ export default function IndexPage({ pkgVersion }) {
                 className="font-bold duration-300 ease-in-out transition-opacity hover:opacity-75 focus:outline-none focus-visible:shadow-outline focus-visible:underline"
                 href="https://twitter.com/_ynotdraw"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 @_ynotdraw
               </a>
@@ -314,6 +350,7 @@ export default function IndexPage({ pkgVersion }) {
                 className="font-bold duration-300 ease-in-out transition-opacity hover:opacity-75 focus:outline-none focus-visible:shadow-outline focus-visible:underline"
                 href="https://www.lifeomic.com"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 LifeOmic
               </a>
