@@ -24,7 +24,7 @@ export const Radio = ({
       />
       <label
         htmlFor={id}
-        className={`text-gray-800 uppercase font-semibold tracking-widest cursor-pointer transition-opacity duration-300 ease-in-out hover:opacity-75 ${
+        className={`text-gray-800 uppercase font-semibold tracking-widest cursor-pointer transition-opacity duration-300 ease-in-out text-sm md:text-base hover:opacity-75 ${
           checked && 'text-green-400'
         }`}
       >

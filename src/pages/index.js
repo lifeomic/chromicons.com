@@ -228,7 +228,8 @@ export default function IndexPage({ pkgVersion }) {
             }}
           />
           <SearchField
-            className="mb-4 md:mb-0"
+            className="mb-4 w-full sm:px-6 md:px-0 md:mb-0 md:w-auto"
+            inputClassName="w-full md:w-auto"
             value={searchText}
             onChange={(e) => {
               const { tab } = router.query;
