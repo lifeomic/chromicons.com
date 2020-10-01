@@ -1,14 +1,17 @@
+import { CategoryFilters } from '../components/categoryFilters';
+import { Chromicons } from '../components/icons/chromicons';
+import { Flag } from '@lifeomic/chromicons/react/lined';
+import { IconModal } from '../components/iconModal';
+import { LifeOmic } from '../components/icons/lifeomic';
+import { SearchField } from '../components/searchField';
+import { Tile } from '../components/tile';
+import { useRouter } from 'next/router';
+import { useState } from 'react';
 import {
   CheckCircle,
   Chroma,
   Lifeology,
 } from '@lifeomic/chromicons/react/lined';
-import { Chromicons } from '../components/icons/chromicons';
-import { Flag } from '@lifeomic/chromicons/react/lined';
-import { IconModal } from '../components/iconModal';
-import { LifeOmic } from '../components/icons/lifeomic';
-import { Tile } from '../components/tile';
-import { useState } from 'react';
 import * as allLinedChromicons from '@lifeomic/chromicons/react/lined';
 import Head from 'next/head';
 import metadata from '../util/metadata';
@@ -33,7 +36,21 @@ export function getStaticProps() {
 }
 
 export default function IndexPage({ pkgVersion }) {
+  const router = useRouter();
+
   const [iconInView, setIconInView] = useState(null);
+
+  // On mount, get our `tab` query param and filter our icons based on it
+  // NOTE: For whatever reason `router.query` is not updated on initial render.
+  //       Will file an issue / dig in some more!
+  const [visibleIcons, setVisibleIcons] = useState(() => {
+    const params = new URLSearchParams(router.asPath.replace('/', ''));
+    const tab = params.get('tab');
+
+    return tab
+      ? getChromicons()?.filter?.((icon) => icon?.categories?.includes(tab))
+      : getChromicons();
+  });
 
   return (
     <>
@@ -167,9 +184,75 @@ export default function IndexPage({ pkgVersion }) {
         </div>
       </header>
 
-      <main className="bg-white text-gray-600 max-w-6xl mx-auto scrolling-touch">
-        <div className="grid grid-cols-2 gap-2 px-4 my-4 sm:px-6 lg:px-16 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
-          {getChromicons().map((icon) => {
+      <main className="bg-white text-gray-600 scrolling-touch">
+        <div className="flex justify-between items-center shadow-md px-4 flex-col md:flex-row sm:px-6 lg:px-16">
+          <CategoryFilters
+            className="mt-4"
+            onChange={(filter) => {
+              if (filter === 'all') {
+                setVisibleIcons(getChromicons());
+                return;
+              }
+
+              if (filter === 'ui') {
+                setVisibleIcons(
+                  getChromicons()?.filter((icon) =>
+                    icon?.categories?.includes('ui')
+                  )
+                );
+                return;
+              }
+
+              if (filter === 'science') {
+                setVisibleIcons(
+                  getChromicons()?.filter((icon) =>
+                    icon?.categories?.includes('science')
+                  )
+                );
+                return;
+              }
+
+              if (filter === 'health') {
+                setVisibleIcons(
+                  getChromicons()?.filter((icon) =>
+                    icon?.categories?.includes('health')
+                  )
+                );
+                return;
+              }
+            }}
+          />
+          <SearchField
+            className="mb-4 md:mb-0"
+            onChange={(e) => {
+              const { tab } = router.query;
+              const search = e.target.value;
+
+              const filteredIcons = tab
+                ? getChromicons()?.filter((icon) =>
+                    icon?.categories?.includes(tab)
+                  )
+                : getChromicons();
+
+              if (!search) {
+                setVisibleIcons(filteredIcons);
+                return;
+              }
+
+              setVisibleIcons(
+                filteredIcons?.filter(
+                  (icon) =>
+                    icon.name.toLowerCase().includes(search.toLowerCase()) ||
+                    icon.description
+                      .toLowerCase()
+                      .includes(search.toLowerCase())
+                )
+              );
+            }}
+          />
+        </div>
+        <div className="grid grid-cols-2 gap-2 px-4 my-4 max-w-6xl mx-auto sm:px-6 lg:px-16 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+          {visibleIcons?.map((icon) => {
             const Icon = icon.reactComponent;
             return (
               <Tile
