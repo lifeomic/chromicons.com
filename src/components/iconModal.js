@@ -44,7 +44,7 @@ export const IconModal = ({ icon, onDismiss }) => {
     >
       <DialogContent
         aria-label="Icon Details"
-        className="bg-gray-800 text-white rounded-lg space-y-6 relative w-9/12 m-0 mx-auto mb-8 sm:mb-0 sm:max-w-sm"
+        className="icon-modal-animation bg-gray-800 text-white rounded-lg space-y-6 relative w-9/12 m-0 mx-auto mb-8 sm:mb-0 sm:max-w-sm"
       >
         <h3 className="text-lg leading-6 font-medium text-gray-100">
           {icon?.name}
