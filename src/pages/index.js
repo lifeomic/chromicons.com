@@ -5,7 +5,6 @@ import { LifeOmic } from '../components/icons/lifeomic';
 import { SearchField } from '../components/searchField';
 import { Tile } from '../components/tile';
 import { Transition } from '@tailwindui/react';
-import { useRouter } from 'next/router';
 import { useState } from 'react';
 import {
   CheckCircle,
@@ -37,22 +36,11 @@ export function getStaticProps() {
 }
 
 export default function IndexPage({ pkgVersion }) {
-  const router = useRouter();
-
   const [iconInView, setIconInView] = useState(null);
+  const [selectedTab, setSelectedTab] = useState('all');
   const [searchText, setSearchText] = useState('');
 
-  // On mount, get our `tab` query param and filter our icons based on it
-  // NOTE: For whatever reason `router.query` is not updated on initial render.
-  //       Will file an issue / dig in some more!
-  const [visibleIcons, setVisibleIcons] = useState(() => {
-    const params = new URLSearchParams(router.asPath.replace('/', ''));
-    const tab = params.get('tab');
-
-    return tab
-      ? getChromicons()?.filter?.((icon) => icon?.categories?.includes(tab))
-      : getChromicons();
-  });
+  const [visibleIcons, setVisibleIcons] = useState(() => getChromicons('all'));
 
   return (
     <>
@@ -191,7 +179,9 @@ export default function IndexPage({ pkgVersion }) {
         <div className="flex justify-between items-center shadow-md px-4 flex-col md:flex-row sm:px-6 lg:px-16">
           <CategoryFilters
             className="mt-4"
+            selectedTab={selectedTab}
             onChange={(filter) => {
+              setSelectedTab(filter);
               setSearchText('');
 
               if (filter === 'all') {
@@ -232,16 +222,16 @@ export default function IndexPage({ pkgVersion }) {
             inputClassName="w-full md:w-auto"
             value={searchText}
             onChange={(e) => {
-              const { tab } = router.query;
               const search = e.target.value;
 
               setSearchText(e.target.value);
 
-              const filteredIcons = tab
-                ? getChromicons()?.filter((icon) =>
-                    icon?.categories?.includes(tab)
-                  )
-                : getChromicons();
+              const filteredIcons =
+                selectedTab !== 'all'
+                  ? getChromicons()?.filter((icon) =>
+                      icon?.categories?.includes(selectedTab)
+                    )
+                  : getChromicons();
 
               if (!search) {
                 setVisibleIcons(filteredIcons);

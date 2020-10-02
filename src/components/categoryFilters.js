@@ -1,25 +1,7 @@
 import { Radio } from './radio';
-import { useRouter } from 'next/router';
-import { useState } from 'react';
 
-export const CategoryFilters = ({ className, onChange }) => {
-  const router = useRouter();
-
-  // On mount, get our `tab` query param
-  // NOTE: For whatever reason `router.query` is not updated on initial render.
-  //       Will file an issue / dig in some more!
-  const [selectedOption, setSelectedOption] = useState(() => {
-    const params = new URLSearchParams(router.asPath.replace('/', ''));
-    const tab = params.get('tab');
-
-    return tab || 'all';
-  });
-
+export const CategoryFilters = ({ className, onChange, selectedTab }) => {
   const handleOnChange = (e) => {
-    router.push({
-      query: e.target.value !== 'all' ? { tab: e.target.value } : {},
-    });
-    setSelectedOption(e.target.value);
     onChange?.(e.target.value);
   };
 
@@ -29,7 +11,7 @@ export const CategoryFilters = ({ className, onChange }) => {
         <legend className="sr-only">Filter icons by category</legend>
         <div className="flex justify-between items-center space-x-12">
           <Radio
-            checked={selectedOption === 'all'}
+            checked={selectedTab === 'all'}
             className="py-8"
             id="all"
             name="category"
@@ -38,7 +20,7 @@ export const CategoryFilters = ({ className, onChange }) => {
             value="all"
           />
           <Radio
-            checked={selectedOption === 'ui'}
+            checked={selectedTab === 'ui'}
             className="py-8"
             id="ui"
             name="category"
@@ -47,7 +29,7 @@ export const CategoryFilters = ({ className, onChange }) => {
             value="ui"
           />
           <Radio
-            checked={selectedOption === 'science'}
+            checked={selectedTab === 'science'}
             className="py-8"
             id="science"
             name="category"
@@ -56,7 +38,7 @@ export const CategoryFilters = ({ className, onChange }) => {
             value="science"
           />
           <Radio
-            checked={selectedOption === 'health'}
+            checked={selectedTab === 'health'}
             className="py-8"
             id="health"
             name="category"
