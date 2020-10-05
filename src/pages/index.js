@@ -1,4 +1,5 @@
 import { CategoryFilters } from '../components/categoryFilters';
+import { CheckCircle, Flag, Lifeology } from '@lifeomic/chromicons/react/lined';
 import { Chromicons } from '../components/icons/chromicons';
 import { IconModal } from '../components/iconModal';
 import { LifeOmic } from '../components/icons/lifeomic';
@@ -6,12 +7,6 @@ import { SearchField } from '../components/searchField';
 import { Tile } from '../components/tile';
 import { Transition } from '@tailwindui/react';
 import { useState } from 'react';
-import {
-  CheckCircle,
-  Chroma,
-  Flag,
-  Lifeology,
-} from '@lifeomic/chromicons/react/lined';
 import * as allLinedChromicons from '@lifeomic/chromicons/react/lined';
 import Head from 'next/head';
 import metadata from '../util/metadata';
@@ -113,7 +108,6 @@ export default function IndexPage({ pkgVersion }) {
       >
         <div className="max-w-limit mx-auto flex justify-between mb-16 ">
           <div className="py-12 flex items-center text-white space-x-2">
-            <Chroma />
             <Chromicons />
 
             <dl className="mt-0 mb-1 inline-flex items-center px-2 rounded-full text-xs bg-gradient-to-r from-super-orange to-super-blue">

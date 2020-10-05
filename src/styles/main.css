@@ -45,6 +45,44 @@
   bottom: 1.5rem;
 }
 
+@keyframes slide-up-from-bottom {
+  from {
+    transform: translate3d(0rem, 12.5rem, 0rem);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate3d(0rem, 0rem, 0rem);
+    opacity: 1;
+  }
+}
+
+@keyframes opacity-only {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.icon-modal-animation {
+  animation: opacity-only 300ms linear;
+}
+
+@media (min-width: 768px) {
+  .icon-modal-animation {
+    animation: slide-up-from-bottom 250ms ease-in;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .icon-modal-animation {
+    animation: none;
+  }
+}
+
 /* Start purging... */
 @tailwind utilities;
 /* Stop purging. */
