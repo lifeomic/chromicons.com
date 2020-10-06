@@ -142,7 +142,11 @@ export default function IndexPage({ pkgVersion }) {
           <p className="text-gray-400 text-opacity-75 max-w-lg mx-auto text-sm sm:text-base">
             Ready to use in web, iOS, Android, and desktop apps. Support for SVG
             and web font. Completely open source, MIT licensed, and built with
-            <span className="text-red-600"> ♥️ </span>by the team at LifeOmic.
+            <span className="text-red-600" role="img">
+              {' '}
+              ♥️{' '}
+            </span>
+            by the team at LifeOmic.
           </p>
           <dl className="flex flex-wrap justify-center whitespace-no-wrap text-xs font-bold leading-5 sm:text-sm">
             <div className="flex items-center mx-3 space-x-2 text-orange-400 sm:mx-4 xl:ml-0 xl:mr-8">

@@ -18,7 +18,6 @@ export const Radio = ({
         id={id}
         name={name}
         onChange={onChange}
-        role="radio"
         type="radio"
         value={value}
       />

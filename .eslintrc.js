@@ -18,7 +18,11 @@ module.exports = {
     },
     ecmaVersion: 2020,
   },
-  extends: ['prettier', 'plugin:prettier/recommended'],
-  ignorePatterns: ['node_modules/', 'dist/'],
+  extends: [
+    'prettier',
+    'plugin:prettier/recommended',
+    'plugin:jsx-a11y/recommended',
+  ],
+  ignorePatterns: ['node_modules/', 'dist/', 'out/', '.next/'],
   plugins: ['react', 'react-hooks', 'prettier', 'jsx-a11y'],
 };

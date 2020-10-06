@@ -7,7 +7,8 @@
     "export": "next export",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
     "generate:icon-metadata": "node ./scripts/generate-new-icon-metadata.js",
-    "lint": "eslint --fix .",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
     "start": "next start"
   },
   "dependencies": {
