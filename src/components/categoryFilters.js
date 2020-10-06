@@ -7,7 +7,7 @@ export const CategoryFilters = ({ className, onChange, selectedTab }) => {
 
   return (
     <form className={className} onSubmit={(e) => e.preventDefault()}>
-      <fieldset role="radiogroup">
+      <fieldset>
         <legend className="sr-only">Filter icons by category</legend>
         <div className="flex justify-between items-center space-x-12">
           <Radio
