@@ -30,6 +30,7 @@ module.exports = {
       },
       boxShadow: {
         'dark-mode-outline': '0 0 0 3px rgba(255, 255, 225, 0.95)',
+        banner: '0px 4px 40px rgba(0, 0, 0, 0.05)',
       },
     },
   },
