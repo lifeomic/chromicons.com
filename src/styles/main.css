@@ -68,12 +68,12 @@
 }
 
 .icon-modal-animation {
-  animation: opacity-only 300ms linear;
+  animation: opacity-only 200ms linear;
 }
 
 @media (min-width: 768px) {
   .icon-modal-animation {
-    animation: slide-up-from-bottom 250ms ease-in;
+    animation: slide-up-from-bottom 200ms ease-in-out;
   }
 }
 

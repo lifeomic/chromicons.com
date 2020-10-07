@@ -174,7 +174,7 @@ export default function IndexPage({ pkgVersion }) {
       </header>
 
       <main className="bg-white text-gray-600 scrolling-touch">
-        <div className="flex justify-between items-center shadow-md px-4 flex-col md:flex-row sm:px-6 lg:px-16">
+        <div className="flex justify-between items-center shadow-banner px-4 flex-col md:flex-row sm:px-6 lg:px-16">
           <CategoryFilters
             className="mt-4"
             selectedTab={selectedTab}
