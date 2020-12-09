@@ -11,14 +11,14 @@ const JSON5 = require('json5');
     const metadataOutput = {};
 
     const allChromicons = await fs.readdir(
-      './node_modules/@lifeomic/chromicons/react/lined'
+      './node_modules/@lifeomic/chromicons/src/lined'
     );
 
     const actualChromicons = allChromicons
       // We don't care about the index file
-      .filter((f) => f !== 'index.js')
+      .filter((f) => f !== 'index.tsx')
       // We only want the component name, not the file extension
-      .map((f) => f.substring(0, f.indexOf('.js')));
+      .map((f) => f.substring(0, f.indexOf('.tsx')));
 
     const metaFile = await fs.readFile('./src/util/metadata.js');
     const metaFileAsString = metaFile.toString();
@@ -39,7 +39,7 @@ const JSON5 = require('json5');
 
         metadataOutput[i] = {
           description: '',
-          categories: [],
+          categories: ['ui'],
         };
       }
     });

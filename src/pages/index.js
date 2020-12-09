@@ -6,13 +6,8 @@ import { SearchField } from '../components/searchField';
 import { Tile } from '../components/tile';
 import { Transition } from '@tailwindui/react';
 import { useState } from 'react';
-import {
-  CheckCircle,
-  Download,
-  Flag,
-  Lifeology,
-} from '@lifeomic/chromicons/react/lined';
-import * as allLinedChromicons from '@lifeomic/chromicons/react/lined';
+import { CheckCircle, Download, Flag, Lifeology } from '@lifeomic/chromicons';
+import * as allLinedChromicons from '@lifeomic/chromicons';
 import clsx from 'clsx';
 import Head from 'next/head';
 import metadata from '../util/metadata';
