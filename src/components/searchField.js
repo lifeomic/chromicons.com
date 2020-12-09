@@ -1,4 +1,4 @@
-import { Search } from '@lifeomic/chromicons/react/lined';
+import { Search } from '@lifeomic/chromicons';
 import clsx from 'clsx';
 
 export const SearchField = ({ className, inputClassName, onChange, value }) => {

@@ -1,10 +1,6 @@
 const debug = process.env.NODE_ENV !== 'production';
 
-const withTranspileModules = require('next-transpile-modules')([
-  '@lifeomic/chromicons',
-]);
-
-module.exports = withTranspileModules({
+module.exports = {
   assetPrefix: !debug ? '/chromicons.com/' : '',
 
   experimental: {
@@ -30,4 +26,4 @@ module.exports = withTranspileModules({
 
     return config;
   },
-});
+};

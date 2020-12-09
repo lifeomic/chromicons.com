@@ -55,6 +55,10 @@ export default {
     description: '',
     categories: ['ui'],
   },
+  Bold: {
+    description: '',
+    categories: ['ui'],
+  },
   BookOpen: {
     description: '',
     categories: ['ui', 'science'],
@@ -191,6 +195,10 @@ export default {
     description: '',
     categories: ['ui'],
   },
+  FontSize: {
+    description: '',
+    categories: ['ui'],
+  },
   Hangup: {
     description: '',
     categories: ['ui'],
@@ -198,6 +206,10 @@ export default {
   Hash: {
     description: '',
     categories: ['ui'],
+  },
+  Heart: {
+    description: '',
+    categories: ['ui', 'health', 'science'],
   },
   Heatmap: {
     description: '',
@@ -219,6 +231,10 @@ export default {
     description: '',
     categories: ['ui'],
   },
+  Italic: {
+    description: '',
+    categories: [],
+  },
   Key: {
     description: '',
     categories: ['ui'],
@@ -227,9 +243,21 @@ export default {
     description: '',
     categories: ['ui'],
   },
+  Leaf: {
+    description: '',
+    categories: [],
+  },
   Lifeology: {
     description: '',
     categories: ['ui', 'health', 'science'],
+  },
+  Lightbulb: {
+    description: '',
+    categories: ['ui', 'science'],
+  },
+  LineHeight: {
+    description: '',
+    categories: ['ui'],
   },
   Link: {
     description: '',
@@ -287,6 +315,10 @@ export default {
     description: '',
     categories: ['ui', 'health', 'science'],
   },
+  NumberList: {
+    description: '',
+    categories: ['ui'],
+  },
   Oncoprint: {
     description: '',
     categories: ['ui'],
@@ -302,6 +334,10 @@ export default {
   PieChart: {
     description: '',
     categories: ['ui'],
+  },
+  Plane: {
+    description: '',
+    categories: ['ui', 'science'],
   },
   Plus: {
     description: '',
@@ -354,6 +390,14 @@ export default {
   Smartphone: {
     description: '',
     categories: ['ui'],
+  },
+  Smile: {
+    description: '',
+    categories: ['ui'],
+  },
+  Star: {
+    description: '',
+    categories: ['ui', 'health', 'science'],
   },
   Sun: {
     description: '',

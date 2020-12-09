@@ -1,8 +1,7 @@
-import { CheckCircle } from '@lifeomic/chromicons/react/lined';
+import { CheckCircle, X } from '@lifeomic/chromicons';
 import { DialogOverlay, DialogContent } from '@reach/dialog';
 import { Transition } from '@tailwindui/react';
 import { useEffect, useRef, useState } from 'react';
-import { X } from '@lifeomic/chromicons/react/lined';
 import Alert from '@reach/alert';
 import clsx from 'clsx';
 
