@@ -167,6 +167,10 @@ export default {
     description: '',
     categories: ['ui'],
   },
+  Enlarge: {
+    description: '',
+    categories: ['ui'],
+  },
   ExternalLink: {
     description: '',
     categories: ['ui'],
@@ -336,6 +340,10 @@ export default {
     categories: ['ui'],
   },
   Plane: {
+    description: '',
+    categories: ['ui', 'science'],
+  },
+  Plant: {
     description: '',
     categories: ['ui', 'science'],
   },
