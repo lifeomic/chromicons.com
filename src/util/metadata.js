@@ -1,22 +1,22 @@
 export default {
   Activity: {
-    description: '',
+    description: 'cardiogram heartbeat pulse action motion',
     categories: ['ui', 'health'],
   },
   AlertCircle: {
-    description: '',
+    description: 'warning alert danger',
     categories: ['ui'],
   },
   AlertTriangle: {
-    description: '',
+    description: 'warning alert danger',
     categories: ['ui'],
   },
   Apple: {
-    description: '',
+    description: 'health fruit',
     categories: ['ui', 'health'],
   },
   Archive: {
-    description: '',
+    description: 'index box',
     categories: ['ui'],
   },
   ArrowDown: {
@@ -36,55 +36,55 @@ export default {
     categories: ['ui'],
   },
   Award: {
-    description: '',
+    description: 'achievement badge',
     categories: ['ui'],
   },
   BarChart: {
-    description: '',
+    description: 'statistics diagram graph',
     categories: ['ui'],
   },
   BarChart2: {
-    description: '',
+    description: 'statistics diagram graph',
     categories: ['ui'],
   },
   Bell: {
-    description: '',
+    description: 'alarm notification sound',
     categories: ['ui'],
   },
   BellOff: {
-    description: '',
+    description: 'alarm notification sound silent silence mute',
     categories: ['ui'],
   },
   Bold: {
-    description: '',
+    description: 'text',
     categories: ['ui'],
   },
   BookOpen: {
-    description: '',
+    description: 'read library',
     categories: ['ui', 'science'],
   },
   Box: {
-    description: '',
+    description: 'cube',
     categories: ['ui'],
   },
   Camera: {
-    description: '',
+    description: 'camera photo picture',
     categories: ['ui'],
   },
   CameraOff: {
-    description: '',
+    description: 'camera photo picture',
     categories: ['ui'],
   },
   Check: {
-    description: '',
+    description: 'complete done',
     categories: ['ui'],
   },
   CheckCircle: {
-    description: '',
+    description: 'complete done',
     categories: ['ui'],
   },
   CheckSquare: {
-    description: '',
+    description: 'complete done',
     categories: ['ui'],
   },
   ChevronDown: {
@@ -104,27 +104,27 @@ export default {
     categories: ['ui'],
   },
   Chroma: {
-    description: '',
+    description: 'o',
     categories: ['ui'],
   },
   Clipboard: {
-    description: '',
+    description: 'copy clone duplicate',
     categories: ['ui'],
   },
   Clock: {
-    description: '',
+    description: 'time watch alarm',
     categories: ['ui', 'health', 'science'],
   },
   Cloud: {
-    description: '',
+    description: 'weather',
     categories: ['ui', 'science'],
   },
   CloudLightning: {
-    description: '',
+    description: 'weather bolt',
     categories: ['ui', 'science'],
   },
   CloudOff: {
-    description: '',
+    description: 'weather off',
     categories: ['ui', 'science'],
   },
   Code: {
@@ -132,7 +132,7 @@ export default {
     categories: ['ui', 'science'],
   },
   Copy: {
-    description: '',
+    description: 'clone duplicate',
     categories: ['ui'],
   },
   CornerLeftUp: {
@@ -140,19 +140,19 @@ export default {
     categories: ['ui'],
   },
   Cpu: {
-    description: '',
+    description: 'processor technology',
     categories: ['ui', 'science'],
   },
   Database: {
-    description: '',
+    description: 'storage memory',
     categories: ['ui'],
   },
   Dna: {
-    description: '',
+    description: 'helix',
     categories: ['ui', 'health', 'science'],
   },
   DollarSign: {
-    description: '',
+    description: 'cash currency money',
     categories: ['ui'],
   },
   Download: {
@@ -160,59 +160,59 @@ export default {
     categories: ['ui'],
   },
   Edit: {
-    description: '',
+    description: 'change pencil',
     categories: ['ui'],
   },
   Edit2: {
-    description: '',
+    description: 'change pencil',
     categories: ['ui'],
   },
   Enlarge: {
-    description: '',
+    description: 'arrow expand fullscreen maximize',
     categories: ['ui'],
   },
   ExternalLink: {
-    description: '',
+    description: 'export outbound',
     categories: ['ui'],
   },
   Eye: {
-    description: '',
+    description: 'display show view watch',
     categories: ['ui', 'health', 'science'],
   },
   EyeOff: {
-    description: '',
+    description: 'hide hidden view watch off',
     categories: ['ui', 'health', 'science'],
   },
   File: {
-    description: '',
+    description: 'document paper text',
     categories: ['ui', 'science'],
   },
   FileText: {
-    description: '',
+    description: 'document paper',
     categories: ['ui', 'science'],
   },
   Flag: {
-    description: '',
+    description: 'end finish goal milestone report',
     categories: ['ui'],
   },
   Folder: {
-    description: '',
+    description: 'directory group',
     categories: ['ui'],
   },
   FontSize: {
-    description: '',
+    description: 'text',
     categories: ['ui'],
   },
   Hangup: {
-    description: '',
+    description: 'call phone missed',
     categories: ['ui'],
   },
   Hash: {
-    description: '',
+    description: 'pound number',
     categories: ['ui'],
   },
   Heart: {
-    description: '',
+    description: 'favorite health life like love',
     categories: ['ui', 'health', 'science'],
   },
   Heatmap: {
@@ -220,15 +220,15 @@ export default {
     categories: ['ui'],
   },
   HelpCircle: {
-    description: '',
+    description: 'question mark',
     categories: ['ui'],
   },
   Home: {
-    description: '',
+    description: 'house living',
     categories: ['ui'],
   },
   Image: {
-    description: '',
+    description: 'art picture',
     categories: ['ui'],
   },
   Info: {
@@ -236,87 +236,87 @@ export default {
     categories: ['ui'],
   },
   Italic: {
-    description: '',
+    description: 'text emphasize',
     categories: [],
   },
   Key: {
-    description: '',
+    description: 'authentication lock login password secure',
     categories: ['ui'],
   },
   Layout: {
-    description: '',
+    description: 'window webpage grid',
     categories: ['ui'],
   },
   Leaf: {
-    description: '',
+    description: 'botanical biology plant wellness',
     categories: [],
   },
   Lifeology: {
-    description: '',
+    description: 'athena bird nightingale',
     categories: ['ui', 'health', 'science'],
   },
   Lightbulb: {
-    description: '',
+    description: 'idea on',
     categories: ['ui', 'science'],
   },
   LineHeight: {
-    description: '',
+    description: 'text space spread expand apart',
     categories: ['ui'],
   },
   Link: {
-    description: '',
+    description: 'chain url',
     categories: ['ui'],
   },
   List: {
-    description: '',
+    description: 'options menu bulleted',
     categories: ['ui'],
   },
   Loader: {
-    description: '',
+    description: 'progress spinner incomplete',
     categories: ['ui'],
   },
   Lock: {
-    description: '',
+    description: 'security password secure',
     categories: ['ui'],
   },
   Login: {
-    description: '',
+    description: 'sign enter',
     categories: ['ui'],
   },
   Mail: {
-    description: '',
+    description: 'email message send',
     categories: ['ui'],
   },
   Maximize: {
-    description: '',
+    description: 'enlarge frame target select',
     categories: ['ui'],
   },
   Menu: {
-    description: '',
+    description: 'list bars nav hamburger line',
     categories: ['ui'],
   },
   MessageSquare: {
-    description: '',
+    description: 'comment chat',
     categories: ['ui'],
   },
   Mic: {
-    description: '',
+    description: 'record sound listen',
     categories: ['ui'],
   },
   MinusCircle: {
-    description: '',
+    description: 'dash subtract collapse',
     categories: ['ui'],
   },
   Moon: {
-    description: '',
+    description: 'dark night weather',
     categories: ['ui', 'science'],
   },
   MoreHorizontal: {
-    description: '',
+    description: 'ellipsis kabob dots',
     categories: ['ui'],
   },
   Needle: {
-    description: '',
+    description: 'syringe shot vaccine',
     categories: ['ui', 'health', 'science'],
   },
   NumberList: {
@@ -324,11 +324,11 @@ export default {
     categories: ['ui'],
   },
   Oncoprint: {
-    description: '',
+    description: 'dash box',
     categories: ['ui'],
   },
   Package: {
-    description: '',
+    description: 'box container',
     categories: ['ui'],
   },
   Phone: {
@@ -336,103 +336,103 @@ export default {
     categories: ['ui'],
   },
   PieChart: {
-    description: '',
+    description: 'statistics diagram graph',
     categories: ['ui'],
   },
   Plane: {
-    description: '',
+    description: 'send jet depart flight fly leave trip',
     categories: ['ui', 'science'],
   },
   Plant: {
-    description: '',
+    description: 'leaf wellness',
     categories: ['ui', 'science'],
   },
   Plus: {
-    description: '',
+    description: 'add create new',
     categories: ['ui'],
   },
   PlusCircle: {
-    description: '',
+    description: 'add create new',
     categories: ['ui'],
   },
   PlusSquare: {
-    description: '',
+    description: 'add create new',
     categories: ['ui'],
   },
   RefreshCw: {
-    description: '',
+    description: 'arrow circle sync',
     categories: ['ui'],
   },
   RotateCcw: {
-    description: '',
+    description: 'arrow circle',
     categories: ['ui'],
   },
   Running: {
-    description: '',
+    description: 'activity exercise fitness person',
     categories: ['ui', 'health'],
   },
   Scatter: {
-    description: '',
+    description: 'plot statistics diagram graph chart',
     categories: ['ui'],
   },
   Search: {
-    description: '',
+    description: 'magnify glass find',
     categories: ['ui'],
   },
   Send: {
-    description: '',
+    description: 'message mail email paper airplane aeroplane',
     categories: ['ui'],
   },
   Settings: {
-    description: '',
+    description: 'cog edit gear preferences',
     categories: ['ui'],
   },
   SkipBack: {
-    description: '',
+    description: 'music',
     categories: ['ui'],
   },
   SkipForward: {
-    description: '',
+    description: 'music',
     categories: ['ui'],
   },
   Smartphone: {
-    description: '',
+    description: 'cell device mobile',
     categories: ['ui'],
   },
   Smile: {
-    description: '',
+    description: 'emoji face happy good excellent',
     categories: ['ui'],
   },
   Star: {
-    description: '',
+    description: 'bookmark favorite like rate',
     categories: ['ui', 'health', 'science'],
   },
   Sun: {
-    description: '',
+    description: 'brightness light weather',
     categories: ['ui', 'science'],
   },
   SurvivalCurve: {
-    description: '',
+    description: 'graph chart diagram statistics',
     categories: ['ui', 'health', 'science'],
   },
   ToggleLeft: {
-    description: '',
+    description: 'on off switch',
     categories: ['ui'],
   },
   ToggleRight: {
-    description: '',
+    description: 'on off switch',
     categories: ['ui'],
   },
   Trash: {
-    description: '',
+    description: 'bin delete garbage remove',
     categories: ['ui'],
   },
   TrendingUp: {
-    description: '',
+    description: 'up stock line graph',
     categories: ['ui'],
   },
   Type: {
-    description: '',
+    description: 'text font',
     categories: ['ui'],
   },
   UploadCloud: {
@@ -440,51 +440,51 @@ export default {
     categories: ['ui', 'health', 'science'],
   },
   User: {
-    description: '',
+    description: 'person account member',
     categories: ['ui'],
   },
   UserCheck: {
-    description: '',
+    description: 'followed subscribed',
     categories: ['ui'],
   },
   UserMinus: {
-    description: '',
+    description: 'delete remove unfollow unsubscribed',
     categories: ['ui'],
   },
   UserPlus: {
-    description: '',
+    description: 'new add create follow subscribe',
     categories: ['ui'],
   },
   Users: {
-    description: '',
+    description: 'group members team',
     categories: ['ui'],
   },
   Video: {
-    description: '',
+    description: 'camera movie film',
     categories: ['ui'],
   },
   Watch: {
-    description: '',
+    description: 'clock time wearable',
     categories: ['ui'],
   },
   X: {
-    description: '',
+    description: 'cancel close delete remove times clear',
     categories: ['ui'],
   },
   XCircle: {
-    description: '',
+    description: 'cancel close delete remove times clear',
     categories: ['ui'],
   },
   Zap: {
-    description: '',
+    description: 'flash camera lightning',
     categories: ['ui', 'science'],
   },
   ZoomIn: {
-    description: '',
+    description: 'magnify plus',
     categories: ['ui'],
   },
   ZoomOut: {
-    description: '',
+    description: 'magnify minus',
     categories: ['ui'],
   },
 };
