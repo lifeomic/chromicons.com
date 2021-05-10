@@ -303,6 +303,14 @@ export default {
     description: 'record sound listen',
     categories: ['ui'],
   },
+  MicOff: {
+    description: '',
+    categories: ['ui'],
+  },
+  Minimize: {
+    description: '',
+    categories: ['ui'],
+  },
   MinusCircle: {
     description: 'dash subtract collapse',
     categories: ['ui'],
@@ -332,6 +340,10 @@ export default {
     categories: ['ui'],
   },
   Phone: {
+    description: '',
+    categories: ['ui'],
+  },
+  PhotoShrink: {
     description: '',
     categories: ['ui'],
   },
@@ -373,6 +385,14 @@ export default {
   },
   Scatter: {
     description: 'plot statistics diagram graph chart',
+    categories: ['ui'],
+  },
+  ScreenShare: {
+    description: '',
+    categories: ['ui'],
+  },
+  ScreenShareOff: {
+    description: '',
     categories: ['ui'],
   },
   Search: {
@@ -461,6 +481,14 @@ export default {
   },
   Video: {
     description: 'camera movie film',
+    categories: ['ui'],
+  },
+  Video2: {
+    description: '',
+    categories: ['ui'],
+  },
+  Video2Off: {
+    description: '',
     categories: ['ui'],
   },
   Watch: {
