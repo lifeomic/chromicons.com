@@ -304,11 +304,11 @@ export default {
     categories: ['ui'],
   },
   MicOff: {
-    description: '',
+    description: 'record sound listen silent silence mute',
     categories: ['ui'],
   },
   Minimize: {
-    description: '',
+    description: 'exit fullscreen close arrow',
     categories: ['ui'],
   },
   MinusCircle: {
@@ -344,7 +344,7 @@ export default {
     categories: ['ui'],
   },
   PhotoShrink: {
-    description: '',
+    description: 'minimize arrow photo shrink collapse exit close',
     categories: ['ui'],
   },
   PieChart: {
@@ -388,11 +388,11 @@ export default {
     categories: ['ui'],
   },
   ScreenShare: {
-    description: '',
+    description: 'video view',
     categories: ['ui'],
   },
   ScreenShareOff: {
-    description: '',
+    description: 'video view',
     categories: ['ui'],
   },
   Search: {
@@ -484,11 +484,11 @@ export default {
     categories: ['ui'],
   },
   Video2: {
-    description: '',
+    description: 'camera movie film',
     categories: ['ui'],
   },
   Video2Off: {
-    description: '',
+    description: 'camera movie film',
     categories: ['ui'],
   },
   Watch: {
