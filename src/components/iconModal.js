@@ -56,8 +56,6 @@ export const IconModal = ({ icon, onDismiss }) => {
           {Boolean(Icon) && <Icon className="h-8 w-8" />}
         </div>
 
-        {icon?.description && <p className="text-sm">{icon.description}</p>}
-
         <div className="flex flex-col space-y-3 justify-between md:space-y-0 md:flex-row sm:space-x-1">
           <Button
             className="bg-orange-400"
