@@ -197,37 +197,35 @@ export default function IndexPage({ pkgVersion }) {
           </dl>
         </div>
         <SearchField
-            className="mt-10 w-full sm:px-6 md:px-0 md:mb-0"
-            inputClassName="w-full"
-            value={searchText}
-            onChange={(e) => {
-              const search = e.target.value;
+          className="mt-10 w-full sm:px-6 md:px-0 md:mb-0"
+          inputClassName="w-full"
+          value={searchText}
+          onChange={(e) => {
+            const search = e.target.value;
 
-              setSearchText(e.target.value);
+            setSearchText(e.target.value);
 
-              const filteredIcons =
-                selectedTab !== 'all'
-                  ? getChromicons()?.filter((icon) =>
-                      icon?.categories?.includes(selectedTab)
-                    )
-                  : getChromicons();
+            const filteredIcons =
+              selectedTab !== 'all'
+                ? getChromicons()?.filter((icon) =>
+                    icon?.categories?.includes(selectedTab)
+                  )
+                : getChromicons();
 
-              if (!search) {
-                setVisibleIcons(filteredIcons);
-                return;
-              }
+            if (!search) {
+              setVisibleIcons(filteredIcons);
+              return;
+            }
 
-              setVisibleIcons(
-                filteredIcons?.filter(
-                  (icon) =>
-                    icon.name.toLowerCase().includes(search.toLowerCase()) ||
-                    icon?.keywords
-                      ?.toLowerCase()
-                      ?.includes(search.toLowerCase())
-                )
-              );
-            }}
-          />
+            setVisibleIcons(
+              filteredIcons?.filter(
+                (icon) =>
+                  icon.name.toLowerCase().includes(search.toLowerCase()) ||
+                  icon?.keywords?.toLowerCase()?.includes(search.toLowerCase())
+              )
+            );
+          }}
+        />
       </header>
 
       <main className="bg-white text-gray-600 scrolling-touch">
