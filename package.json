@@ -9,7 +9,8 @@
     "generate:icon-metadata": "node ./scripts/generate-new-icon-metadata.js",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "start": "next start"
+    "start": "next",
+    "next:start": "next start"
   },
   "dependencies": {
     "@lifeomic/chromicons": "^0.1.5",

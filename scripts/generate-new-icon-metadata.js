@@ -38,7 +38,7 @@ const JSON5 = require('json5');
         console.log(`✨ Icon "${i}" is new! Adding a new entry...`);
 
         metadataOutput[i] = {
-          description: '',
+          keywords: '',
           categories: ['ui'],
         };
       }

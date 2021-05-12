@@ -32,7 +32,7 @@ const getChromicons = () => {
   return iconNames?.map((icon) => {
     return {
       name: icon,
-      description: metadata[icon]?.description,
+      keywords: metadata[icon]?.keywords,
       categories: metadata[icon]?.categories,
       reactComponent: allLinedChromicons[icon],
     };
@@ -221,9 +221,9 @@ export default function IndexPage({ pkgVersion }) {
                 filteredIcons?.filter(
                   (icon) =>
                     icon.name.toLowerCase().includes(search.toLowerCase()) ||
-                    icon.description
-                      .toLowerCase()
-                      .includes(search.toLowerCase())
+                    icon?.keywords
+                      ?.toLowerCase()
+                      ?.includes(search.toLowerCase())
                 )
               );
             }}
