@@ -11,7 +11,7 @@ export const Tile = ({ name, isOpen, children, ...rootProps }) => {
     >
       {children}
       {name && (
-        <span className="absolute tile-hover-text-position opacity-0 text-gray-600 uppercase text-xs font-bold tracking-wider truncate max-w-full transition-opacity duration-300 ease-in-out group-hover:opacity-100">
+        <span className="absolute tile-hover-text-position opacity-50 text-gray-600 text-xs font-bold tracking-wider truncate max-w-full transition-opacity duration-300 ease-in-out group-hover:opacity-100">
           {name}
         </span>
       )}
