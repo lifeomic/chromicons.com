@@ -30,6 +30,11 @@
 @tailwind base;
 
 /* Write your own custom base styles here */
+#__next {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
 
 /* Start purging... */
 @tailwind components;

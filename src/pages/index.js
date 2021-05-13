@@ -228,7 +228,7 @@ export default function IndexPage({ pkgVersion }) {
         />
       </header>
 
-      <main className="bg-white text-gray-600 scrolling-touch">
+      <main className="bg-white text-gray-600 flex flex-1 flex-col scrolling-touch">
         <div className="flex justify-between items-center shadow-banner px-4 flex-col sm:px-6 lg:px-16">
           <CategoryFilters
             className="-mt-4"
