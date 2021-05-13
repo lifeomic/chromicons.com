@@ -125,9 +125,9 @@ export default function IndexPage({ pkgVersion }) {
           <div className="py-12 flex items-center text-white space-x-2">
             <Chromicons />
 
-            <dl className="mt-0 mb-1 inline-flex items-center px-2 rounded-full text-xs bg-gradient-to-r from-super-orange to-super-blue">
+            <dl className="inline-flex self-end items-center px-2 rounded-full text-xs bg-gradient-to-r from-super-orange to-super-blue">
               <dt className="sr-only">Chromicons version</dt>
-              <dd>{pkgVersion}</dd>
+              <dd className="text-black">{pkgVersion}</dd>
             </dl>
           </div>
           <nav
@@ -196,12 +196,42 @@ export default function IndexPage({ pkgVersion }) {
             </div>
           </dl>
         </div>
+        <SearchField
+          className="mt-10 w-full sm:px-6 md:px-0 md:mb-0"
+          inputClassName="w-full"
+          value={searchText}
+          onChange={(e) => {
+            const search = e.target.value;
+
+            setSearchText(e.target.value);
+
+            const filteredIcons =
+              selectedTab !== 'all'
+                ? getChromicons()?.filter((icon) =>
+                    icon?.categories?.includes(selectedTab)
+                  )
+                : getChromicons();
+
+            if (!search) {
+              setVisibleIcons(filteredIcons);
+              return;
+            }
+
+            setVisibleIcons(
+              filteredIcons?.filter(
+                (icon) =>
+                  icon.name.toLowerCase().includes(search.toLowerCase()) ||
+                  icon?.keywords?.toLowerCase()?.includes(search.toLowerCase())
+              )
+            );
+          }}
+        />
       </header>
 
       <main className="bg-white text-gray-600 scrolling-touch">
-        <div className="flex justify-between items-center shadow-banner px-4 flex-col md:flex-row sm:px-6 lg:px-16">
+        <div className="flex justify-between items-center shadow-banner px-4 flex-col sm:px-6 lg:px-16">
           <CategoryFilters
-            className="mt-4"
+            className="-mt-4"
             selectedTab={selectedTab}
             onChange={(filter) => {
               setSelectedTab(filter);
@@ -240,41 +270,9 @@ export default function IndexPage({ pkgVersion }) {
               }
             }}
           />
-          <SearchField
-            className="mb-4 w-full sm:px-6 md:px-0 md:mb-0 md:w-auto"
-            inputClassName="w-full md:w-auto"
-            value={searchText}
-            onChange={(e) => {
-              const search = e.target.value;
-
-              setSearchText(e.target.value);
-
-              const filteredIcons =
-                selectedTab !== 'all'
-                  ? getChromicons()?.filter((icon) =>
-                      icon?.categories?.includes(selectedTab)
-                    )
-                  : getChromicons();
-
-              if (!search) {
-                setVisibleIcons(filteredIcons);
-                return;
-              }
-
-              setVisibleIcons(
-                filteredIcons?.filter(
-                  (icon) =>
-                    icon.name.toLowerCase().includes(search.toLowerCase()) ||
-                    icon?.keywords
-                      ?.toLowerCase()
-                      ?.includes(search.toLowerCase())
-                )
-              );
-            }}
-          />
         </div>
         {visibleIcons?.length > 0 ? (
-          <div className="grid grid-cols-2 gap-2 px-4 my-4 max-w-6xl mx-auto sm:px-6 lg:px-16 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+          <div className="flex flex-wrap justify-center px-4 my-4 max-w-6xl mx-auto sm:px-6 lg:px-16">
             {visibleIcons?.map((icon) => {
               const Icon = icon.reactComponent;
               return (
@@ -284,7 +282,7 @@ export default function IndexPage({ pkgVersion }) {
                   isOpen={iconInView?.name === icon?.name}
                   onClick={() => setIconInView(icon)}
                 >
-                  <Icon className="h-6 w-6" />
+                  <Icon className="-mt-4 h-6 w-6" />
                 </Tile>
               );
             })}

@@ -1,5 +1,5 @@
 export const Chromicons = ({ ...rootProps }) => (
-  <svg width={172} height={26} viewBox="0 0 172 26" fill="none" {...rootProps}>
+  <svg width={172} height={24} viewBox="0 0 172 24" fill="none" {...rootProps}>
     <path
       d="M15.84 10.341a7.088 7.088 0 10-.187 9.826M21.663 8.059v14.188M33.96 8.059v14.188M21.663 15.153H33.96"
       stroke="#fff"
