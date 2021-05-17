@@ -31,8 +31,11 @@ const getChromicons = () => {
 
   return iconNames?.map((icon) => {
     return {
-      name: icon,
-      keywords: metadata[icon]?.keywords,
+      name: icon.replace(
+        /[A-Z]+(?![a-z])|[A-Z]|\d+/g,
+        (value, separator) => (separator ? '-' : '') + value.toLowerCase()
+      ),
+      rawName: icon,
       categories: metadata[icon]?.categories,
       reactComponent: allLinedChromicons[icon],
     };
@@ -224,7 +227,8 @@ export default function IndexPage({ pkgVersion }) {
             setVisibleIcons(
               filteredIcons?.filter(
                 (icon) =>
-                  icon.name.toLowerCase().includes(search.toLowerCase()) ||
+                  icon.rawName?.toLowerCase().includes(search.toLowerCase()) ||
+                  icon.name?.toLowerCase().includes(search.toLowerCase()) ||
                   icon?.keywords?.toLowerCase()?.includes(search.toLowerCase())
               )
             );
