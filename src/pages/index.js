@@ -36,6 +36,7 @@ const getChromicons = () => {
         (value, separator) => (separator ? '-' : '') + value.toLowerCase()
       ),
       rawName: icon,
+      keywords: metadata[icon]?.keywords,
       categories: metadata[icon]?.categories,
       reactComponent: allLinedChromicons[icon],
     };
