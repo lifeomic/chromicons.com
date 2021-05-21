@@ -11,7 +11,7 @@ export default {
     keywords: 'warning alert danger',
     categories: ['ui'],
   },
-  AlertOctogon: {
+  AlertOctagon: {
     keywords: '',
     categories: ['ui'],
   },
