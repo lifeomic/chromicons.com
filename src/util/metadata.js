@@ -4,7 +4,7 @@ export default {
     categories: ['ui', 'health'],
   },
   Airplay: {
-    keywords: '',
+    keywords: 'stream cast mirroring',
     categories: ['ui'],
   },
   AlertCircle: {
@@ -12,7 +12,7 @@ export default {
     categories: ['ui'],
   },
   AlertOctagon: {
-    keywords: '',
+    keywords: 'warning alert danger',
     categories: ['ui'],
   },
   AlertTriangle: {
@@ -20,27 +20,27 @@ export default {
     categories: ['ui'],
   },
   AlignCenter: {
-    keywords: '',
+    keywords: 'text alignment',
     categories: ['ui'],
   },
   AlignJustify: {
-    keywords: '',
+    keywords: 'text alignment',
     categories: ['ui'],
   },
   AlignLeft: {
-    keywords: '',
+    keywords: 'text alignment',
     categories: ['ui'],
   },
   AlignRight: {
-    keywords: '',
+    keywords: 'text alignment',
     categories: ['ui'],
   },
   Anchor: {
-    keywords: '',
+    keywords: 'link',
     categories: ['ui'],
   },
   Aperture: {
-    keywords: '',
+    keywords: 'camera photo pic',
     categories: ['ui'],
   },
   Apple: {
@@ -100,7 +100,7 @@ export default {
     categories: ['ui'],
   },
   AtSymbol: {
-    keywords: '',
+    keywords: 'mention at email message',
     categories: ['ui'],
   },
   Award: {
@@ -116,11 +116,11 @@ export default {
     categories: ['ui'],
   },
   Battery: {
-    keywords: '',
+    keywords: 'electricty power',
     categories: ['ui'],
   },
   BatteryCharging: {
-    keywords: '',
+    keywords: 'electricty power',
     categories: ['ui'],
   },
   Bell: {
@@ -136,7 +136,7 @@ export default {
     categories: ['ui'],
   },
   Book: {
-    keywords: '',
+    keywords: 'read dictionary magazine library',
     categories: ['ui'],
   },
   BookOpen: {
@@ -144,7 +144,7 @@ export default {
     categories: ['ui', 'science'],
   },
   Bookmark: {
-    keywords: '',
+    keywords: 'read clip marker tag',
     categories: ['ui'],
   },
   Box: {
@@ -152,11 +152,11 @@ export default {
     categories: ['ui'],
   },
   Briefcase: {
-    keywords: '',
+    keywords: 'work bag folder',
     categories: ['ui'],
   },
   Calendar: {
-    keywords: '',
+    keywords: 'date',
     categories: ['ui'],
   },
   Camera: {
@@ -168,7 +168,7 @@ export default {
     categories: ['ui'],
   },
   Cast: {
-    keywords: '',
+    keywords: 'chromecast airplay mirroring',
     categories: ['ui'],
   },
   Check: {
@@ -204,11 +204,11 @@ export default {
     categories: ['ui'],
   },
   Chrome: {
-    keywords: '',
+    keywords: 'browser web',
     categories: ['ui'],
   },
   Circle: {
-    keywords: '',
+    keywords: 'off zero record',
     categories: ['ui'],
   },
   Clipboard: {
@@ -220,7 +220,7 @@ export default {
     categories: ['ui', 'health', 'science'],
   },
   ClockForward: {
-    keywords: '',
+    keywords: 'time watch fast fasting',
     categories: ['ui'],
   },
   Cloud: {
@@ -228,8 +228,8 @@ export default {
     categories: ['ui', 'science'],
   },
   CloudDrizzle: {
-    keywords: '',
-    categories: ['ui'],
+    keywords: 'weather shower rain sprinkle',
+    categories: ['ui', 'science'],
   },
   CloudLightning: {
     keywords: 'weather bolt',
@@ -240,12 +240,12 @@ export default {
     categories: ['ui', 'science'],
   },
   CloudRain: {
-    keywords: '',
-    categories: ['ui'],
+    keywords: 'weather shower sprinkle storm',
+    categories: ['ui', 'science'],
   },
   CloudSnow: {
-    keywords: '',
-    categories: ['ui'],
+    keywords: 'weather blizzard cold',
+    categories: ['ui', 'science'],
   },
   Code: {
     keywords: '',
@@ -256,19 +256,19 @@ export default {
     categories: ['ui'],
   },
   Coffee: {
-    keywords: '',
+    keywords: 'cup drink mug tea cafe hot beverage',
     categories: ['ui'],
   },
   Column: {
-    keywords: '',
+    keywords: 'layout',
     categories: ['ui'],
   },
   Command: {
-    keywords: '',
+    keywords: 'cmd keyboard prompt terminal',
     categories: ['ui'],
   },
   Compass: {
-    keywords: '',
+    keywords: 'direction navigation safari travel',
     categories: ['ui'],
   },
   Copy: {
@@ -276,27 +276,27 @@ export default {
     categories: ['ui'],
   },
   CornerDownLeft: {
-    keywords: '',
+    keywords: 'arrow return',
     categories: ['ui'],
   },
   CornerLeftDown: {
-    keywords: '',
+    keywords: 'arrow',
     categories: ['ui'],
   },
   CornerLeftUp: {
-    keywords: '',
+    keywords: 'arrow',
     categories: ['ui'],
   },
   CornerRightDown: {
-    keywords: '',
+    keywords: 'arrow',
     categories: ['ui'],
   },
   CornerRightUp: {
-    keywords: '',
+    keywords: 'arrow',
     categories: ['ui'],
   },
   CornerUpRight: {
-    keywords: '',
+    keywords: 'arrow',
     categories: ['ui'],
   },
   Cpu: {
@@ -304,15 +304,15 @@ export default {
     categories: ['ui', 'science'],
   },
   CreditCard: {
-    keywords: '',
+    keywords: 'cc payment purchase',
     categories: ['ui'],
   },
   Crop: {
-    keywords: '',
+    keywords: 'photo pic image',
     categories: ['ui'],
   },
   Crosshair: {
-    keywords: '',
+    keywords: 'aim scope target',
     categories: ['ui'],
   },
   Database: {
@@ -320,11 +320,11 @@ export default {
     categories: ['ui'],
   },
   Delete: {
-    keywords: '',
+    keywords: 'remove',
     categories: ['ui'],
   },
   Disc: {
-    keywords: '',
+    keywords: 'album cd dvd music',
     categories: ['ui'],
   },
   Dna: {
@@ -340,11 +340,11 @@ export default {
     categories: ['ui'],
   },
   DownloadCloud: {
-    keywords: '',
+    keywords: 'arrow',
     categories: ['ui'],
   },
   Droplet: {
-    keywords: '',
+    keywords: 'rain water',
     categories: ['ui'],
   },
   Edit: {
@@ -368,11 +368,11 @@ export default {
     categories: ['ui', 'health', 'science'],
   },
   Facebook: {
-    keywords: '',
+    keywords: 'logo social',
     categories: ['ui'],
   },
   FastForward: {
-    keywords: '',
+    keywords: 'music',
     categories: ['ui'],
   },
   File: {
@@ -396,11 +396,11 @@ export default {
     categories: ['ui'],
   },
   FolderMinus: {
-    keywords: '',
+    keywords: 'direcotry group',
     categories: ['ui'],
   },
   FolderPlus: {
-    keywords: '',
+    keywords: 'directory group',
     categories: ['ui'],
   },
   FontSize: {
@@ -408,19 +408,19 @@ export default {
     categories: ['ui'],
   },
   Gift: {
-    keywords: '',
+    keywords: 'box birthday party present',
     categories: ['ui'],
   },
   Globe: {
-    keywords: '',
+    keywords: 'browser language translate world',
     categories: ['ui'],
   },
   Grid: {
-    keywords: '',
+    keywords: 'layout apps four',
     categories: ['ui'],
   },
   HardDrive: {
-    keywords: '',
+    keywords: 'computer data memory server',
     categories: ['ui'],
   },
   Hash: {
@@ -428,7 +428,7 @@ export default {
     categories: ['ui'],
   },
   Headphones: {
-    keywords: '',
+    keywords: 'music audio sound',
     categories: ['ui'],
   },
   Heart: {
@@ -444,7 +444,7 @@ export default {
     categories: ['ui'],
   },
   Hexagon: {
-    keywords: '',
+    keywords: 'shape node.js logo',
     categories: ['ui'],
   },
   Home: {
@@ -456,7 +456,7 @@ export default {
     categories: ['ui'],
   },
   Inbox: {
-    keywords: '',
+    keywords: 'email',
     categories: ['ui'],
   },
   Info: {
@@ -464,7 +464,7 @@ export default {
     categories: ['ui'],
   },
   Instagram: {
-    keywords: '',
+    keywords: 'logo camera social',
     categories: ['ui'],
   },
   Italic: {
@@ -476,7 +476,7 @@ export default {
     categories: ['ui'],
   },
   Layers: {
-    keywords: '',
+    keywords: 'stack',
     categories: ['ui'],
   },
   Layout: {
@@ -488,7 +488,7 @@ export default {
     categories: [],
   },
   LifeBuoy: {
-    keywords: '',
+    keywords: 'help life ring support',
     categories: ['ui'],
   },
   Lifeology: {
@@ -508,15 +508,15 @@ export default {
     categories: ['ui'],
   },
   Link2: {
-    keywords: '',
+    keywords: 'chain url',
     categories: ['ui'],
   },
   LinkBroken: {
-    keywords: '',
+    keywords: 'chain url break',
     categories: ['ui'],
   },
   Linkedin: {
-    keywords: '',
+    keywords: 'logo social',
     categories: ['ui'],
   },
   List: {
@@ -532,7 +532,7 @@ export default {
     categories: ['ui'],
   },
   LogOut: {
-    keywords: '',
+    keywords: 'arrow sign exit',
     categories: ['ui'],
   },
   Login: {
@@ -544,19 +544,19 @@ export default {
     categories: ['ui'],
   },
   Map: {
-    keywords: '',
+    keywords: 'location navigation travel',
     categories: ['ui'],
   },
   MapPin: {
-    keywords: '',
+    keywords: 'drop location marker navigation travel waypoint',
     categories: ['ui'],
   },
   Maximize: {
-    keywords: 'enlarge frame target select',
+    keywords: 'enlarge expand frame target select',
     categories: ['ui'],
   },
   Maximize2: {
-    keywords: '',
+    keywords: 'fullscreen arrow expand',
     categories: ['ui'],
   },
   Menu: {
@@ -564,7 +564,7 @@ export default {
     categories: ['ui'],
   },
   MessageCircle: {
-    keywords: '',
+    keywords: 'comment chat',
     categories: ['ui'],
   },
   MessageSquare: {
@@ -584,11 +584,11 @@ export default {
     categories: ['ui'],
   },
   Minimize2: {
-    keywords: '',
+    keywords: 'exit fullscreen arrow close',
     categories: ['ui'],
   },
   Minus: {
-    keywords: '',
+    keywords: 'dash subtract collapse',
     categories: ['ui'],
   },
   MinusCircle: {
@@ -596,11 +596,11 @@ export default {
     categories: ['ui'],
   },
   MinusSquare: {
-    keywords: '',
+    keywords: 'dash subtract collapse',
     categories: ['ui'],
   },
   Monitor: {
-    keywords: '',
+    keywords: 'display screen tv',
     categories: ['ui'],
   },
   Moon: {
@@ -612,27 +612,27 @@ export default {
     categories: ['ui'],
   },
   MoreVertical: {
-    keywords: '',
+    keywords: 'ellipsis kabob dots',
     categories: ['ui'],
   },
   MousePointer: {
-    keywords: '',
+    keywords: 'arrow cursor',
     categories: ['ui'],
   },
   Move: {
-    keywords: '',
+    keywords: 'arrow four direction',
     categories: ['ui'],
   },
   Music: {
-    keywords: '',
+    keywords: 'note sound',
     categories: ['ui'],
   },
   Navigation: {
-    keywords: '',
+    keywords: 'arrow location travel',
     categories: ['ui'],
   },
   Navigation2: {
-    keywords: '',
+    keywords: 'arrow location travel',
     categories: ['ui'],
   },
   Needle: {
@@ -640,11 +640,11 @@ export default {
     categories: ['ui', 'health', 'science'],
   },
   NumberList: {
-    keywords: '',
+    keywords: 'order',
     categories: ['ui'],
   },
   Octagon: {
-    keywords: '',
+    keywords: 'shape stop',
     categories: ['ui'],
   },
   Oncoprint: {
@@ -656,23 +656,23 @@ export default {
     categories: ['ui'],
   },
   Paperclip: {
-    keywords: '',
+    keywords: 'attachment',
     categories: ['ui'],
   },
   Pause: {
-    keywords: '',
+    keywords: 'music stop',
     categories: ['ui'],
   },
   PauseCircle: {
-    keywords: '',
+    keywords: 'audio music stop',
     categories: ['ui'],
   },
   PenTool: {
-    keywords: '',
+    keywords: 'drawing vector',
     categories: ['ui'],
   },
   Percent: {
-    keywords: '',
+    keywords: 'discount',
     categories: ['ui'],
   },
   Phone: {
@@ -680,27 +680,27 @@ export default {
     categories: ['ui'],
   },
   PhoneCall: {
-    keywords: '',
+    keywords: 'call ring',
     categories: ['ui'],
   },
   PhoneForwarded: {
-    keywords: '',
+    keywords: 'call',
     categories: ['ui'],
   },
   PhoneIncoming: {
-    keywords: '',
+    keywords: 'call',
     categories: ['ui'],
   },
   PhoneMissed: {
-    keywords: '',
+    keywords: 'call',
     categories: ['ui'],
   },
   PhoneOff: {
-    keywords: '',
+    keywords: 'call mute off',
     categories: ['ui'],
   },
   PhoneOutgoing: {
-    keywords: '',
+    keywords: 'call',
     categories: ['ui'],
   },
   PieChart: {
@@ -716,7 +716,7 @@ export default {
     categories: ['ui', 'science'],
   },
   PlayCircle: {
-    keywords: '',
+    keywords: 'music start',
     categories: ['ui'],
   },
   Plus: {
@@ -732,23 +732,23 @@ export default {
     categories: ['ui'],
   },
   Pocket: {
-    keywords: '',
+    keywords: 'bucket save',
     categories: ['ui'],
   },
   Power: {
-    keywords: '',
+    keywords: 'off on',
     categories: ['ui'],
   },
   Print: {
-    keywords: '',
+    keywords: 'device fax office',
     categories: ['ui'],
   },
   Radio: {
-    keywords: '',
+    keywords: 'signal',
     categories: ['ui'],
   },
   RefreshCcw: {
-    keywords: '',
+    keywords: 'arrow',
     categories: ['ui'],
   },
   RefreshCw: {
@@ -756,11 +756,11 @@ export default {
     categories: ['ui'],
   },
   Repeat: {
-    keywords: '',
+    keywords: 'arrow loop',
     categories: ['ui'],
   },
   Rewind: {
-    keywords: '',
+    keywords: 'music',
     categories: ['ui'],
   },
   RotateCcw: {
@@ -768,15 +768,15 @@ export default {
     categories: ['ui'],
   },
   RotateCw: {
-    keywords: '',
+    keywords: 'arrow circle',
     categories: ['ui'],
   },
   Rss: {
-    keywords: '',
+    keywords: 'feed suscribe',
     categories: ['ui'],
   },
   Ruler: {
-    keywords: '',
+    keywords: 'dimensions distance measure',
     categories: ['ui'],
   },
   Running: {
@@ -784,7 +784,7 @@ export default {
     categories: ['ui', 'health'],
   },
   Save: {
-    keywords: '',
+    keywords: 'floppy',
     categories: ['ui'],
   },
   Scatter: {
@@ -792,7 +792,7 @@ export default {
     categories: ['ui'],
   },
   Scissors: {
-    keywords: '',
+    keywords: 'cut trim',
     categories: ['ui'],
   },
   ScreenShare: {
@@ -812,7 +812,7 @@ export default {
     categories: ['ui'],
   },
   Server: {
-    keywords: '',
+    keywords: 'computer data memory',
     categories: ['ui'],
   },
   Settings: {
@@ -820,35 +820,35 @@ export default {
     categories: ['ui'],
   },
   Share: {
-    keywords: '',
+    keywords: 'arrow',
     categories: ['ui'],
   },
   Share2: {
-    keywords: '',
+    keywords: 'network connections',
     categories: ['ui'],
   },
   Shield: {
-    keywords: '',
+    keywords: 'security secure',
     categories: ['ui'],
   },
   ShieldOff: {
-    keywords: '',
+    keywords: 'security secure',
     categories: ['ui'],
   },
   ShoppingBag: {
-    keywords: '',
+    keywords: 'cart ecommerce purchase store',
     categories: ['ui'],
   },
   ShoppingCart: {
-    keywords: '',
+    keywords: 'cart ecommerce purchase store',
     categories: ['ui'],
   },
   Shuffle: {
-    keywords: '',
+    keywords: 'music',
     categories: ['ui'],
   },
   Sidebar: {
-    keywords: '',
+    keywords: 'layout navigation',
     categories: ['ui'],
   },
   SkipBack: {
@@ -860,15 +860,15 @@ export default {
     categories: ['ui'],
   },
   Slack: {
-    keywords: '',
+    keywords: 'logo',
     categories: ['ui'],
   },
   Slash: {
-    keywords: '',
+    keywords: 'ban no',
     categories: ['ui'],
   },
   Sliders: {
-    keywords: '',
+    keywords: 'configure controls settings',
     categories: ['ui'],
   },
   Smartphone: {
@@ -880,11 +880,11 @@ export default {
     categories: ['ui'],
   },
   Speaker: {
-    keywords: '',
+    keywords: 'audio music sound',
     categories: ['ui'],
   },
   Square: {
-    keywords: '',
+    keywords: 'shape',
     categories: ['ui'],
   },
   Star: {
@@ -892,7 +892,7 @@ export default {
     categories: ['ui', 'health', 'science'],
   },
   StopCircle: {
-    keywords: '',
+    keywords: 'media music',
     categories: ['ui'],
   },
   Sun: {
@@ -900,43 +900,43 @@ export default {
     categories: ['ui', 'science'],
   },
   Sunrise: {
-    keywords: '',
-    categories: ['ui'],
+    keywords: 'weather time morning day',
+    categories: ['ui', 'science'],
   },
   Sunset: {
-    keywords: '',
-    categories: ['ui'],
+    keywords: 'weather time evening night',
+    categories: ['ui', 'science'],
   },
   SurvivalCurve: {
     keywords: 'graph chart diagram statistics',
     categories: ['ui', 'health', 'science'],
   },
   Tablet: {
-    keywords: '',
+    keywords: 'device',
     categories: ['ui'],
   },
   Tag: {
-    keywords: '',
+    keywords: 'label',
     categories: ['ui'],
   },
   Target: {
-    keywords: '',
+    keywords: 'aim precise precision bullseye',
     categories: ['ui'],
   },
   Terminal: {
-    keywords: '',
+    keywords: 'code command line prompt',
     categories: ['ui'],
   },
   Thermometer: {
-    keywords: '',
-    categories: ['ui'],
+    keywords: 'celsius fahrenheit temperature weather',
+    categories: ['ui', 'science'],
   },
   ThumbsDown: {
-    keywords: '',
+    keywords: 'bad dislike emotion',
     categories: ['ui'],
   },
   ThumbsUp: {
-    keywords: '',
+    keywords: 'good like emotion',
     categories: ['ui'],
   },
   ToggleLeft: {
@@ -948,7 +948,7 @@ export default {
     categories: ['ui'],
   },
   Tool: {
-    keywords: '',
+    keywords: 'settings spanner wrench',
     categories: ['ui'],
   },
   Trash: {
@@ -956,39 +956,39 @@ export default {
     categories: ['ui'],
   },
   Trash2: {
-    keywords: '',
+    keywords: 'bin delete garbage remove',
     categories: ['ui'],
   },
   Trello: {
-    keywords: '',
+    keywords: 'logo',
     categories: ['ui'],
   },
   TrendingDown: {
-    keywords: '',
+    keywords: 'down stock line graph decrease',
     categories: ['ui'],
   },
   TrendingUp: {
-    keywords: 'up stock line graph',
+    keywords: 'up stock line graph increase',
     categories: ['ui'],
   },
   Triangle: {
-    keywords: '',
+    keywords: 'delta shape',
     categories: ['ui'],
   },
   Truck: {
-    keywords: '',
+    keywords: 'delivery lorry move shipping transport van',
     categories: ['ui'],
   },
   Tv: {
-    keywords: '',
+    keywords: 'television stream video',
     categories: ['ui'],
   },
   Twitch: {
-    keywords: '',
+    keywords: 'logo',
     categories: ['ui'],
   },
   Twitter: {
-    keywords: '',
+    keywords: 'logo social tweet',
     categories: ['ui'],
   },
   Type: {
@@ -996,23 +996,23 @@ export default {
     categories: ['ui'],
   },
   Umbrella: {
-    keywords: '',
+    keywords: 'weather protect rain shelter',
     categories: ['ui'],
   },
   Underline: {
-    keywords: '',
+    keywords: 'text underscore',
     categories: ['ui'],
   },
   Unlock: {
-    keywords: '',
+    keywords: 'security public',
     categories: ['ui'],
   },
   Upload: {
-    keywords: '',
+    keywords: 'arrow',
     categories: ['ui'],
   },
   UploadCloud: {
-    keywords: '',
+    keywords: 'arrow',
     categories: ['ui', 'health', 'science'],
   },
   User: {
@@ -1020,19 +1020,19 @@ export default {
     categories: ['ui'],
   },
   UserCheck: {
-    keywords: 'followed subscribed',
+    keywords: 'followed subscribed person account member',
     categories: ['ui'],
   },
   UserMinus: {
-    keywords: 'delete remove unfollow unsubscribed',
+    keywords: 'delete remove unfollow unsubscribed person account member',
     categories: ['ui'],
   },
   UserPlus: {
-    keywords: 'new add create follow subscribe',
+    keywords: 'new add create follow subscribe person account member',
     categories: ['ui'],
   },
   UserX: {
-    keywords: '',
+    keywords: 'remove delete person account member',
     categories: ['ui'],
   },
   Users: {
@@ -1052,23 +1052,23 @@ export default {
     categories: ['ui'],
   },
   Voicemail: {
-    keywords: '',
+    keywords: 'phone call',
     categories: ['ui'],
   },
   Volume: {
-    keywords: '',
+    keywords: 'music sound on mute',
     categories: ['ui'],
   },
   Volume1: {
-    keywords: '',
+    keywords: 'music sound',
     categories: ['ui'],
   },
   Volume2: {
-    keywords: '',
+    keywords: 'music sound',
     categories: ['ui'],
   },
   VolumeX: {
-    keywords: '',
+    keywords: 'music sound off mute',
     categories: ['ui'],
   },
   Watch: {
@@ -1076,16 +1076,16 @@ export default {
     categories: ['ui'],
   },
   Wifi: {
-    keywords: '',
+    keywords: 'connection signal wireless',
     categories: ['ui'],
   },
   WifiOff: {
-    keywords: '',
+    keywords: 'connection signal wireless',
     categories: ['ui'],
   },
   Wind: {
-    keywords: '',
-    categories: ['ui'],
+    keywords: 'breeze weather wind',
+    categories: ['ui', 'science'],
   },
   X: {
     keywords: 'cancel close delete remove times clear',
@@ -1096,15 +1096,15 @@ export default {
     categories: ['ui'],
   },
   XOctogon: {
-    keywords: '',
+    keywords: 'delete stop alert warning times clear',
     categories: ['ui'],
   },
   XSquare: {
-    keywords: '',
+    keywords: 'cancel close delete remove times clear',
     categories: ['ui'],
   },
   YouTube: {
-    keywords: '',
+    keywords: 'logo video play',
     categories: ['ui'],
   },
   Zap: {
@@ -1112,8 +1112,8 @@ export default {
     categories: ['ui', 'science'],
   },
   ZapOff: {
-    keywords: '',
-    categories: ['ui'],
+    keywords: 'flash camera lightning',
+    categories: ['ui', 'science'],
   },
   ZoomIn: {
     keywords: 'magnify plus',
