@@ -4,7 +4,7 @@ export const Tile = ({ name, isOpen, children, ...rootProps }) => {
       aria-label={`${name} icon`}
       aria-haspopup="true"
       aria-expanded={isOpen}
-      className="rounded-md group relative flex flex-col items-center justify-center px-12 py-12 text-sm duration-300 ease-in-out transition-all transform hover:-translate-y-1 hover:shadow-lg focus:outline-none focus-visible:shadow-outline"
+      className="w-40 rounded-md group relative flex flex-col items-center justify-center px-12 py-12 text-sm duration-300 ease-in-out transition-all transform hover:-translate-y-1 hover:shadow-lg focus:outline-none focus-visible:shadow-outline"
       type="button"
       tabIndex={0}
       {...rootProps}
