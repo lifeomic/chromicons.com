@@ -219,6 +219,10 @@ export default {
     keywords: 'time watch alarm',
     categories: ['ui', 'health', 'science'],
   },
+  ClockForward: {
+    keywords: '',
+    categories: ['ui'],
+  },
   Cloud: {
     keywords: 'weather',
     categories: ['ui', 'science'],
@@ -351,10 +355,6 @@ export default {
     keywords: 'change pencil',
     categories: ['ui'],
   },
-  Enlarge: {
-    keywords: 'arrow expand fullscreen maximize',
-    categories: ['ui'],
-  },
   ExternalLink: {
     keywords: 'export outbound',
     categories: ['ui'],
@@ -372,10 +372,6 @@ export default {
     categories: ['ui'],
   },
   FastForward: {
-    keywords: '',
-    categories: ['ui'],
-  },
-  Fasting: {
     keywords: '',
     categories: ['ui'],
   },
