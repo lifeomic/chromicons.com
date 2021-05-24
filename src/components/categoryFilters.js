@@ -12,7 +12,7 @@ export const CategoryFilters = ({ className, onChange, selectedTab }) => {
         <div className="flex justify-between items-center space-x-12">
           <Radio
             checked={selectedTab === 'all'}
-            className="pt-10 pb-8"
+            className="pt-12 pb-8"
             id="all"
             name="category"
             onChange={handleOnChange}
@@ -21,7 +21,7 @@ export const CategoryFilters = ({ className, onChange, selectedTab }) => {
           />
           <Radio
             checked={selectedTab === 'ui'}
-            className="pt-10 pb-8"
+            className="pt-12 pb-8"
             id="ui"
             name="category"
             onChange={handleOnChange}
@@ -30,7 +30,7 @@ export const CategoryFilters = ({ className, onChange, selectedTab }) => {
           />
           <Radio
             checked={selectedTab === 'science'}
-            className="pt-10 pb-8"
+            className="pt-12 pb-8"
             id="science"
             name="category"
             onChange={handleOnChange}
@@ -39,7 +39,7 @@ export const CategoryFilters = ({ className, onChange, selectedTab }) => {
           />
           <Radio
             checked={selectedTab === 'health'}
-            className="pt-10 pb-8"
+            className="pt-12 pb-8"
             id="health"
             name="category"
             onChange={handleOnChange}
