@@ -1,471 +1,725 @@
 export default {
   Activity: {
     keywords: 'cardiogram heartbeat pulse action motion',
-    categories: ['ui', 'health'],
+    categories: [
+      'ui',
+      'health',
+    ],
   },
   Airplay: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   AlertCircle: {
     keywords: 'warning alert danger',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   AlertOctagon: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   AlertTriangle: {
     keywords: 'warning alert danger',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   AlignCenter: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   AlignJustify: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   AlignLeft: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   AlignRight: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Anchor: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Aperture: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Apple: {
     keywords: 'health fruit',
-    categories: ['ui', 'health'],
+    categories: [
+      'ui',
+      'health',
+    ],
   },
   Archive: {
     keywords: 'index box',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ArrowDown: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ArrowDownCircle: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ArrowDownLeft: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ArrowDownRight: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ArrowLeft: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ArrowLeftCircle: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ArrowRight: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ArrowRightCircle: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ArrowUp: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ArrowUpCircle: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ArrowUpLeft: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ArrowUpRight: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   AtSymbol: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Award: {
     keywords: 'achievement badge',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   BarChart: {
     keywords: 'statistics diagram graph',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   BarChart2: {
     keywords: 'statistics diagram graph',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Battery: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   BatteryCharging: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Bell: {
     keywords: 'alarm notification sound',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   BellOff: {
     keywords: 'alarm notification sound silent silence mute',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Bold: {
     keywords: 'text',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Book: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   BookOpen: {
     keywords: 'read library',
-    categories: ['ui', 'science'],
+    categories: [
+      'ui',
+      'science',
+    ],
   },
   Bookmark: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Box: {
     keywords: 'cube',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Briefcase: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Calendar: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Camera: {
     keywords: 'camera photo picture',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   CameraOff: {
     keywords: 'camera photo picture',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Cast: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Check: {
     keywords: 'complete done',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   CheckCircle: {
     keywords: 'complete done',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   CheckSquare: {
     keywords: 'complete done',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ChevronDown: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ChevronLeft: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ChevronRight: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ChevronUp: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Chroma: {
     keywords: 'o',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Chrome: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Circle: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Clipboard: {
     keywords: 'copy clone duplicate',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Clock: {
     keywords: 'time watch alarm',
-    categories: ['ui', 'health', 'science'],
+    categories: [
+      'ui',
+      'health',
+      'science',
+    ],
   },
   ClockForward: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Cloud: {
     keywords: 'weather',
-    categories: ['ui', 'science'],
+    categories: [
+      'ui',
+      'science',
+    ],
   },
   CloudDrizzle: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   CloudLightning: {
     keywords: 'weather bolt',
-    categories: ['ui', 'science'],
+    categories: [
+      'ui',
+      'science',
+    ],
   },
   CloudOff: {
     keywords: 'weather off',
-    categories: ['ui', 'science'],
+    categories: [
+      'ui',
+      'science',
+    ],
   },
   CloudRain: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   CloudSnow: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Code: {
     keywords: '',
-    categories: ['ui', 'science'],
+    categories: [
+      'ui',
+      'science',
+    ],
   },
   Codepen: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Coffee: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Column: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Command: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Compass: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Copy: {
     keywords: 'clone duplicate',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   CornerDownLeft: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   CornerLeftDown: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   CornerLeftUp: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   CornerRightDown: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   CornerRightUp: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   CornerUpRight: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Cpu: {
     keywords: 'processor technology',
-    categories: ['ui', 'science'],
+    categories: [
+      'ui',
+      'science',
+    ],
   },
   CreditCard: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Crop: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Crosshair: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Database: {
     keywords: 'storage memory',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Delete: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Disc: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Dna: {
     keywords: 'helix',
-    categories: ['ui', 'health', 'science'],
+    categories: [
+      'ui',
+      'health',
+      'science',
+    ],
   },
   DollarSign: {
     keywords: 'cash currency money',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Download: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   DownloadCloud: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Droplet: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Edit: {
     keywords: 'change pencil',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Edit2: {
     keywords: 'change pencil',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ExternalLink: {
     keywords: 'export outbound',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Eye: {
     keywords: 'display show view watch',
-    categories: ['ui', 'health', 'science'],
+    categories: [
+      'ui',
+      'health',
+      'science',
+    ],
   },
   EyeOff: {
     keywords: 'hide hidden view watch off',
-    categories: ['ui', 'health', 'science'],
+    categories: [
+      'ui',
+      'health',
+      'science',
+    ],
   },
   Facebook: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   FastForward: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   File: {
     keywords: 'document paper text',
-    categories: ['ui', 'science'],
+    categories: [
+      'ui',
+      'science',
+    ],
   },
   FileText: {
     keywords: 'document paper',
-    categories: ['ui', 'science'],
+    categories: [
+      'ui',
+      'science',
+    ],
   },
   Filter: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Flag: {
     keywords: 'end finish goal milestone report',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Folder: {
     keywords: 'directory group',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   FolderMinus: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   FolderPlus: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   FontSize: {
     keywords: 'text',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Gift: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Globe: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Grid: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   HardDrive: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Hash: {
     keywords: 'pound number',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Headphones: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Heart: {
     keywords: 'favorite health life like love',
-    categories: ['ui', 'health', 'science'],
+    categories: [
+      'ui',
+      'health',
+      'science',
+    ],
   },
   Heatmap: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   HelpCircle: {
     keywords: 'question mark',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Hexagon: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Home: {
     keywords: 'house living',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Image: {
     keywords: 'art picture',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Inbox: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Info: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Instagram: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Italic: {
     keywords: 'text emphasize',
@@ -473,15 +727,21 @@ export default {
   },
   Key: {
     keywords: 'authentication lock login password secure',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Layers: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Layout: {
     keywords: 'window webpage grid',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Leaf: {
     keywords: 'botanical biology plant wellness',
@@ -489,638 +749,973 @@ export default {
   },
   LifeBuoy: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Lifeology: {
     keywords: 'athena bird nightingale',
-    categories: ['ui', 'health', 'science'],
+    categories: [
+      'ui',
+      'health',
+      'science',
+    ],
   },
   Lightbulb: {
     keywords: 'idea on',
-    categories: ['ui', 'science'],
+    categories: [
+      'ui',
+      'science',
+    ],
   },
   LineHeight: {
     keywords: 'text space spread expand apart',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Link: {
     keywords: 'chain url',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Link2: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   LinkBroken: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Linkedin: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   List: {
     keywords: 'options menu bulleted',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Loader: {
     keywords: 'progress spinner incomplete',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Lock: {
     keywords: 'security password secure',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   LogOut: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Login: {
     keywords: 'sign enter',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Mail: {
     keywords: 'email message send',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Map: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   MapPin: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Maximize: {
     keywords: 'enlarge frame target select',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Maximize2: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Menu: {
     keywords: 'list bars nav hamburger line',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   MessageCircle: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   MessageSquare: {
     keywords: 'comment chat',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Mic: {
     keywords: 'record sound listen',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   MicOff: {
     keywords: 'record sound listen silent silence mute',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Minimize: {
     keywords: 'exit fullscreen close arrow',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Minimize2: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Minus: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   MinusCircle: {
     keywords: 'dash subtract collapse',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   MinusSquare: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Monitor: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Moon: {
     keywords: 'dark night weather',
-    categories: ['ui', 'science'],
+    categories: [
+      'ui',
+      'science',
+    ],
   },
   MoreHorizontal: {
     keywords: 'ellipsis kabob dots',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   MoreVertical: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   MousePointer: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Move: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Music: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Navigation: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Navigation2: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Needle: {
     keywords: 'syringe shot vaccine',
-    categories: ['ui', 'health', 'science'],
+    categories: [
+      'ui',
+      'health',
+      'science',
+    ],
   },
   NumberList: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Octagon: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Oncoprint: {
     keywords: 'dash box',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Package: {
     keywords: 'box container',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Paperclip: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Pause: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   PauseCircle: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   PenTool: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Percent: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Phone: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   PhoneCall: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   PhoneForwarded: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   PhoneIncoming: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   PhoneMissed: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   PhoneOff: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   PhoneOutgoing: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   PieChart: {
     keywords: 'statistics diagram graph',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Plane: {
     keywords: 'send jet depart flight fly leave trip',
-    categories: ['ui', 'science'],
+    categories: [
+      'ui',
+      'science',
+    ],
   },
   Plant: {
     keywords: 'leaf wellness',
-    categories: ['ui', 'science'],
+    categories: [
+      'ui',
+      'science',
+    ],
   },
   PlayCircle: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Plus: {
     keywords: 'add create new',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   PlusCircle: {
     keywords: 'add create new',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   PlusSquare: {
     keywords: 'add create new',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Pocket: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Power: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Print: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Radio: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   RefreshCcw: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   RefreshCw: {
     keywords: 'arrow circle sync',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Repeat: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Rewind: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   RotateCcw: {
     keywords: 'arrow circle',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   RotateCw: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Rss: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Ruler: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Running: {
     keywords: 'activity exercise fitness person',
-    categories: ['ui', 'health'],
+    categories: [
+      'ui',
+      'health',
+    ],
   },
   Save: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Scatter: {
     keywords: 'plot statistics diagram graph chart',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Scissors: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ScreenShare: {
     keywords: 'video view',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ScreenShareOff: {
     keywords: 'video view',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Search: {
     keywords: 'magnify glass find',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Send: {
     keywords: 'message mail email paper airplane aeroplane',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Server: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Settings: {
     keywords: 'cog edit gear preferences',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Share: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Share2: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Shield: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ShieldOff: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ShoppingBag: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ShoppingCart: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Shuffle: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Sidebar: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   SkipBack: {
     keywords: 'music',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   SkipForward: {
     keywords: 'music',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Slack: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Slash: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Sliders: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Smartphone: {
     keywords: 'cell device mobile',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Smile: {
     keywords: 'emoji face happy good excellent',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Speaker: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Square: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Star: {
     keywords: 'bookmark favorite like rate',
-    categories: ['ui', 'health', 'science'],
+    categories: [
+      'ui',
+      'health',
+      'science',
+    ],
   },
   StopCircle: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Sun: {
     keywords: 'brightness light weather',
-    categories: ['ui', 'science'],
+    categories: [
+      'ui',
+      'science',
+    ],
   },
   Sunrise: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Sunset: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   SurvivalCurve: {
     keywords: 'graph chart diagram statistics',
-    categories: ['ui', 'health', 'science'],
+    categories: [
+      'ui',
+      'health',
+      'science',
+    ],
   },
   Tablet: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Tag: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Target: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Terminal: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Thermometer: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ThumbsDown: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ThumbsUp: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ToggleLeft: {
     keywords: 'on off switch',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ToggleRight: {
     keywords: 'on off switch',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Tool: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Trash: {
     keywords: 'bin delete garbage remove',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Trash2: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Trello: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   TrendingDown: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   TrendingUp: {
     keywords: 'up stock line graph',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Triangle: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Truck: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Tv: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Twitch: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Twitter: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Type: {
     keywords: 'text font',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Umbrella: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Underline: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Unlock: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Upload: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   UploadCloud: {
     keywords: '',
-    categories: ['ui', 'health', 'science'],
+    categories: [
+      'ui',
+      'health',
+      'science',
+    ],
   },
   User: {
     keywords: 'person account member',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   UserCheck: {
     keywords: 'followed subscribed',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   UserMinus: {
     keywords: 'delete remove unfollow unsubscribed',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   UserPlus: {
     keywords: 'new add create follow subscribe',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   UserX: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Users: {
     keywords: 'group members team',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Video: {
     keywords: 'camera movie film',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Video2: {
     keywords: 'camera movie film',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Video2Off: {
     keywords: 'camera movie film',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Voicemail: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Volume: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Volume1: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Volume2: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   VolumeX: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Watch: {
     keywords: 'clock time wearable',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Wifi: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   WifiOff: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Wind: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   X: {
     keywords: 'cancel close delete remove times clear',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   XCircle: {
     keywords: 'cancel close delete remove times clear',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   XOctogon: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   XSquare: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   YouTube: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   Zap: {
     keywords: 'flash camera lightning',
-    categories: ['ui', 'science'],
+    categories: [
+      'ui',
+      'science',
+    ],
   },
   ZapOff: {
     keywords: '',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ZoomIn: {
     keywords: 'magnify plus',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
   ZoomOut: {
     keywords: 'magnify minus',
-    categories: ['ui'],
+    categories: [
+      'ui',
+    ],
   },
 };
