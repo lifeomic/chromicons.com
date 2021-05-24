@@ -39,7 +39,7 @@ export const Radio = ({
         leaveTo="opacity-0"
       >
         <span
-          className="absolute left-0 right-0 top-0 text-center text-xl text-green-400"
+          className="absolute left-0 right-0 top-0 text-center text-xl text-green-400 custom-radio-buttons"
           role="presentation"
           aria-hidden
         >
