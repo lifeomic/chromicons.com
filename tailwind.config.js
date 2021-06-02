@@ -1,18 +1,17 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
+const colors = require('tailwindcss/colors');
 
 module.exports = {
+  mode: 'jit',
   // https://tailwindcss.com/docs/upcoming-changes
   future: {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
   },
-  purge:
-    process.env.NODE_ENV === 'production'
-      ? {
-          enabled: true,
-          content: ['./src/**/*.js'],
-        }
-      : false,
+  purge: {
+    enabled: process.env.NODE_ENV === 'production',
+    content: ['./src/**/*.js'],
+  },
   theme: {
     extend: {
       fontFamily: {
@@ -24,6 +23,8 @@ module.exports = {
         'accent-1': '#333',
         'super-blue': '#2CD9FF',
         'super-orange': '#F29B4A',
+        orange: colors.orange,
+        teal: colors.teal,
       },
       maxWidth: {
         limit: '80rem',

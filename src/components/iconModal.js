@@ -105,7 +105,7 @@ export const IconModal = ({ icon, onDismiss }) => {
 
         <button
           aria-label="Close modal"
-          className="absolute icon-modal-close text-white rounded-full p-2 duration-300 transition-shadow  focus:outline-none focus-visible:shadow-dark-mode-outline"
+          className="absolute -top-16 -right-12 text-white rounded-full p-2 duration-300 transition-shadow  focus:outline-none focus-visible:shadow-dark-mode-outline"
           onClick={onDismiss}
         >
           <X className="text-white" />
