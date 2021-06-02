@@ -160,7 +160,7 @@ export default function IndexPage({ pkgVersion }) {
               <span className="sr-only sm:not-sr-only">GitHub</span>
             </HeroNavLink>
             <HeroNavLink
-              className="sr-only sm:not-sr-only sm:text-white sm:bg-gray-700 sm:rounded-md sm:px-4 sm:py-2 "
+              className="sr-only sm:not-sr-only sm:text-white sm:bg-gray-600 sm:rounded-md sm:px-4 sm:py-2 "
               href="https://github.com/lifeomic/chromicons/archive/master.zip"
             >
               <Download className="mr-2 h-4 w-4" role="img" aria-hidden />
@@ -172,7 +172,7 @@ export default function IndexPage({ pkgVersion }) {
           <h1 className="text-white text-2xl leading-9 font-semibold sm:text-4xl sm:leading-10">
             Handcrafted open source icons
           </h1>
-          <p className="text-gray-400 text-opacity-75 max-w-lg mx-auto text-sm sm:text-base">
+          <p className="text-gray-300 text-opacity-75 max-w-lg mx-auto text-sm sm:text-base">
             Ready to use in web, iOS, Android, and desktop apps. Support for SVG
             and web font. Completely open source, MIT licensed, and built with
             <span className="text-red-600" role="img">
@@ -182,7 +182,7 @@ export default function IndexPage({ pkgVersion }) {
             by the team at LifeOmic.
           </p>
           <dl className="flex flex-wrap justify-center whitespace-no-wrap text-xs font-bold leading-5 sm:text-sm">
-            <div className="flex items-center mx-3 space-x-2 text-orange-400 sm:mx-4 xl:ml-0 xl:mr-8">
+            <div className="flex items-center mx-3 space-x-2 text-orange-300 sm:mx-4 xl:ml-0 xl:mr-8">
               <dt>
                 <Lifeology className="h-6 w-6" role="img" aria-hidden />
               </dt>
@@ -291,7 +291,7 @@ export default function IndexPage({ pkgVersion }) {
                   isOpen={iconInView?.name === icon?.name}
                   onClick={() => setIconInView(icon)}
                 >
-                  <Icon className="-mt-4 h-6 w-6" />
+                  <Icon className="-mt-4 h-6 w-6 stroke-current" />
                 </Tile>
               );
             })}
