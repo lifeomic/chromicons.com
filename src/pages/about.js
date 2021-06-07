@@ -8,11 +8,7 @@ export function getStaticProps() {
 }
 
 const About = ({ pkgVersion }) => {
-  return (
-    <SharedLayout pkgVersion={pkgVersion}>
-      About
-    </SharedLayout>
-  );
-}
+  return <SharedLayout pkgVersion={pkgVersion}>About</SharedLayout>;
+};
 
 export default About;

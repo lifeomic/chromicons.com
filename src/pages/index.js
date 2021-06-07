@@ -38,7 +38,6 @@ export function getStaticProps() {
   };
 }
 
-
 export default function IndexPage({ pkgVersion }) {
   const [iconInView, setIconInView] = useState(null);
   const [selectedTab, setSelectedTab] = useState('all');
@@ -48,32 +47,27 @@ export default function IndexPage({ pkgVersion }) {
 
   return (
     <>
-
       <IconModal icon={iconInView} onDismiss={() => setIconInView(null)} />
 
       <header
         className="mb-16"
         style={{
-          background: "#fff"
+          background: '#fff',
         }}
       >
         <Header pkgVersion={pkgVersion} />
-
       </header>
 
-      <main
-        className="bg-white text-gray-600 flex flex-1 flex-col scrolling-touch -mt-12 w-3/4 m-auto"
-      >
+      <main className="bg-white text-gray-600 flex flex-1 flex-col scrolling-touch -mt-12 w-3/4 m-auto">
         <div className="flex sm:flex-col xl:flex-row font-hero relative mb-16">
-          <div
-            style={{ zIndex: '999' }}
-          >
+          <div style={{ zIndex: '999' }}>
             <h1 className="text-black text-2xl leading-9 font-bold sm:text-4xl sm:leading-10 uppercase">
               Handcrafted open source icons
             </h1>
             <p className="text-black max-w-lg text-sm sm:text-base pt-5 pb-5">
-              Ready to use in web, iOS, Android, and desktop apps. Support for SVG
-              and web font. Completely open source, MIT licensed, and built with
+              Ready to use in web, iOS, Android, and desktop apps. Support for
+              SVG and web font. Completely open source, MIT licensed, and built
+              with
               <span className="text-red-600" role="img">
                 {' '}
                 ♥️{' '}
@@ -107,10 +101,11 @@ export default function IndexPage({ pkgVersion }) {
             <img
               src={`${process.env.BACKEND_URL}/big-icon.png`}
               className="absolute"
+              alt="home banner"
               style={{
                 bottom: -16,
                 right: -5,
-                top: -75
+                top: -75,
               }}
             />
           </div>
@@ -185,9 +180,13 @@ export default function IndexPage({ pkgVersion }) {
                 setVisibleIcons(
                   filteredIcons?.filter(
                     (icon) =>
-                      icon.rawName?.toLowerCase().includes(search.toLowerCase()) ||
+                      icon.rawName
+                        ?.toLowerCase()
+                        .includes(search.toLowerCase()) ||
                       icon.name?.toLowerCase().includes(search.toLowerCase()) ||
-                      icon?.keywords?.toLowerCase()?.includes(search.toLowerCase())
+                      icon?.keywords
+                        ?.toLowerCase()
+                        ?.includes(search.toLowerCase())
                   )
                 );
               }}

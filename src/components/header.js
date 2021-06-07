@@ -22,74 +22,72 @@ const HeroNavLink = ({ className, children, ...rootProps }) => {
 export const Header = ({ pkgVersion }) => {
   return (
     <>
-    <Head>
-      <title>CHROMICONS</title>
-      <link
-        rel="shortcut icon"
-        href={`${process.env.BACKEND_URL}/favicon.ico`}
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="16x16"
-        href={`${process.env.BACKEND_URL}/favicon-16x16.png`}
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="32x32"
-        href={`${process.env.BACKEND_URL}/favicon-32x32.png`}
-      />
-      <link
-        rel="apple-touch-icon"
-        sizes="180x180"
-        href={`${process.env.BACKEND_URL}/apple-touch-icon.png`}
-      />
-      <link
-        rel="apple-touch-icon-precomposed"
-        type="image/png"
-        sizes="144x144"
-        href={`${process.env.BACKEND_URL}/chroma@2x.png`}
-      />
-      <link
-        rel="apple-touch-icon-precomposed"
-        type="image/png"
-        sizes="114x114"
-        href={`${process.env.BACKEND_URL}/chroma@2x.png`}
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="192x192"
-        href={`${process.env.BACKEND_URL}/android-icon-192x192.png`}
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="512x512"
-        href={`${process.env.BACKEND_URL}/android-icon-512x512.png`}
-      />
-      <link
-        rel="manifest"
-        href={`${process.env.BACKEND_URL}/manifest.json`}
-      />
-      <meta name="msapplication-TileColor" content="#ffffff" />
-      <meta
-        name="msapplication-TileImage"
-        content={`${process.env.BACKEND_URL}/chroma@2x.png`}
-      />
-      <meta name="theme-color" content="#ffffff" />
-      <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-      ></meta>
-    </Head>
-    <header>
+      <Head>
+        <title>CHROMICONS</title>
+        <link
+          rel="shortcut icon"
+          href={`${process.env.BACKEND_URL}/favicon.ico`}
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href={`${process.env.BACKEND_URL}/favicon-16x16.png`}
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href={`${process.env.BACKEND_URL}/favicon-32x32.png`}
+        />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href={`${process.env.BACKEND_URL}/apple-touch-icon.png`}
+        />
+        <link
+          rel="apple-touch-icon-precomposed"
+          type="image/png"
+          sizes="144x144"
+          href={`${process.env.BACKEND_URL}/chroma@2x.png`}
+        />
+        <link
+          rel="apple-touch-icon-precomposed"
+          type="image/png"
+          sizes="114x114"
+          href={`${process.env.BACKEND_URL}/chroma@2x.png`}
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="192x192"
+          href={`${process.env.BACKEND_URL}/android-icon-192x192.png`}
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="512x512"
+          href={`${process.env.BACKEND_URL}/android-icon-512x512.png`}
+        />
+        <link
+          rel="manifest"
+          href={`${process.env.BACKEND_URL}/manifest.json`}
+        />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+          name="msapplication-TileImage"
+          content={`${process.env.BACKEND_URL}/chroma@2x.png`}
+        />
+        <meta name="theme-color" content="#ffffff" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0"
+        ></meta>
+      </Head>
+      <header>
         <div className="flex justify-between mb-16 w-3/4 m-auto mx-auto">
           <div className="py-12 flex items-center text-white -space-x-8">
-            <div
-              style={{cursor: 'pointer'}}
-            >
+            <div style={{ cursor: 'pointer' }}>
               <Chromicons />
             </div>
             <dl className="items-center px-2 rounded-full text-xs bg-gradient-to-r from-super-orange to-super-blue -mt-8">
@@ -102,7 +100,7 @@ export const Header = ({ pkgVersion }) => {
             role="navigation"
             aria-label="Primary Navigation"
           >
-          {/*
+            {/*
             <HeroNavLink
               href="/about"
               rel="noopener noreferrer"
@@ -138,9 +136,7 @@ export const Header = ({ pkgVersion }) => {
         </div>
       </header>
     </>
-
   );
-
-}
+};
 
 export default Header;

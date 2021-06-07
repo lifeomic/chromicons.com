@@ -65,9 +65,8 @@ export const Footer = ({ pkgVersion }) => {
           </p>
         </div>
       </footer>
-
     </>
   );
-}
+};
 
 export default Footer;
