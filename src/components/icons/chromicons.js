@@ -2,13 +2,12 @@ import React from 'react';
 import Link from 'next/link';
 
 export const Chromicons = ({ ...rootProps }) => (
-  <Link href="/" passHref>
+  <a href="/" passHref>
     <svg
       width={204}
       height={26}
       viewBox="0 0 204 26"
       fill="none"
-      style={{ cursor: 'pointer' }}
       {...rootProps}
     >
       <path
@@ -109,5 +108,5 @@ export const Chromicons = ({ ...rootProps }) => (
         </linearGradient>
       </defs>
     </svg>
-  </Link>
+  </a>
 );
