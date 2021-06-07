@@ -47,20 +47,78 @@ export default function IndexPage({ pkgVersion }) {
 
   return (
     <>
+      <Head>
+        <title>CHROMICONS</title>
+        <link
+          rel="shortcut icon"
+          href={`${process.env.BACKEND_URL}/favicon.ico`}
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href={`${process.env.BACKEND_URL}/favicon-16x16.png`}
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href={`${process.env.BACKEND_URL}/favicon-32x32.png`}
+        />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href={`${process.env.BACKEND_URL}/apple-touch-icon.png`}
+        />
+        <link
+          rel="apple-touch-icon-precomposed"
+          type="image/png"
+          sizes="144x144"
+          href={`${process.env.BACKEND_URL}/chroma@2x.png`}
+        />
+        <link
+          rel="apple-touch-icon-precomposed"
+          type="image/png"
+          sizes="114x114"
+          href={`${process.env.BACKEND_URL}/chroma@2x.png`}
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="192x192"
+          href={`${process.env.BACKEND_URL}/android-icon-192x192.png`}
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="512x512"
+          href={`${process.env.BACKEND_URL}/android-icon-512x512.png`}
+        />
+        <link
+          rel="manifest"
+          href={`${process.env.BACKEND_URL}/manifest.json`}
+        />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+          name="msapplication-TileImage"
+          content={`${process.env.BACKEND_URL}/chroma@2x.png`}
+        />
+        <meta name="theme-color" content="#ffffff" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0"
+        ></meta>
+      </Head>
+
       <IconModal icon={iconInView} onDismiss={() => setIconInView(null)} />
 
-      <header
-        className="mb-16"
-        style={{
-          background: '#fff',
-        }}
-      >
+      <header className="mb-16 bg-white">
         <Header pkgVersion={pkgVersion} />
       </header>
 
-      <main className="bg-white text-gray-600 flex flex-1 flex-col scrolling-touch -mt-12 w-3/4 m-auto">
-        <div className="flex sm:flex-col xl:flex-row font-hero relative mb-16">
-          <div style={{ zIndex: '999' }}>
+      <main className="bg-white text-gray-600 flex flex-1 flex-col scrolling-touch w-3/4 m-auto">
+        <div className="flex sm:flex-col xl:flex-row relative mb-16">
+          <div style={{ zIndex: '2' }}>
             <h1 className="text-black text-2xl leading-9 font-bold sm:text-4xl sm:leading-10 uppercase">
               Handcrafted open source icons
             </h1>
@@ -113,7 +171,7 @@ export default function IndexPage({ pkgVersion }) {
 
         <div
           className="lg:flex md:flex sm:flex justify-between items-start shadow-banner px-4 lg:flex-row sm:flex-col sm:px-6 lg:px-6 bg-white"
-          style={{ zIndex: '9999' }}
+          style={{ zIndex: '2' }}
         >
           <CategoryFilters
             className="-mt-4"
@@ -196,7 +254,7 @@ export default function IndexPage({ pkgVersion }) {
         {visibleIcons?.length > 0 ? (
           <div
             className="flex flex-wrap justify-center mx-auto bg-white"
-            style={{ zIndex: '9999' }}
+            style={{ zIndex: '2' }}
           >
             {visibleIcons?.map((icon) => {
               const Icon = icon.reactComponent;

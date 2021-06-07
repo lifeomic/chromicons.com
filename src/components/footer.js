@@ -1,9 +1,7 @@
-import React from 'react';
 import { LifeOmic } from '../components/icons/lifeomic';
 
 export const Footer = ({ pkgVersion }) => {
   return (
-    <>
       <footer className="flex flex-col justify-center bg-gray-100 py-12 space-y-6 md:py-14 px-4 sm:px-6 lg:px-16 leading-5">
         <div className="max-w-limit mx-auto text-center text-sm text-gray-600 space-y-6 md:space-x-10 md:space-y-0 md:text-left md:flex">
           <div className="flex items-center space-x-2">
@@ -65,7 +63,6 @@ export const Footer = ({ pkgVersion }) => {
           </p>
         </div>
       </footer>
-    </>
   );
 };
 

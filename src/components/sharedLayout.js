@@ -7,8 +7,7 @@ export const SharedLayout = ({ children, pkgVersion }) => {
     <>
       <Header pkgVersion={pkgVersion} />
       <main
-        className="bg-white text-gray-600 flex flex-1 flex-col scrolling-touch -mt-12 w-3/4 m-auto"
-        style={{ zIndex: 9999 }}
+        className="bg-white text-gray-600 flex flex-1 flex-col scrolling-touch w-3/4 m-auto"
       >
         {children}
       </main>
