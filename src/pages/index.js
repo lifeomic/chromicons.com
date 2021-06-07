@@ -103,16 +103,15 @@ export default function IndexPage({ pkgVersion }) {
               </div>
             </dl>
           </div>
-          <div
-            className="-mt-12"
-            style={{ zIndex: '1' }}
-            >
+          <div>
             <img
               src={`${process.env.BACKEND_URL}/big-icon.png`}
-              alt="banner image"
               className="absolute"
-              loading="lazy"
-              style={{ bottom: -16, right: -5, top: -75 }}
+              style={{
+                bottom: -16,
+                right: -5,
+                top: -75
+              }}
             />
           </div>
         </div>
@@ -209,7 +208,7 @@ export default function IndexPage({ pkgVersion }) {
                   isOpen={iconInView?.name === icon?.name}
                   onClick={() => setIconInView(icon)}
                 >
-                  <Icon className="-mt-4 h-6 w-6" />
+                  <Icon className="-mt-4 h-6 w-6 stroke-current" />
                 </Tile>
               );
             })}

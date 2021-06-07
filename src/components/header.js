@@ -102,12 +102,15 @@ export const Header = ({ pkgVersion }) => {
             role="navigation"
             aria-label="Primary Navigation"
           >
+          {/*
             <HeroNavLink
               href="/about"
               rel="noopener noreferrer"
             >
               <span className="sr-only sm:not-sr-only">About</span>
             </HeroNavLink>
+          */}
+
             <HeroNavLink
               href="https://github.com/lifeomic/chromicons"
               target="_blank"

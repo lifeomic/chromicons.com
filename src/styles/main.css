@@ -27,6 +27,15 @@
   src: url('../fonts/Comfortaa-VariableFont_wght.ttf') format('woff2');
 }
 
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 100 400 700;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('../fonts/Poppins-Regular.ttf') format('woff2');
+}
+
 @tailwind base;
 
 /* Write your own custom base styles here */
@@ -41,18 +50,6 @@
 /* Stop purging. */
 
 /* Write you own custom component styles here */
-.icon-modal-close {
-  top: -4rem;
-  right: -3rem;
-}
-
-.tile-hover-text-position {
-  bottom: 1.5rem;
-}
-span.absolute.left-0.right-0.top-0.text-center.text-xl.text-green-400.custom-radio-buttons {
-  top: 1.6rem;
-}
-
 @keyframes slide-up-from-bottom {
   from {
     transform: translate3d(0rem, 12.5rem, 0rem);
