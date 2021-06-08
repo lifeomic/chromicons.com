@@ -112,9 +112,7 @@ export default function IndexPage({ pkgVersion }) {
 
       <IconModal icon={iconInView} onDismiss={() => setIconInView(null)} />
 
-      <header className="mb-16 bg-white">
-        <Header pkgVersion={pkgVersion} />
-      </header>
+      <Header pkgVersion={pkgVersion} />
 
       <main className="bg-white text-gray-600 flex flex-1 flex-col scrolling-touch w-3/4 m-auto">
         <div className="flex sm:flex-col xl:flex-row relative mb-16">
@@ -168,7 +166,6 @@ export default function IndexPage({ pkgVersion }) {
             />
           </div>
         </div>
-
         <div
           className="lg:flex md:flex sm:flex justify-between items-start shadow-banner px-4 lg:flex-row sm:flex-col sm:px-6 lg:px-6 bg-white"
           style={{ zIndex: '2' }}

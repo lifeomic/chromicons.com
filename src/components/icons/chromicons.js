@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const Chromicons = ({ ...rootProps }) => (
   <Link href="/" passHref>
-    <a style={{ cursor: 'pointer' }}>
+    <a className="cursor-pointer">
       <svg
         width={204}
         height={26}

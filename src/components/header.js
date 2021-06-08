@@ -20,7 +20,7 @@ const HeroNavLink = ({ className, children, ...rootProps }) => {
 
 export const Header = ({ pkgVersion }) => {
   return (
-    <>
+    <header className="mb-16 bg-white">
       <div className="flex justify-between w-3/4 m-auto mx-auto">
         <div className="py-12 flex items-center text-white -space-x-8">
           <Chromicons />
@@ -59,7 +59,7 @@ export const Header = ({ pkgVersion }) => {
           </HeroNavLink>
         </nav>
       </div>
-    </>
+    </header>
   );
 };
 
