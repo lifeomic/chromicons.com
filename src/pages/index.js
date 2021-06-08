@@ -114,9 +114,9 @@ export default function IndexPage({ pkgVersion }) {
 
       <Header pkgVersion={pkgVersion} />
 
-      <main className="bg-white text-gray-600 flex flex-1 flex-col scrolling-touch w-3/4 m-auto">
+      <main className="text-gray-600 flex flex-1 flex-col scrolling-touch w-3/4 m-auto bg-transparent">
         <div className="flex sm:flex-col xl:flex-row relative mb-16">
-          <div style={{ zIndex: '2' }}>
+          <div>
             <h1 className="text-black text-2xl leading-9 font-bold sm:text-4xl sm:leading-10 uppercase">
               Handcrafted open source icons
             </h1>
@@ -162,13 +162,13 @@ export default function IndexPage({ pkgVersion }) {
                 bottom: -16,
                 right: -5,
                 top: -75,
+                zIndex: -1
               }}
             />
           </div>
         </div>
         <div
           className="lg:flex md:flex sm:flex justify-between items-start shadow-banner px-4 lg:flex-row sm:flex-col sm:px-6 lg:px-6 bg-white"
-          style={{ zIndex: '2' }}
         >
           <CategoryFilters
             className="-mt-4"
@@ -251,7 +251,6 @@ export default function IndexPage({ pkgVersion }) {
         {visibleIcons?.length > 0 ? (
           <div
             className="flex flex-wrap justify-center mx-auto bg-white"
-            style={{ zIndex: '2' }}
           >
             {visibleIcons?.map((icon) => {
               const Icon = icon.reactComponent;
