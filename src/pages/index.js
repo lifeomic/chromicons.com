@@ -162,14 +162,12 @@ export default function IndexPage({ pkgVersion }) {
                 bottom: -16,
                 right: -5,
                 top: -75,
-                zIndex: -1
+                zIndex: -1,
               }}
             />
           </div>
         </div>
-        <div
-          className="lg:flex md:flex sm:flex justify-between items-start shadow-banner px-4 lg:flex-row sm:flex-col sm:px-6 lg:px-6 bg-white"
-        >
+        <div className="lg:flex md:flex sm:flex justify-between items-start shadow-banner px-4 lg:flex-row sm:flex-col sm:px-6 lg:px-6 bg-white">
           <CategoryFilters
             className="-mt-4"
             selectedTab={selectedTab}
@@ -249,9 +247,7 @@ export default function IndexPage({ pkgVersion }) {
           </div>
         </div>
         {visibleIcons?.length > 0 ? (
-          <div
-            className="flex flex-wrap justify-center mx-auto bg-white"
-          >
+          <div className="flex flex-wrap justify-center mx-auto bg-white">
             {visibleIcons?.map((icon) => {
               const Icon = icon.reactComponent;
               return (
