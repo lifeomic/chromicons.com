@@ -124,7 +124,7 @@ export default function IndexPage({ pkgVersion }) {
               Ready to use in web, iOS, Android, and desktop apps. Support for
               SVG and web font. Completely open source, MIT licensed, and built
               with
-              <span className="text-red-600" role="img">
+              <span className="text-red-600" role="img" aria-label="love">
                 {' '}
                 ♥️{' '}
               </span>

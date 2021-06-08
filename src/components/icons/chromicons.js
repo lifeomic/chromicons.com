@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const Chromicons = ({ ...rootProps }) => (
   <Link href="/" passHref>
-    <a className="cursor-pointer">
+    <a className="cursor-pointer" aria-label="Navigate home">
       <svg
         width={204}
         height={26}

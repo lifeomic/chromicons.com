@@ -1,33 +1,6 @@
 @import '@reach/dialog/styles.css';
 
 @font-face {
-  font-family: 'Inter var';
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: normal;
-  font-named-instance: 'Regular';
-  src: url('../fonts/Inter-roman-latin.var.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Inter var';
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: italic;
-  font-named-instance: 'Italic';
-  src: url('../fonts/Inter-italic-latin.var.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Comfortaa';
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: normal;
-  font-named-instance: 'Regular';
-  src: url('../fonts/Comfortaa-VariableFont_wght.ttf') format('woff2');
-}
-
-@font-face {
   font-family: 'Poppins';
   font-weight: 100 400 700;
   font-display: swap;
