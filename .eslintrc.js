@@ -5,6 +5,16 @@ module.exports = {
     node: true,
     es2020: true,
   },
+  rules: {
+    'jsx-a11y/anchor-is-valid': [
+      'error',
+      {
+        components: ['Link'],
+        specialLink: ['hrefLeft', 'hrefRight'],
+        aspects: ['invalidHref', 'preferButton'],
+      },
+    ],
+  },
   settings: {
     react: {
       version: 'detect',

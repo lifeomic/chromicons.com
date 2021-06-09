@@ -15,14 +15,15 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        sans: ['Poppins', ...defaultTheme.fontFamily.sans],
         system: defaultTheme.fontFamily.sans,
-        hero: ['Comfortaa', 'Inter var', ...defaultTheme.fontFamily.sans],
+        hero: ['Poppins', 'Poppins', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         'accent-1': '#333',
         'super-blue': '#2CD9FF',
         'super-orange': '#F29B4A',
+        'super-yellow': '#F9CD31',
         orange: colors.orange,
         teal: colors.teal,
       },
