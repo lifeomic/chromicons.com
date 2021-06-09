@@ -8,7 +8,7 @@ const HeroNavLink = ({ className, children, ...rootProps }) => {
   return (
     <a
       className={clsx(
-        'flex items-center px-2 duration-300 ease-in-out transition-opacity hover:opacity-75 focus:outline-none focus-visible:shadow-dark-mode-outline focus-visible:underline',
+        'flex items-center px-2 duration-300 ease-in-out transition-opacity hover:opacity-75 focus:outline-none focus-visible:underline',
         className
       )}
       {...rootProps}
