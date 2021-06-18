@@ -1,6 +1,5 @@
-import { useState } from 'react';
 import { Chromicons } from './icons/chromicons';
-import { CheckCircle, Download, Flag, Lifeology } from '@lifeomic/chromicons';
+import { Download } from '@lifeomic/chromicons';
 import * as allLinedChromicons from '@lifeomic/chromicons';
 import clsx from 'clsx';
 
