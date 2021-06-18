@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 
 export const Chromicons = ({ ...rootProps }) => (
-  <Link href={`${process.env.BACKEND_URL}`} passHref>
+  <Link href={process.env.BACKEND_URL} passHref>
     <a className="cursor-pointer" aria-label="Navigate home">
       <svg
         width={204}
