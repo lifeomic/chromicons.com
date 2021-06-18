@@ -1,4 +1,8 @@
 export default {
+  AccessPolicy: {
+    keywords: '',
+    categories: ['ui'],
+  },
   Activity: {
     keywords: 'cardiogram heartbeat pulse action motion',
     categories: ['ui', 'health'],
@@ -167,6 +171,10 @@ export default {
     keywords: 'camera photo picture',
     categories: ['ui'],
   },
+  CapsulePills: {
+    keywords: '',
+    categories: ['ui'],
+  },
   Cast: {
     keywords: 'chromecast airplay mirroring',
     categories: ['ui'],
@@ -177,6 +185,14 @@ export default {
   },
   CheckCircle: {
     keywords: 'complete done',
+    categories: ['ui'],
+  },
+  CheckFile: {
+    keywords: '',
+    categories: ['ui'],
+  },
+  CheckList: {
+    keywords: '',
     categories: ['ui'],
   },
   CheckSquare: {
@@ -211,6 +227,10 @@ export default {
     keywords: 'off zero record',
     categories: ['ui'],
   },
+  ClearList: {
+    keywords: '',
+    categories: ['ui'],
+  },
   Clipboard: {
     keywords: 'copy clone duplicate',
     categories: ['ui'],
@@ -221,6 +241,10 @@ export default {
   },
   ClockForward: {
     keywords: 'time watch fast fasting',
+    categories: ['ui'],
+  },
+  ClockRewind: {
+    keywords: '',
     categories: ['ui'],
   },
   Cloud: {
@@ -315,6 +339,10 @@ export default {
     keywords: 'aim scope target',
     categories: ['ui'],
   },
+  CryptoKey: {
+    keywords: '',
+    categories: ['ui'],
+  },
   Database: {
     keywords: 'storage memory',
     categories: ['ui'],
@@ -325,6 +353,10 @@ export default {
   },
   Disc: {
     keywords: 'album cd dvd music',
+    categories: ['ui'],
+  },
+  Disguise: {
+    keywords: '',
     categories: ['ui'],
   },
   Dna: {
@@ -407,6 +439,10 @@ export default {
     keywords: 'text',
     categories: ['ui'],
   },
+  Function: {
+    keywords: '',
+    categories: ['ui'],
+  },
   Gift: {
     keywords: 'box birthday party present',
     categories: ['ui'],
@@ -435,7 +471,19 @@ export default {
     keywords: 'favorite health life like love',
     categories: ['ui', 'health', 'science'],
   },
+  HeartCircle: {
+    keywords: '',
+    categories: ['ui'],
+  },
+  HeartList: {
+    keywords: '',
+    categories: ['ui'],
+  },
   Heatmap: {
+    keywords: '',
+    categories: ['ui'],
+  },
+  HelixAlt: {
     keywords: '',
     categories: ['ui'],
   },
@@ -449,6 +497,10 @@ export default {
   },
   Home: {
     keywords: 'house living',
+    categories: ['ui'],
+  },
+  Hook: {
+    keywords: '',
     categories: ['ui'],
   },
   Image: {
@@ -615,6 +667,10 @@ export default {
     keywords: 'ellipsis kabob dots',
     categories: ['ui'],
   },
+  MortarBoard: {
+    keywords: '',
+    categories: ['ui'],
+  },
   MousePointer: {
     keywords: 'arrow cursor',
     categories: ['ui'],
@@ -639,12 +695,24 @@ export default {
     keywords: 'syringe shot vaccine',
     categories: ['ui', 'health', 'science'],
   },
+  NodeMesh: {
+    keywords: '',
+    categories: ['ui'],
+  },
+  NodeTree: {
+    keywords: '',
+    categories: ['ui'],
+  },
   NumberList: {
     keywords: 'order',
     categories: ['ui'],
   },
   Octagon: {
     keywords: 'shape stop',
+    categories: ['ui'],
+  },
+  OfficeBuilding: {
+    keywords: '',
     categories: ['ui'],
   },
   Oncoprint: {
@@ -719,6 +787,14 @@ export default {
     keywords: 'music start',
     categories: ['ui'],
   },
+  PlotCurve: {
+    keywords: '',
+    categories: ['ui'],
+  },
+  PlotNeedle: {
+    keywords: '',
+    categories: ['ui'],
+  },
   Plus: {
     keywords: 'add create new',
     categories: ['ui'],
@@ -743,6 +819,10 @@ export default {
     keywords: 'device fax office',
     categories: ['ui'],
   },
+  Procedure: {
+    keywords: '',
+    categories: ['ui'],
+  },
   Radio: {
     keywords: 'signal',
     categories: ['ui'],
@@ -757,6 +837,10 @@ export default {
   },
   Repeat: {
     keywords: 'arrow loop',
+    categories: ['ui'],
+  },
+  ResetDate: {
+    keywords: '',
     categories: ['ui'],
   },
   Rewind: {
@@ -1039,6 +1123,10 @@ export default {
     keywords: 'group members team',
     categories: ['ui'],
   },
+  Versions: {
+    keywords: '',
+    categories: ['ui'],
+  },
   Video: {
     keywords: 'camera movie film',
     categories: ['ui'],
@@ -1073,6 +1161,10 @@ export default {
   },
   Watch: {
     keywords: 'clock time wearable',
+    categories: ['ui'],
+  },
+  Webhook: {
+    keywords: '',
     categories: ['ui'],
   },
   Wifi: {

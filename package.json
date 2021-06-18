@@ -13,7 +13,7 @@
     "next:start": "next start"
   },
   "dependencies": {
-    "@lifeomic/chromicons": "^0.1.10",
+    "@lifeomic/chromicons": "^0.2.0",
     "@reach/alert": "^0.11.2",
     "@reach/dialog": "^0.11.2",
     "@tailwindui/react": "^0.1.1",
