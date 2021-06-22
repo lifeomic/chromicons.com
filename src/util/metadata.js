@@ -127,6 +127,10 @@ export default {
     keywords: 'electricty power',
     categories: ['ui'],
   },
+  Beaker: {
+    keywords: '',
+    categories: ['ui'],
+  },
   Bell: {
     keywords: 'alarm notification sound',
     categories: ['ui'],
@@ -359,10 +363,6 @@ export default {
     keywords: '',
     categories: ['ui'],
   },
-  Dna: {
-    keywords: 'helix',
-    categories: ['ui', 'health', 'science'],
-  },
   DollarSign: {
     keywords: 'cash currency money',
     categories: ['ui'],
@@ -483,7 +483,11 @@ export default {
     keywords: '',
     categories: ['ui'],
   },
-  HelixAlt: {
+  Helix: {
+    keywords: '',
+    categories: ['ui'],
+  },
+  Helix2: {
     keywords: '',
     categories: ['ui'],
   },
@@ -603,6 +607,14 @@ export default {
     keywords: 'drop location marker navigation travel waypoint',
     categories: ['ui'],
   },
+  Mask: {
+    keywords: '',
+    categories: ['ui'],
+  },
+  MaxDate: {
+    keywords: '',
+    categories: ['ui'],
+  },
   Maximize: {
     keywords: 'enlarge expand frame target select',
     categories: ['ui'],
@@ -649,6 +661,10 @@ export default {
   },
   MinusSquare: {
     keywords: 'dash subtract collapse',
+    categories: ['ui'],
+  },
+  Molecule: {
+    keywords: '',
     categories: ['ui'],
   },
   Monitor: {
@@ -775,6 +791,10 @@ export default {
     keywords: 'statistics diagram graph',
     categories: ['ui'],
   },
+  Pill: {
+    keywords: '',
+    categories: ['ui'],
+  },
   Plane: {
     keywords: 'send jet depart flight fly leave trip',
     categories: ['ui', 'science'],
@@ -820,6 +840,10 @@ export default {
     categories: ['ui'],
   },
   Procedure: {
+    keywords: '',
+    categories: ['ui'],
+  },
+  Radar: {
     keywords: '',
     categories: ['ui'],
   },
@@ -941,6 +965,10 @@ export default {
   },
   SkipForward: {
     keywords: 'music',
+    categories: ['ui'],
+  },
+  Skull: {
+    keywords: '',
     categories: ['ui'],
   },
   Slack: {
@@ -1137,6 +1165,10 @@ export default {
   },
   Video2Off: {
     keywords: 'camera movie film',
+    categories: ['ui'],
+  },
+  Virus: {
+    keywords: '',
     categories: ['ui'],
   },
   Voicemail: {
