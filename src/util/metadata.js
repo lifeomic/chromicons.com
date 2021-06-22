@@ -129,7 +129,7 @@ export default {
   },
   Beaker: {
     keywords: '',
-    categories: ['ui'],
+    categories: ['ui', 'science', 'health'],
   },
   Bell: {
     keywords: 'alarm notification sound',
@@ -609,7 +609,7 @@ export default {
   },
   Mask: {
     keywords: '',
-    categories: ['ui'],
+    categories: ['ui', 'science', 'health'],
   },
   MaxDate: {
     keywords: '',
@@ -665,7 +665,7 @@ export default {
   },
   Molecule: {
     keywords: '',
-    categories: ['ui'],
+    categories: ['ui', 'science', 'health'],
   },
   Monitor: {
     keywords: 'display screen tv',
@@ -793,7 +793,7 @@ export default {
   },
   Pill: {
     keywords: '',
-    categories: ['ui'],
+    categories: ['ui', 'science', 'health'],
   },
   Plane: {
     keywords: 'send jet depart flight fly leave trip',
@@ -969,7 +969,7 @@ export default {
   },
   Skull: {
     keywords: '',
-    categories: ['ui'],
+    categories: ['ui', 'science', 'health'],
   },
   Slack: {
     keywords: 'logo',
@@ -1169,7 +1169,7 @@ export default {
   },
   Virus: {
     keywords: '',
-    categories: ['ui'],
+    categories: ['ui', 'science', 'health'],
   },
   Voicemail: {
     keywords: 'phone call',
