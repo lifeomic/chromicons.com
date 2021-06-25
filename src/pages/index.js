@@ -1,19 +1,15 @@
 import { CategoryFilters } from '../components/categoryFilters';
-import { Chromicons } from '../components/icons/chromicons';
 import { IconModal } from '../components/iconModal';
-import { LifeOmic } from '../components/icons/lifeomic';
 import { SearchField } from '../components/searchField';
 import { Tile } from '../components/tile';
 import { Header } from '../components/header';
 import { Footer } from '../components/footer';
 import { Transition } from '@tailwindui/react';
 import { useState } from 'react';
-import { CheckCircle, Download, Flag, Lifeology } from '@lifeomic/chromicons';
+import { CheckCircle, Flag, Lifeology } from '@lifeomic/chromicons';
 import * as allLinedChromicons from '@lifeomic/chromicons';
-import clsx from 'clsx';
 import Head from 'next/head';
 import metadata from '../util/metadata';
-import Link from 'next/link';
 
 const getChromicons = () => {
   const iconNames = Object.keys(allLinedChromicons);
