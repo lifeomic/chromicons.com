@@ -243,7 +243,7 @@ export default function IndexPage({ pkgVersion }) {
           </div>
         </div>
         {visibleIcons?.length > 0 ? (
-          <div className="flex flex-wrap justify-center mx-auto w-full bg-white">
+          <div className="flex flex-wrap items-start justify-center mx-auto mb-8 min-h-1/2 w-full bg-white">
             {visibleIcons?.map((icon) => {
               const Icon = icon.reactComponent;
               return (

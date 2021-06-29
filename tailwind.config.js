@@ -14,10 +14,9 @@ module.exports = {
   },
   theme: {
     extend: {
-      fontFamily: {
-        sans: ['Poppins', ...defaultTheme.fontFamily.sans],
-        system: defaultTheme.fontFamily.sans,
-        hero: ['Poppins', 'Poppins', ...defaultTheme.fontFamily.sans],
+      boxShadow: {
+        'dark-mode-outline': '0 0 0 3px rgba(255, 255, 225, 0.95)',
+        banner: '0px 4px 40px rgba(0, 0, 0, 0.05)',
       },
       colors: {
         'accent-1': '#333',
@@ -27,12 +26,20 @@ module.exports = {
         orange: colors.orange,
         teal: colors.teal,
       },
+      fontFamily: {
+        sans: ['Poppins', ...defaultTheme.fontFamily.sans],
+        system: defaultTheme.fontFamily.sans,
+        hero: ['Poppins', 'Poppins', ...defaultTheme.fontFamily.sans],
+      },
       maxWidth: {
         limit: '80rem',
       },
-      boxShadow: {
-        'dark-mode-outline': '0 0 0 3px rgba(255, 255, 225, 0.95)',
-        banner: '0px 4px 40px rgba(0, 0, 0, 0.05)',
+      minHeight: {
+        '0': '0',
+        '1/4': '25%',
+        '1/2': '50%',
+        '3/4': '75%',
+        'full': '100%',
       },
     },
   },
