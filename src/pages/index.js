@@ -37,7 +37,6 @@ export function getStaticProps() {
 export default function IndexPage({ pkgVersion }) {
   const [iconInView, setIconInView] = useState(null);
   const [selectedTab, setSelectedTab] = useState('all');
-  const [searchText, setSearchText] = useState('');
 
   const [visibleIcons, setVisibleIcons] = useState(() => getChromicons('all'));
 
@@ -208,12 +207,7 @@ export default function IndexPage({ pkgVersion }) {
             <SearchField
               className="pt-6 w-full sm:px-6 md:px-0 md:mb-0"
               inputClassName="w-full"
-              value={searchText}
-              onChange={(e) => {
-                const search = e.target.value;
-
-                setSearchText(e.target.value);
-
+              onChange={(search) => {
                 const filteredIcons =
                   selectedTab !== 'all'
                     ? getChromicons()?.filter((icon) =>
@@ -273,7 +267,7 @@ export default function IndexPage({ pkgVersion }) {
               <p>It looks like we don't have an icon for that yet!</p>
               <a
                 href={`https://github.com/lifeomic/chromicons/issues/new?title=${encodeURIComponent(
-                  `"${searchText}" icon request`
+                  'Icon request'
                 )}`}
                 className="text-sm text-blue-600 duration-300 ease-in-out transition-opacity hover:opacity-75 focus:outline-none focus-visible:shadow-outline focus-visible:underline"
                 target="_blank"
