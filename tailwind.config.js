@@ -29,7 +29,7 @@ module.exports = {
       fontFamily: {
         sans: ['Poppins', ...defaultTheme.fontFamily.sans],
         system: defaultTheme.fontFamily.sans,
-        hero: ['Poppins', 'Poppins', ...defaultTheme.fontFamily.sans],
+        hero: ['Poppins', ...defaultTheme.fontFamily.sans],
       },
       maxWidth: {
         limit: '80rem',
