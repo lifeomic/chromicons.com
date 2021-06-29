@@ -163,7 +163,7 @@ export default function IndexPage({ pkgVersion }) {
             />
           </div>
         </div>
-        <div className="flex justify-between items-start shadow-banner px-4 lg:flex-row sm:flex-col sm:px-6 lg:px-6 bg-white flex-col sm:flex-row">
+        <div className="flex justify-between items-start shadow-banner px-4 lg:flex-row sm:px-6 lg:px-6 bg-white flex-col sm:flex-row">
           <CategoryFilters
             className="-mt-4"
             selectedTab={selectedTab}
