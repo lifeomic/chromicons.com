@@ -43,7 +43,10 @@ export const SearchField = ({ className, inputClassName, onChange }) => {
             onChange?.('');
           }}
         >
-          <XCircle className="h-5 w-5 opacity-75 hover:opacity-100" aria-hidden />
+          <XCircle
+            className="h-5 w-5 opacity-75 hover:opacity-100"
+            aria-hidden
+          />
         </button>
       </div>
     </form>
