@@ -34,7 +34,7 @@ export const SearchField = ({ className, inputClassName, onChange }) => {
 
         <button
           className={clsx(
-            'absolute right-2 top-0 bottom-0 invisible focus:outline-none focus-visible:ring-2',
+            'absolute right-3 top-0 bottom-0 invisible focus:outline-none focus-visible:ring-2',
             searchText?.length > 0 && 'visible'
           )}
           aria-label="Clear search"
@@ -43,7 +43,7 @@ export const SearchField = ({ className, inputClassName, onChange }) => {
             onChange?.('');
           }}
         >
-          <XCircle className="h-4 w-4" aria-hidden />
+          <XCircle className="h-5 w-5 opacity-75 hover:opacity-100" aria-hidden />
         </button>
       </div>
     </form>
