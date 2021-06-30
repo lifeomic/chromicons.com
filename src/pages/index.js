@@ -162,9 +162,9 @@ export default function IndexPage({ pkgVersion }) {
             />
           </div>
         </div>
-        <div className="flex justify-between items-start shadow-banner px-4 lg:flex-row sm:px-6 lg:px-6 bg-white flex-col sm:flex-row">
+        <div className="flex justify-between items-start shadow-banner px-4 sm:px-6 lg:px-6 bg-white flex-col md:flex-row">
           <CategoryFilters
-            className="-mt-4"
+            className="md:-mt-4 md:mr-8 flex w-full justify-evenly md:justify-start whitespace-nowrap"
             selectedTab={selectedTab}
             onChange={(filter) => {
               setSelectedTab(filter);
@@ -203,7 +203,7 @@ export default function IndexPage({ pkgVersion }) {
               }
             }}
           />
-          <div className="pb-6">
+          <div className="pb-6 w-full">
             <SearchField
               className="pt-6 w-full sm:px-6 md:px-0 md:mb-0"
               inputClassName="w-full"
