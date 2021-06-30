@@ -7,7 +7,7 @@ export const SearchField = ({ className, inputClassName, onChange }) => {
 
   return (
     <form
-      className={clsx('relative flex items-center justify-center', className)}
+      className={clsx('relative flex justify-end', className)}
       onSubmit={(e) => e.preventDefault()}
     >
       <label className="sr-only" htmlFor="search-icons" aria-hidden>
