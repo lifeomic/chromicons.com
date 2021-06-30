@@ -126,7 +126,7 @@ export default function IndexPage({ pkgVersion }) {
               by the team at LifeOmic.
             </p>
             <dl className="flex flex-wrap whitespace-no-wrap text-xs font-bold leading-5 sm:text-sm">
-              <div className="flex items-center mx-3 space-x-2 text-orange-400 sm:mx-4 xl:ml-0 xl:mr-8">
+              <div className="flex items-center mx-3 space-x-2 text-orange-700 sm:mx-4 xl:ml-0 xl:mr-8">
                 <dt>
                   <Lifeology className="h-6 w-6" role="img" aria-hidden />
                 </dt>
@@ -134,13 +134,13 @@ export default function IndexPage({ pkgVersion }) {
                   {Object.keys(allLinedChromicons).length} icons
                 </dd>
               </div>
-              <div className="flex items-center mx-3 space-x-2 text-teal-300 sm:mx-4 xl:ml-0 xl:mr-8">
+              <div className="flex items-center mx-3 space-x-2 text-teal-700 sm:mx-4 xl:ml-0 xl:mr-8">
                 <dt>
                   <CheckCircle className="h-6 w-6" role="img" aria-hidden />
                 </dt>
                 <dd className="uppercase">MIT Licensed</dd>
               </div>
-              <div className="flex items-center mx-3 space-x-2 text-purple-400 sm:mx-4 xl:ml-0 xl:mr-8">
+              <div className="flex items-center mx-3 space-x-2 text-purple-600 sm:mx-4 xl:ml-0 xl:mr-8">
                 <dt>
                   <Flag className="h-6 w-6" role="img" aria-hidden />
                 </dt>
