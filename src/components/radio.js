@@ -24,7 +24,7 @@ export const Radio = ({
       <label
         htmlFor={id}
         className={`text-gray-800 uppercase font-semibold tracking-widest cursor-pointer transition-opacity duration-300 ease-in-out text-xs hover:opacity-75 ${
-          checked && 'text-green-400'
+          checked && 'text-teal-700'
         }`}
       >
         {text}
@@ -39,7 +39,7 @@ export const Radio = ({
         leaveTo="opacity-0"
       >
         <span
-          className="absolute left-0 right-0 text-center text-xl text-green-400 top-[1.6rem]"
+          className="absolute left-0 right-0 text-center text-xl text-teal-700 top-[1.6rem]"
           role="presentation"
           aria-hidden
         >
