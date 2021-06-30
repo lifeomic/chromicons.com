@@ -206,8 +206,8 @@ export default function IndexPage({ pkgVersion }) {
           />
           <div className="pb-6">
             <SearchField
-              className="pt-6 w-full sm:px-6 md:px-0 md:mb-0"
-              inputClassName="w-full"
+              className="pt-6 sm:px-6 md:px-0 md:mb-0"
+              inputClassName=""
               value={searchText}
               onChange={(e) => {
                 const search = e.target.value;
