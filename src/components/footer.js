@@ -86,7 +86,7 @@ export const Footer = ({ pkgVersion }) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <LifeOmic className="h-8 w-8 -mt-[2rem]" />
+                <LifeOmic className="h-8 w-8" />
               </a>
             </div>
           </div>
