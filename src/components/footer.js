@@ -5,9 +5,7 @@ export const Footer = ({ pkgVersion }) => {
     <footer className="flex flex-col justify-center bg-gray-100 py-12 space-y-6 md:py-14 px-4 sm:px-6 lg:px-16 leading-5">
       <div className="max-w-limit mx-auto text-center text-sm text-gray-600 space-y-6 md:space-x-10 md:space-y-0 md:text-left md:flex">
         <div className="flex flex-col justify-center items-center">
-          <p>
-            Designed by
-          </p>
+          <p>Designed by</p>
           <div className="flex justify-center relative">
             <a
               className="font-bold duration-300 ease-out transform hover:z-10 hover:scale-110 focus:outline-none focus-visible:shadow-outline focus-visible:underline mt-2"
@@ -48,9 +46,7 @@ export const Footer = ({ pkgVersion }) => {
           </div>
         </div>
         <div className="flex flex-col justify-center items-center md:relative md:-left-3">
-          <p className="text-center">
-            Developed by
-          </p>
+          <p className="text-center">Developed by</p>
           <div className="flex justify-center relative">
             <a
               className="font-bold duration-300 ease-out transform hover:z-10 hover:scale-110 focus:outline-none focus-visible:shadow-outline focus-visible:underline mt-2"
@@ -82,9 +78,7 @@ export const Footer = ({ pkgVersion }) => {
         </div>
         <div className="flex items-center space-x-2">
           <div className="flex flex-col justify-center items-center -mt-1">
-            <p className="text-center mb-3">
-              Built at LifeOmic
-            </p>
+            <p className="text-center mb-3">Built at LifeOmic</p>
             <div className="flex">
               <a
                 className="font-bold duration-300 ease-out transform hover:z-10 hover:scale-110 focus:outline-none focus-visible:shadow-outline focus-visible:underline"
