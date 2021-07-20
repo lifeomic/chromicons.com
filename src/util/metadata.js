@@ -1,9 +1,17 @@
 export default {
   AccessPolicy: {
-    keywords: '',
+    keywords: 'security file permission',
     categories: ['ui'],
   },
   Activity: {
+    keywords: 'cardiogram heartbeat pulse action motion',
+    categories: ['ui', 'health'],
+  },
+  ActivityFolder: {
+    keywords: 'cardiogram heartbeat pulse action motion',
+    categories: ['ui', 'health'],
+  },
+  ActivityMonitor: {
     keywords: 'cardiogram heartbeat pulse action motion',
     categories: ['ui', 'health'],
   },
@@ -279,6 +287,10 @@ export default {
     keywords: '',
     categories: ['ui', 'science'],
   },
+  CodeReview: {
+    keywords: 'approve',
+    categories: ['ui'],
+  },
   Codepen: {
     keywords: '',
     categories: ['ui'],
@@ -297,6 +309,14 @@ export default {
   },
   Compass: {
     keywords: 'direction navigation safari travel',
+    categories: ['ui'],
+  },
+  Container: {
+    keywords: 'docker',
+    categories: ['ui'],
+  },
+  ControlPolicy: {
+    keywords: 'settings config file',
     categories: ['ui'],
   },
   Copy: {
@@ -367,6 +387,14 @@ export default {
     keywords: 'cash currency money',
     categories: ['ui'],
   },
+  Domain: {
+    keywords: 'globe world server',
+    categories: ['ui'],
+  },
+  DomainRecord: {
+    keywords: 'globe world nav',
+    categories: ['ui'],
+  },
   Download: {
     keywords: '',
     categories: ['ui'],
@@ -376,7 +404,7 @@ export default {
     categories: ['ui'],
   },
   Droplet: {
-    keywords: 'rain water',
+    keywords: 'rain water shape',
     categories: ['ui'],
   },
   Edit: {
@@ -439,6 +467,10 @@ export default {
     keywords: 'text',
     categories: ['ui'],
   },
+  Fork: {
+    keywords: 'eat',
+    categories: ['ui', 'health'],
+  },
   Function: {
     keywords: '',
     categories: ['ui'],
@@ -468,27 +500,31 @@ export default {
     categories: ['ui'],
   },
   Heart: {
-    keywords: 'favorite health life like love',
+    keywords: 'favorite health life like love shape',
     categories: ['ui', 'health', 'science'],
   },
   HeartCircle: {
-    keywords: '',
-    categories: ['ui'],
+    keywords: 'favorite health life like love',
+    categories: ['ui', 'health'],
+  },
+  HeartFolder: {
+    keywords: 'favorite health life like love',
+    categories: ['ui', 'health'],
   },
   HeartList: {
-    keywords: '',
-    categories: ['ui'],
+    keywords: 'favorite health life like love',
+    categories: ['ui', 'health'],
   },
   Heatmap: {
     keywords: '',
     categories: ['ui'],
   },
   Helix: {
-    keywords: '',
+    keywords: 'dna',
     categories: ['ui'],
   },
   Helix2: {
-    keywords: '',
+    keywords: 'dna',
     categories: ['ui'],
   },
   HelpCircle: {
@@ -505,6 +541,14 @@ export default {
   },
   Hook: {
     keywords: '',
+    categories: ['ui'],
+  },
+  Host: {
+    keywords: 'server',
+    categories: ['ui'],
+  },
+  HostAgent: {
+    keywords: 'server activity',
     categories: ['ui'],
   },
   Image: {
@@ -531,6 +575,10 @@ export default {
     keywords: 'authentication lock login password secure',
     categories: ['ui'],
   },
+  KeyLock: {
+    keywords: 'security access permission',
+    categories: ['ui'],
+  },
   Layers: {
     keywords: 'stack',
     categories: ['ui'],
@@ -542,6 +590,10 @@ export default {
   Leaf: {
     keywords: 'botanical biology plant wellness',
     categories: [],
+  },
+  Library: {
+    keywords: 'list collection set album',
+    categories: ['ui'],
   },
   LifeBuoy: {
     keywords: 'help life ring support',
@@ -743,6 +795,10 @@ export default {
     keywords: 'attachment',
     categories: ['ui'],
   },
+  PasswordPolicy: {
+    keywords: 'security lock access file',
+    categories: ['ui'],
+  },
   Pause: {
     keywords: 'music stop',
     categories: ['ui'],
@@ -799,6 +855,10 @@ export default {
     keywords: 'send jet depart flight fly leave trip',
     categories: ['ui', 'science'],
   },
+  Planet: {
+    keywords: 'space',
+    categories: ['ui', 'science'],
+  },
   Plant: {
     keywords: 'leaf wellness',
     categories: ['ui', 'science'],
@@ -851,6 +911,22 @@ export default {
     keywords: 'signal',
     categories: ['ui'],
   },
+  RectangleH: {
+    keywords: 'shape landscape orientation',
+    categories: ['ui'],
+  },
+  RectangleV: {
+    keywords: 'shape portrait orientation',
+    categories: ['ui'],
+  },
+  Rectangles: {
+    keywords: '',
+    categories: ['ui'],
+  },
+  RectanglesOverlay: {
+    keywords: '',
+    categories: ['ui'],
+  },
   RefreshCcw: {
     keywords: 'arrow',
     categories: ['ui'],
@@ -863,12 +939,20 @@ export default {
     keywords: 'arrow loop',
     categories: ['ui'],
   },
+  Repository: {
+    keywords: 'collection container stack',
+    categories: ['ui'],
+  },
   ResetDate: {
     keywords: '',
     categories: ['ui'],
   },
   Rewind: {
     keywords: 'music',
+    categories: ['ui'],
+  },
+  Root: {
+    keywords: 'node origin',
     categories: ['ui'],
   },
   RotateCcw: {
@@ -936,7 +1020,7 @@ export default {
     categories: ['ui'],
   },
   Shield: {
-    keywords: 'security secure',
+    keywords: 'security secure shape',
     categories: ['ui'],
   },
   ShieldOff: {
@@ -991,12 +1075,20 @@ export default {
     keywords: 'emoji face happy good excellent',
     categories: ['ui'],
   },
+  Spaceship: {
+    keywords: 'ship launch rocket space',
+    categories: ['ui'],
+  },
   Speaker: {
     keywords: 'audio music sound',
     categories: ['ui'],
   },
   Square: {
     keywords: 'shape',
+    categories: ['ui'],
+  },
+  StackedBar: {
+    keywords: 'diagram graph',
     categories: ['ui'],
   },
   Star: {
@@ -1111,6 +1203,10 @@ export default {
     keywords: 'weather protect rain shelter',
     categories: ['ui'],
   },
+  Unavailable: {
+    keywords: 'bar ban missing gone',
+    categories: ['ui'],
+  },
   Underline: {
     keywords: 'text underscore',
     categories: ['ui'],
@@ -1135,12 +1231,20 @@ export default {
     keywords: 'followed subscribed person account member',
     categories: ['ui'],
   },
+  UserKey: {
+    keywords: 'access security permission person member account',
+    categories: ['ui'],
+  },
   UserMinus: {
     keywords: 'delete remove unfollow unsubscribed person account member',
     categories: ['ui'],
   },
   UserPlus: {
     keywords: 'new add create follow subscribe person account member',
+    categories: ['ui'],
+  },
+  UserShield: {
+    keywords: 'access security permission person member account',
     categories: ['ui'],
   },
   UserX: {
