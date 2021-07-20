@@ -780,7 +780,7 @@ export default {
     categories: ['ui'],
   },
   OfficeBuilding: {
-    keywords: '',
+    keywords: 'organization company',
     categories: ['ui'],
   },
   Oncoprint: {
