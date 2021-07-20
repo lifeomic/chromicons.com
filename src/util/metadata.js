@@ -380,7 +380,7 @@ export default {
     categories: ['ui'],
   },
   Disguise: {
-    keywords: 'secret mask',
+    keywords: 'secret mask spy incognito',
     categories: ['ui'],
   },
   DollarSign: {
