@@ -168,7 +168,6 @@ export default function IndexPage({ pkgVersion }) {
             selectedTab={selectedTab}
             onChange={(filter) => {
               setSelectedTab(filter);
-              setSearchText('');
 
               if (filter === 'all') {
                 setVisibleIcons(getChromicons());
