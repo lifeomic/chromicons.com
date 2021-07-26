@@ -15,7 +15,7 @@ export const Footer = ({ pkgVersion }) => {
               <img
                 src={`${process.env.BACKEND_URL}/doryan400x400.jpg`}
                 alt="pixel crat avatar"
-                className="bg-gray-200 h-8 w-8 md:h-10 md:w-10 rounded-full shadow-inner border-gray-100 border-2 ml-4"
+                className="bg-gray-200 h-8 w-8 md:h-10 md:w-10 rounded-full shadow-inner border-gray-100 border-2 sm:ml-6 md:ml-4"
                 loading="lazy"
               />
             </a>
@@ -33,13 +33,25 @@ export const Footer = ({ pkgVersion }) => {
             </a>
             <a
               className="font-bold duration-300 ease-out transform hover:z-10 hover:scale-110 focus:outline-none focus-visible:shadow-outline focus-visible:underline mt-2"
+              href="https://dribbble.com/eloisadocton"
+              target="_blank"
+            >
+              <img
+                src={`${process.env.BACKEND_URL}/eloisa460x460.jpg`}
+                alt="eloisa docton avatar"
+                className="bg-gray-200 h-8 w-8 md:h-10 md:w-10 rounded-full shadow-inner border-gray-100 border-2 relative -left-4"
+                loading="lazy"
+              />
+            </a>
+            <a
+              className="font-bold duration-300 ease-out transform hover:z-10 hover:scale-110 focus:outline-none focus-visible:shadow-outline focus-visible:underline mt-2"
               href="https://dribbble.com/ThirstyInteractive"
               target="_blank"
             >
               <img
                 src={`${process.env.BACKEND_URL}/jay512x512.png`}
                 alt="jay moore avatar"
-                className="bg-gray-200 h-8 w-8 md:h-10 md:w-10 rounded-full shadow-inner border-gray-100 border-2 relative -left-4"
+                className="bg-gray-200 h-8 w-8 md:h-10 md:w-10 rounded-full shadow-inner border-gray-100 border-2 relative -left-6"
                 loading="lazy"
               />
             </a>
@@ -76,7 +88,7 @@ export const Footer = ({ pkgVersion }) => {
             </a>
           </div>
         </div>
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center justify-center">
           <div className="flex flex-col justify-center items-center -mt-1">
             <p className="text-center mb-3">Built at LifeOmic</p>
             <div className="flex">
