@@ -15,7 +15,7 @@ export const Footer = ({ pkgVersion }) => {
               <img
                 src={`${process.env.BACKEND_URL}/doryan400x400.jpg`}
                 alt="pixel crat avatar"
-                className="bg-gray-200 h-8 w-8 md:h-10 md:w-10 rounded-full shadow-inner border-gray-100 border-2 sm:ml-6 md:ml-4"
+                className="bg-gray-200 h-8 w-8 md:h-10 md:w-10 rounded-full shadow-inner border-gray-100 border-2 ml-6 md:ml-4"
                 loading="lazy"
               />
             </a>
