@@ -171,6 +171,10 @@ export default {
     keywords: 'work bag folder',
     categories: ['ui'],
   },
+  Burger: {
+    keywords: '',
+    categories: ['ui'],
+  },
   Calendar: {
     keywords: 'date',
     categories: ['ui'],
@@ -651,6 +655,10 @@ export default {
     keywords: 'email message send',
     categories: ['ui'],
   },
+  MailOpen: {
+    keywords: '',
+    categories: ['ui'],
+  },
   Map: {
     keywords: 'location navigation travel',
     categories: ['ui'],
@@ -1043,6 +1051,10 @@ export default {
     keywords: 'layout navigation',
     categories: ['ui'],
   },
+  Sitting: {
+    keywords: '',
+    categories: ['ui'],
+  },
   SkipBack: {
     keywords: 'music',
     categories: ['ui'],
@@ -1073,6 +1085,10 @@ export default {
   },
   Smile: {
     keywords: 'emoji face happy good excellent',
+    categories: ['ui'],
+  },
+  Soda: {
+    keywords: '',
     categories: ['ui'],
   },
   Spaceship: {
@@ -1253,6 +1269,10 @@ export default {
   },
   Users: {
     keywords: 'group members team',
+    categories: ['ui'],
+  },
+  UsersShield: {
+    keywords: '',
     categories: ['ui'],
   },
   Versions: {
