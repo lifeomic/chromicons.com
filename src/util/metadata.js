@@ -172,8 +172,8 @@ export default {
     categories: ['ui'],
   },
   Burger: {
-    keywords: '',
-    categories: ['ui'],
+    keywords: 'food',
+    categories: ['ui', 'health'],
   },
   Calendar: {
     keywords: 'date',
@@ -300,8 +300,8 @@ export default {
     categories: ['ui'],
   },
   Coffee: {
-    keywords: 'cup drink mug tea cafe hot beverage',
-    categories: ['ui'],
+    keywords: 'cup drink mug tea cafe hot beverage food',
+    categories: ['ui', 'health'],
   },
   Column: {
     keywords: 'layout',
@@ -799,6 +799,10 @@ export default {
     keywords: 'box container',
     categories: ['ui'],
   },
+  PaintCan: {
+    keywords: 'color fill',
+    categories: ['ui'],
+  },
   Paperclip: {
     keywords: 'attachment',
     categories: ['ui'],
@@ -1052,8 +1056,8 @@ export default {
     categories: ['ui'],
   },
   Sitting: {
-    keywords: '',
-    categories: ['ui'],
+    keywords: 'chair seat',
+    categories: ['ui', 'health'],
   },
   SkipBack: {
     keywords: 'music',
@@ -1088,8 +1092,8 @@ export default {
     categories: ['ui'],
   },
   Soda: {
-    keywords: '',
-    categories: ['ui'],
+    keywords: 'food pop drink',
+    categories: ['ui', 'health'],
   },
   Spaceship: {
     keywords: 'ship launch rocket space',
