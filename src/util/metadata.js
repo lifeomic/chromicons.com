@@ -603,6 +603,10 @@ export default {
     keywords: 'help life ring support',
     categories: ['ui'],
   },
+  Lifeascent: {
+    keywords: '',
+    categories: ['ui'],
+  },
   Lifeology: {
     keywords: 'athena bird nightingale',
     categories: ['ui', 'health', 'science'],
@@ -912,6 +916,10 @@ export default {
     categories: ['ui'],
   },
   Procedure: {
+    keywords: '',
+    categories: ['ui'],
+  },
+  Quote: {
     keywords: '',
     categories: ['ui'],
   },
