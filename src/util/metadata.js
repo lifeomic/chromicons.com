@@ -599,6 +599,10 @@ export default {
     keywords: 'list collection set album',
     categories: ['ui'],
   },
+  LifeAscent: {
+    keywords: '',
+    categories: ['ui'],
+  },
   LifeBuoy: {
     keywords: 'help life ring support',
     categories: ['ui'],
@@ -913,6 +917,10 @@ export default {
   },
   Procedure: {
     keywords: '',
+    categories: ['ui'],
+  },
+  Quote: {
+    keywords: 'comment',
     categories: ['ui'],
   },
   Radar: {
