@@ -920,7 +920,7 @@ export default {
     categories: ['ui'],
   },
   Quote: {
-    keywords: '',
+    keywords: 'comment',
     categories: ['ui'],
   },
   Radar: {
