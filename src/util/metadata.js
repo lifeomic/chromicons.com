@@ -479,6 +479,14 @@ export default {
     keywords: '',
     categories: ['ui'],
   },
+  Gauge: {
+    keywords: 'dashboard speedometer',
+    categories: ['ui'],
+  },
+  Gauge2: {
+    keywords: 'dashboard speedometer',
+    categories: ['ui'],
+  },
   Gift: {
     keywords: 'box birthday party present',
     categories: ['ui'],
