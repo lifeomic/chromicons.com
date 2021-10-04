@@ -19,6 +19,10 @@ export default {
     keywords: 'stream cast mirroring',
     categories: ['ui'],
   },
+  Alcohol: {
+    keywords: 'wine drinks beer bottle glass',
+    categories: ['ui'],
+  },
   AlertCircle: {
     keywords: 'warning alert danger',
     categories: ['ui'],
@@ -453,6 +457,10 @@ export default {
   },
   Flag: {
     keywords: 'end finish goal milestone report',
+    categories: ['ui'],
+  },
+  Floss: {
+    keywords: '',
     categories: ['ui'],
   },
   Folder: {
@@ -1130,6 +1138,10 @@ export default {
   Star: {
     keywords: 'bookmark favorite like rate',
     categories: ['ui', 'health', 'science'],
+  },
+  Steps: {
+    keywords: 'stairs',
+    categories: ['ui'],
   },
   StopCircle: {
     keywords: 'media music',
