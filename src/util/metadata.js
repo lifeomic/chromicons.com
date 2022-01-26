@@ -847,6 +847,10 @@ export default {
     keywords: 'discount',
     categories: ['ui'],
   },
+  Phc: {
+    keywords: '',
+    categories: ['ui'],
+  },
   Phone: {
     keywords: '',
     categories: ['ui'],
