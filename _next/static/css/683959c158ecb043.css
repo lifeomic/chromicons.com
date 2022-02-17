@@ -1,4 +1,4 @@
-:root{--reach-dialog:1}[data-reach-dialog-overlay]{background:rgba(0,0,0,.33);position:fixed;top:0;right:0;bottom:0;left:0;overflow:auto}[data-reach-dialog-content]{width:50vw;margin:10vh auto;background:#fff;padding:2rem;outline:none}@font-face{font-family:Poppins;font-weight:100 400 700;font-display:swap;font-style:normal;font-named-instance:"Regular";src:url(/chromicons.com/_next/static/media/Poppins-Regular.8081832fc5cfbf634aa664a9eff0350e.ttf) format("woff2")}
+:root{--reach-dialog:1}[data-reach-dialog-overlay]{background:rgba(0,0,0,.33);position:fixed;top:0;right:0;bottom:0;left:0;overflow:auto}[data-reach-dialog-content]{width:50vw;margin:10vh auto;background:#fff;padding:2rem;outline:none}@font-face{font-family:Poppins;font-weight:100 400 700;font-display:swap;font-style:normal;font-named-instance:"Regular";src:url(/chromicons.com/_next/static/media/Poppins-Regular.e3fe7ebf.ttf) format("woff2")}
 
 /*! tailwindcss v2.1.4 | MIT License | https://tailwindcss.com */
 
