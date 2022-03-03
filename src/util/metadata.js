@@ -51,6 +51,10 @@ export default {
     keywords: 'text alignment',
     categories: ['ui'],
   },
+  Ambulance: {
+    keywords: '',
+    categories: ['ui'],
+  },
   Anchor: {
     keywords: 'link',
     categories: ['ui'],
@@ -121,6 +125,10 @@ export default {
   },
   Award: {
     keywords: 'achievement badge',
+    categories: ['ui'],
+  },
+  BandAid: {
+    keywords: '',
     categories: ['ui'],
   },
   BarChart: {
@@ -431,6 +439,10 @@ export default {
     keywords: 'display show view watch',
     categories: ['ui', 'health', 'science'],
   },
+  EyeGlasses: {
+    keywords: '',
+    categories: ['ui'],
+  },
   EyeOff: {
     keywords: 'hide hidden view watch off',
     categories: ['ui', 'health', 'science'],
@@ -560,6 +572,10 @@ export default {
     categories: ['ui'],
   },
   Hook: {
+    keywords: '',
+    categories: ['ui'],
+  },
+  HospitalSign: {
     keywords: '',
     categories: ['ui'],
   },
@@ -701,6 +717,10 @@ export default {
   },
   Maximize2: {
     keywords: 'fullscreen arrow expand',
+    categories: ['ui'],
+  },
+  MedicalBriefcase: {
+    keywords: '',
     categories: ['ui'],
   },
   Menu: {
