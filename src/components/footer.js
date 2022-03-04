@@ -61,7 +61,7 @@ export const Footer = ({ pkgVersion }) => {
               target="_blank"
             >
               <img
-                src={`${process.env.BACKEND_URL}/ronnie-nelson.jpeg`}
+                src={`${process.env.BACKEND_URL}/ronnie-nelson.jpg`}
                 alt="ronnie nelson avatar"
                 className="bg-gray-200 h-8 w-8 md:h-10 md:w-10 rounded-full shadow-inner border-gray-100 border-2 relative -left-6"
                 loading="lazy"
