@@ -55,6 +55,18 @@ export const Footer = ({ pkgVersion }) => {
                 loading="lazy"
               />
             </a>
+            <a
+              className="font-bold duration-300 ease-out transform hover:z-10 hover:scale-110 focus:outline-none focus-visible:shadow-outline focus-visible:underline mt-2"
+              href="https://www.instagram.com/ronnie_creates/"
+              target="_blank"
+            >
+              <img
+                src={`${process.env.BACKEND_URL}/ronnie-nelson.jpeg`}
+                alt="ronnie nelson avatar"
+                className="bg-gray-200 h-8 w-8 md:h-10 md:w-10 rounded-full shadow-inner border-gray-100 border-2 relative -left-6"
+                loading="lazy"
+              />
+            </a>
           </div>
         </div>
         <div className="flex flex-col justify-center items-center md:relative md:-left-3">
