@@ -1251,6 +1251,10 @@ export default {
     keywords: 'delta shape',
     categories: ['ui'],
   },
+  Trophy: {
+    keywords: '',
+    categories: ['ui'],
+  },
   Truck: {
     keywords: 'delivery lorry move shipping transport van',
     categories: ['ui'],
