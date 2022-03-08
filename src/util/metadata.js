@@ -1252,7 +1252,7 @@ export default {
     categories: ['ui'],
   },
   Trophy: {
-    keywords: 'prize award',
+    keywords: 'prize award winner champion',
     categories: ['ui'],
   },
   Truck: {
