@@ -771,6 +771,10 @@ export default {
     keywords: 'display screen tv',
     categories: ['ui'],
   },
+  Mood: {
+    keywords: 'happy question',
+    categories: ['ui'],
+  },
   Moon: {
     keywords: 'dark night weather',
     categories: ['ui', 'science'],
