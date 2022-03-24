@@ -1175,7 +1175,7 @@ export default {
     keywords: 'stairs',
     categories: ['ui'],
   },
-  Stethascope: {
+  Stethoscope: {
     keywords: '',
     categories: ['ui'],
   },
