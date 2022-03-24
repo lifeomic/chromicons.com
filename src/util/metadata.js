@@ -511,6 +511,10 @@ export default {
     keywords: 'box birthday party present',
     categories: ['ui'],
   },
+  GlassStraw: {
+    keywords: 'cup drink',
+    categories: ['ui'],
+  },
   Globe: {
     keywords: 'browser language translate world',
     categories: ['ui'],
@@ -1171,6 +1175,10 @@ export default {
     keywords: 'stairs',
     categories: ['ui'],
   },
+  Stethascope: {
+    keywords: '',
+    categories: ['ui'],
+  },
   StopCircle: {
     keywords: 'media music',
     categories: ['ui'],
@@ -1381,6 +1389,10 @@ export default {
   },
   Watch: {
     keywords: 'clock time wearable',
+    categories: ['ui'],
+  },
+  Watch2: {
+    keywords: 'watch wearable time clock',
     categories: ['ui'],
   },
   Webhook: {
