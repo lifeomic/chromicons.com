@@ -1104,7 +1104,8 @@ export default {
     categories: ['ui'],
   },
   Shuffle: {
-    keywords: 'music',
+    keywords:
+      'music random scramble jumble mishmash blend mingle weave infuse arrow',
     categories: ['ui'],
   },
   Sidebar: {
