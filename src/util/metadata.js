@@ -391,6 +391,10 @@ export default {
     keywords: 'remove',
     categories: ['ui'],
   },
+  Dice: {
+    keywords: '',
+    categories: ['ui'],
+  },
   Disc: {
     keywords: 'album cd dvd music',
     categories: ['ui'],
