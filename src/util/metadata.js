@@ -392,7 +392,7 @@ export default {
     categories: ['ui'],
   },
   Dice: {
-    keywords: '',
+    keywords: 'game chance random roll',
     categories: ['ui'],
   },
   Disc: {
