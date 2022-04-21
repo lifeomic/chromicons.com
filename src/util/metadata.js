@@ -391,6 +391,10 @@ export default {
     keywords: 'remove',
     categories: ['ui'],
   },
+  Dice: {
+    keywords: 'game chance random roll',
+    categories: ['ui'],
+  },
   Disc: {
     keywords: 'album cd dvd music',
     categories: ['ui'],
