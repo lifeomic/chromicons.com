@@ -575,6 +575,10 @@ export default {
     keywords: 'shape node.js logo',
     categories: ['ui'],
   },
+  Hexagons: {
+    keywords: 'honeycomb glucose diabetes sugar',
+    categories: ['ui'],
+  },
   Home: {
     keywords: 'house living',
     categories: ['ui'],
@@ -614,6 +618,10 @@ export default {
   Italic: {
     keywords: 'text emphasize',
     categories: [],
+  },
+  Iv: {
+    keywords: 'drug drip saline transfusion infusion intravenous',
+    categories: ['ui'],
   },
   Key: {
     keywords: 'authentication lock login password secure',
@@ -749,6 +757,10 @@ export default {
   },
   MicOff: {
     keywords: 'record sound listen silent silence mute',
+    categories: ['ui'],
+  },
+  Microscope: {
+    keywords: 'inspect investigate observe pathology lab',
     categories: ['ui'],
   },
   Minimize: {
@@ -1402,6 +1414,10 @@ export default {
   },
   Webhook: {
     keywords: '',
+    categories: ['ui'],
+  },
+  Wheelchair: {
+    keywords: 'accessibility disability handicap',
     categories: ['ui'],
   },
   Wifi: {
