@@ -577,7 +577,7 @@ export default {
   },
   Hexagons: {
     keywords: 'honeycomb glucose diabetes sugar',
-    categories: ['ui'],
+    categories: ['ui', 'health'],
   },
   Home: {
     keywords: 'house living',
@@ -761,7 +761,7 @@ export default {
   },
   Microscope: {
     keywords: 'inspect investigate observe pathology lab',
-    categories: ['ui'],
+    categories: ['ui', 'health'],
   },
   Minimize: {
     keywords: 'exit fullscreen close arrow',
