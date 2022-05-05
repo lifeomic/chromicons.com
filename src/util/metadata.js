@@ -175,8 +175,18 @@ export default {
     keywords: 'read clip marker tag',
     categories: ['ui'],
   },
+  Bowl: {
+    keywords:
+      'dish pot basin soup dishes dish plates dinnerware pot mortar meal',
+    categories: ['ui'],
+  },
   Box: {
     keywords: 'cube',
+    categories: ['ui'],
+  },
+  Bread: {
+    keywords:
+      'food carbs starch nutrition dough bun bakery bake grain fiber pastry toast toasted pita flatbread bagel roll meal wheat gluten slice',
     categories: ['ui'],
   },
   Briefcase: {
@@ -509,6 +519,15 @@ export default {
   },
   Gauge2: {
     keywords: 'dashboard speedometer',
+    categories: ['ui'],
+  },
+  Gif: {
+    keywords:
+      'graphic emoji picture image thumbnail jpeg jpg pic pixel animation photo',
+    categories: ['ui'],
+  },
+  Gif2: {
+    keywords: '',
     categories: ['ui'],
   },
   Gift: {
