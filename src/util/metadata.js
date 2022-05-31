@@ -469,6 +469,10 @@ export default {
     keywords: 'music',
     categories: ['ui'],
   },
+  FemaleSymbol: {
+    keywords: 'female girls gender sex venus',
+    categories: ['ui', 'health', 'science'],
+  },
   File: {
     keywords: 'document paper text',
     categories: ['ui', 'science'],
@@ -729,6 +733,10 @@ export default {
   MailOpen: {
     keywords: '',
     categories: ['ui'],
+  },
+  MaleSymbol: {
+    keywords: 'man boy gender sex mars',
+    categories: ['ui', 'health', 'science'],
   },
   Map: {
     keywords: 'location navigation travel',
@@ -993,6 +1001,10 @@ export default {
   Power: {
     keywords: 'off on',
     categories: ['ui'],
+  },
+  PrecisionWellness: {
+    keywords: 'wellness precision',
+    categories: ['ui', 'health'],
   },
   Print: {
     keywords: 'device fax office',
