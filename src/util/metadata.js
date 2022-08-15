@@ -131,6 +131,10 @@ export default {
     keywords: '',
     categories: ['ui'],
   },
+  Bank: {
+    keywords: 'courthouse building money business finance',
+    categories: ['ui'],
+  },
   BarChart: {
     keywords: 'statistics diagram graph',
     categories: ['ui'],
@@ -196,6 +200,10 @@ export default {
   Burger: {
     keywords: 'food',
     categories: ['ui', 'health'],
+  },
+  Calculator: {
+    keywords: 'finance calculate',
+    categories: ['ui'],
   },
   Calendar: {
     keywords: 'date',
@@ -610,6 +618,10 @@ export default {
     keywords: '',
     categories: ['ui'],
   },
+  HorizontalArrows: {
+    keywords: 'bidirectional',
+    categories: ['ui'],
+  },
   HospitalSign: {
     keywords: '',
     categories: ['ui'],
@@ -813,6 +825,10 @@ export default {
   Molecule: {
     keywords: '',
     categories: ['ui', 'science', 'health'],
+  },
+  MoneyBag: {
+    keywords: 'money bag cash finance savings payout',
+    categories: ['ui'],
   },
   Monitor: {
     keywords: 'display screen tv',
@@ -1287,6 +1303,10 @@ export default {
     keywords: 'settings spanner wrench',
     categories: ['ui'],
   },
+  Transaction: {
+    keywords: 'money invoice business receipt',
+    categories: ['ui'],
+  },
   Trash: {
     keywords: 'bin delete garbage remove',
     categories: ['ui'],
@@ -1397,6 +1417,10 @@ export default {
   },
   Versions: {
     keywords: '',
+    categories: ['ui'],
+  },
+  VerticalArrows: {
+    keywords: 'bidirectional',
     categories: ['ui'],
   },
   Video: {
