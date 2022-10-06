@@ -619,7 +619,13 @@ export default {
     categories: ['ui'],
   },
   HorizontalArrows: {
-    keywords: 'bidirectional',
+    keywords:
+      'sync syncing upload send transmit exchange connect broadcast translate bidirectional',
+    categories: ['ui'],
+  },
+  HorizontalArrows2: {
+    keywords:
+      'sync syncing upload send transmit exchange connect broadcast translate bidirectional',
     categories: ['ui'],
   },
   HospitalSign: {
