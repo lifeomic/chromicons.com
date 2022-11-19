@@ -87,7 +87,7 @@ export const Footer = ({ pkgVersion }) => {
             </a>
             <a
               className="font-bold duration-300 ease-out transform hover:z-10 hover:scale-110 focus:outline-none focus-visible:shadow-outline focus-visible:underline mt-2"
-              href="https://twitter.com/_ynotdraw"
+              href="https://github.com/ynotdraw"
               target="_blank"
               rel="noopener noreferrer"
             >
