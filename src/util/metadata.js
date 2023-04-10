@@ -197,6 +197,10 @@ export default {
     keywords: 'work bag folder',
     categories: ['ui'],
   },
+  Broccoli: {
+    keywords: 'food green plant vegetable vegetarian vegan',
+    categories: ['ui'],
+  },
   Burger: {
     keywords: 'food',
     categories: ['ui', 'health'],
@@ -581,6 +585,10 @@ export default {
   HeartFolder: {
     keywords: 'favorite health life like love',
     categories: ['ui', 'health'],
+  },
+  HeartHand: {
+    keywords: 'accept heart hand love receive',
+    categories: ['ui'],
   },
   HeartList: {
     keywords: 'favorite health life like love',
