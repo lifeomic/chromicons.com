@@ -66,10 +66,10 @@
   dependencies:
     purgecss "^3.1.3"
 
-"@lifeomic/chromicons@^2.14.0":
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/@lifeomic/chromicons/-/chromicons-2.14.0.tgz#643c26cbc2805391747c7046b9c819db5cd07298"
-  integrity sha512-vrudTHJAKBbHaRHrCBoyvdwHnCTKAWmkUJNlFSzTRHDk3w2RU1OkeUG2RJZ6GV2gj3+PzEsBr6QNgHId3ORGhQ==
+"@lifeomic/chromicons@^2.15.0":
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/@lifeomic/chromicons/-/chromicons-2.15.0.tgz#aec04c24710bf9f09a18bdff898595c1eefb25ab"
+  integrity sha512-P7FVzFAOuTLgSOraBqVaF/rlWjPs8CmL97JoZ0xDGn8DK4uzMorH8fbS+nsJkpnk6kt5kH1gxMOSs07x5YJBXA==
 
 "@next/env@12.1.0":
   version "12.1.0"
