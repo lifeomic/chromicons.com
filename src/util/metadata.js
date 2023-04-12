@@ -20,7 +20,7 @@ export default {
     categories: ['ui'],
   },
   Alcohol: {
-    keywords: 'wine drinks beer bottle glass',
+    keywords: 'wine drink beer bottle glass food beverage',
     categories: ['ui'],
   },
   AlertCircle: {
@@ -551,7 +551,7 @@ export default {
     categories: ['ui'],
   },
   GlassStraw: {
-    keywords: 'cup drink',
+    keywords: 'cup drink food straw beverage',
     categories: ['ui'],
   },
   Globe: {
@@ -577,6 +577,10 @@ export default {
   Heart: {
     keywords: 'favorite health life like love shape',
     categories: ['ui', 'health', 'science'],
+  },
+  HeartCheck: {
+    keywords: 'heart check health life love like favorite',
+    categories: ['ui'],
   },
   HeartCircle: {
     keywords: 'favorite health life like love',
@@ -1226,7 +1230,7 @@ export default {
     categories: ['ui'],
   },
   Soda: {
-    keywords: 'food pop drink',
+    keywords: 'food pop drink beverage',
     categories: ['ui', 'health'],
   },
   Spaceship: {
