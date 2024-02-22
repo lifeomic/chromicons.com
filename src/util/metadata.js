@@ -75,6 +75,14 @@ export default {
     keywords: '',
     categories: ['ui'],
   },
+  ArrowDown2: {
+    keywords: '',
+    categories: ['ui'],
+  },
+  ArrowDown3: {
+    keywords: '',
+    categories: ['ui'],
+  },
   ArrowDownCircle: {
     keywords: '',
     categories: ['ui'],
@@ -91,6 +99,14 @@ export default {
     keywords: '',
     categories: ['ui'],
   },
+  ArrowLeft2: {
+    keywords: '',
+    categories: ['ui'],
+  },
+  ArrowLeft3: {
+    keywords: '',
+    categories: ['ui'],
+  },
   ArrowLeftCircle: {
     keywords: '',
     categories: ['ui'],
@@ -99,11 +115,27 @@ export default {
     keywords: '',
     categories: ['ui'],
   },
+  ArrowRight2: {
+    keywords: '',
+    categories: ['ui'],
+  },
+  ArrowRight3: {
+    keywords: '',
+    categories: ['ui'],
+  },
   ArrowRightCircle: {
     keywords: '',
     categories: ['ui'],
   },
   ArrowUp: {
+    keywords: '',
+    categories: ['ui'],
+  },
+  ArrowUp2: {
+    keywords: '',
+    categories: ['ui'],
+  },
+  ArrowUp3: {
     keywords: '',
     categories: ['ui'],
   },
@@ -233,6 +265,14 @@ export default {
     keywords: 'complete done',
     categories: ['ui'],
   },
+  Check2: {
+    keywords: 'complete done',
+    categories: ['ui'],
+  },
+  Check3: {
+    keywords: 'complete done',
+    categories: ['ui'],
+  },
   CheckCircle: {
     keywords: 'complete done',
     categories: ['ui'],
@@ -253,7 +293,15 @@ export default {
     keywords: '',
     categories: ['ui'],
   },
+  ChevronDown2: {
+    keywords: '',
+    categories: ['ui'],
+  },
   ChevronLeft: {
+    keywords: '',
+    categories: ['ui'],
+  },
+  ChevronLeft2: {
     keywords: '',
     categories: ['ui'],
   },
@@ -261,7 +309,15 @@ export default {
     keywords: '',
     categories: ['ui'],
   },
+  ChevronRight2: {
+    keywords: '',
+    categories: ['ui'],
+  },
   ChevronUp: {
+    keywords: '',
+    categories: ['ui'],
+  },
+  ChevronUp2: {
     keywords: '',
     categories: ['ui'],
   },
@@ -365,7 +421,15 @@ export default {
     keywords: 'arrow return',
     categories: ['ui'],
   },
+  CornerDownLeft2: {
+    keywords: 'arrow return',
+    categories: ['ui'],
+  },
   CornerLeftDown: {
+    keywords: 'arrow',
+    categories: ['ui'],
+  },
+  CornerLeftDown2: {
     keywords: 'arrow',
     categories: ['ui'],
   },
@@ -373,7 +437,15 @@ export default {
     keywords: 'arrow',
     categories: ['ui'],
   },
+  CornerLeftUp2: {
+    keywords: 'arrow',
+    categories: ['ui'],
+  },
   CornerRightDown: {
+    keywords: 'arrow',
+    categories: ['ui'],
+  },
+  CornerRightDown2: {
     keywords: 'arrow',
     categories: ['ui'],
   },
@@ -381,7 +453,15 @@ export default {
     keywords: 'arrow',
     categories: ['ui'],
   },
+  CornerRightUp2: {
+    keywords: 'arrow',
+    categories: ['ui'],
+  },
   CornerUpRight: {
+    keywords: 'arrow',
+    categories: ['ui'],
+  },
+  CornerUpRight2: {
     keywords: 'arrow',
     categories: ['ui'],
   },
@@ -832,6 +912,14 @@ export default {
     keywords: 'dash subtract collapse',
     categories: ['ui'],
   },
+  Minus2: {
+    keywords: 'dash subtract collapse',
+    categories: ['ui'],
+  },
+  Minus3: {
+    keywords: 'dash subtract collapse',
+    categories: ['ui'],
+  },
   MinusCircle: {
     keywords: 'dash subtract collapse',
     categories: ['ui'],
@@ -1017,6 +1105,14 @@ export default {
     categories: ['ui'],
   },
   Plus: {
+    keywords: 'add create new',
+    categories: ['ui'],
+  },
+  Plus2: {
+    keywords: 'add create new',
+    categories: ['ui'],
+  },
+  Plus3: {
     keywords: 'add create new',
     categories: ['ui'],
   },
@@ -1506,6 +1602,14 @@ export default {
     categories: ['ui', 'science'],
   },
   X: {
+    keywords: 'cancel close delete remove times clear',
+    categories: ['ui'],
+  },
+  X2: {
+    keywords: 'cancel close delete remove times clear',
+    categories: ['ui'],
+  },
+  X3: {
     keywords: 'cancel close delete remove times clear',
     categories: ['ui'],
   },
