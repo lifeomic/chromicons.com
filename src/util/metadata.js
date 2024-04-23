@@ -764,6 +764,10 @@ export default {
     keywords: 'security access permission',
     categories: ['ui'],
   },
+  Kidney: {
+    keywords: 'organ',
+    categories: ['ui', 'health'],
+  },
   Layers: {
     keywords: 'stack',
     categories: ['ui'],
@@ -819,6 +823,10 @@ export default {
   List: {
     keywords: 'options menu bulleted',
     categories: ['ui'],
+  },
+  Liver: {
+    keywords: 'organ',
+    categories: ['ui', 'health'],
   },
   Loader: {
     keywords: 'progress spinner incomplete',
@@ -1143,6 +1151,10 @@ export default {
   Procedure: {
     keywords: '',
     categories: ['ui'],
+  },
+  Prostate: {
+    keywords: 'organ',
+    categories: ['ui', 'health'],
   },
   Quote: {
     keywords: 'comment',
