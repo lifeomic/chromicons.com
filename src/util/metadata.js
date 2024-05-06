@@ -577,6 +577,10 @@ export default {
     keywords: '',
     categories: ['ui'],
   },
+  Fire: {
+    keywords: 'flame hot warm blaze inflammation inflammatory',
+    categories: ['ui'],
+  },
   Flag: {
     keywords: 'end finish goal milestone report',
     categories: ['ui'],
@@ -699,6 +703,10 @@ export default {
     categories: ['ui'],
   },
   Hexagons: {
+    keywords: 'honeycomb glucose diabetes sugar',
+    categories: ['ui', 'health'],
+  },
+  Hexagons2: {
     keywords: 'honeycomb glucose diabetes sugar',
     categories: ['ui', 'health'],
   },
@@ -828,8 +836,16 @@ export default {
     keywords: 'organ',
     categories: ['ui', 'health'],
   },
+  Liver2: {
+    keywords: 'organ',
+    categories: ['ui', 'health'],
+  },
   Loader: {
     keywords: 'progress spinner incomplete',
+    categories: ['ui'],
+  },
+  Loader2: {
+    keywords: 'progress spinner incomplete inflammation inflammatory',
     categories: ['ui'],
   },
   Lock: {
@@ -1416,6 +1432,10 @@ export default {
   ThumbsUp: {
     keywords: 'good like emotion',
     categories: ['ui'],
+  },
+  Thyroid: {
+    keywords: '',
+    categories: ['ui', 'health'],
   },
   ToggleLeft: {
     keywords: 'on off switch',
