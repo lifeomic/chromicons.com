@@ -1365,6 +1365,11 @@ export default {
     keywords: 'audio music sound',
     categories: ['ui'],
   },
+  Split: {
+    keywords:
+      'layout navigation half halve chop divide partition bisect separate',
+    categories: ['ui'],
+  },
   Square: {
     keywords: 'shape',
     categories: ['ui'],
