@@ -905,11 +905,15 @@ export default {
     categories: ['ui'],
   },
   MessageCircle: {
-    keywords: 'comment chat',
+    keywords: 'comment chat feedback',
     categories: ['ui'],
   },
   MessageSquare: {
-    keywords: 'comment chat',
+    keywords: 'comment chat feedback',
+    categories: ['ui'],
+  },
+  MessageThumbsUp: {
+    keywords: 'comment chat feedback positive rank rate rating',
     categories: ['ui'],
   },
   Mic: {
@@ -1361,6 +1365,15 @@ export default {
     keywords: 'ship launch rocket space',
     categories: ['ui'],
   },
+  Sparkle: {
+    keywords:
+      'ai artificial bot bright clean dazzle fresh intelligence new polished pure shiny',
+    categories: ['ui'],
+  },
+  SparkleCircle: {
+    keywords: 'ai artificial bot chat intelligence',
+    categories: ['ui'],
+  },
   Speaker: {
     keywords: 'audio music sound',
     categories: ['ui'],
@@ -1431,11 +1444,11 @@ export default {
     categories: ['ui', 'science'],
   },
   ThumbsDown: {
-    keywords: 'bad dislike emotion',
+    keywords: 'bad dislike emotion rank rate rating',
     categories: ['ui'],
   },
   ThumbsUp: {
-    keywords: 'good like emotion',
+    keywords: 'good like emotion rank rate rating',
     categories: ['ui'],
   },
   Thyroid: {
