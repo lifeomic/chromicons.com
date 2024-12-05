@@ -199,6 +199,10 @@ export default {
     keywords: 'text',
     categories: ['ui'],
   },
+  BoneJoint: {
+    keywords: 'musculoskeletal orthopedic',
+    categories: ['ui'],
+  },
   Book: {
     keywords: 'read dictionary magazine library',
     categories: ['ui'],
@@ -218,6 +222,10 @@ export default {
   },
   Box: {
     keywords: 'cube',
+    categories: ['ui'],
+  },
+  Brain: {
+    keywords: 'head skull mind intelligence anatomy smart',
     categories: ['ui'],
   },
   Bread: {
@@ -251,6 +259,10 @@ export default {
   },
   CameraOff: {
     keywords: 'camera photo picture',
+    categories: ['ui'],
+  },
+  Cancer: {
+    keywords: 'disease',
     categories: ['ui'],
   },
   CapsulePills: {
@@ -1372,6 +1384,10 @@ export default {
   },
   SparkleCircle: {
     keywords: 'ai artificial bot chat intelligence',
+    categories: ['ui'],
+  },
+  SparkleRefresh: {
+    keywords: 'ai artificial refresh intelligence',
     categories: ['ui'],
   },
   Speaker: {
