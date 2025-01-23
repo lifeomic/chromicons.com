@@ -243,7 +243,7 @@ export default {
   },
   Bullhorn: {
     keywords:
-      'address amplify attention alert comment feedback holler loud megaphone microphone reaction shout signal speaker yell',
+      'address amplify attention alert comment communicate emergency feedback holler loud megaphone microphone protest reaction shout signal sound speaker yell',
     categories: ['ui'],
   },
   Burger: {
