@@ -241,6 +241,11 @@ export default {
     keywords: 'food green plant vegetable vegetarian vegan',
     categories: ['ui'],
   },
+  Bullhorn: {
+    keywords:
+      'address amplify attention alert comment feedback holler loud megaphone microphone reaction shout signal speaker yell',
+    categories: ['ui'],
+  },
   Burger: {
     keywords: 'food',
     categories: ['ui', 'health'],
