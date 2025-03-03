@@ -789,6 +789,10 @@ export default {
     keywords: 'security access permission',
     categories: ['ui'],
   },
+  KeyboardDown: {
+    keywords: 'hide',
+    categories: ['ui'],
+  },
   Kidney: {
     keywords: 'organ',
     categories: ['ui', 'health'],
