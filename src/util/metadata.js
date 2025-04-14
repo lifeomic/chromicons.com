@@ -1249,6 +1249,10 @@ export default {
     keywords: 'music',
     categories: ['ui'],
   },
+  Ribbon: {
+    keywords: 'awareness cancer fight hope solidarity support',
+    categories: ['ui'],
+  },
   Root: {
     keywords: 'node origin',
     categories: ['ui'],
@@ -1462,6 +1466,10 @@ export default {
   },
   Terminal: {
     keywords: 'code command line prompt',
+    categories: ['ui'],
+  },
+  TestTube: {
+    keywords: 'chemistry experiment lab liquid research results sample test',
     categories: ['ui'],
   },
   Thermometer: {
