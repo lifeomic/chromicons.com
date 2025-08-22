@@ -196,7 +196,7 @@ export default {
     categories: ['ui'],
   },
   Bold: {
-    keywords: 'text',
+    keywords: 'text format',
     categories: ['ui'],
   },
   BoneJoint: {
@@ -774,7 +774,7 @@ export default {
     categories: ['ui'],
   },
   Italic: {
-    keywords: 'text emphasize',
+    keywords: 'text emphasize format',
     categories: [],
   },
   Iv: {
@@ -1436,6 +1436,11 @@ export default {
     keywords: 'media music',
     categories: ['ui'],
   },
+  Strikethrough: {
+    keywords:
+      'text delete remove erase cross crossed cancel edit void negate format',
+    categories: ['ui'],
+  },
   Sun: {
     keywords: 'brightness light weather',
     categories: ['ui', 'science'],
@@ -1561,7 +1566,7 @@ export default {
     categories: ['ui'],
   },
   Underline: {
-    keywords: 'text underscore',
+    keywords: 'text formatunderscore',
     categories: ['ui'],
   },
   Unlock: {
