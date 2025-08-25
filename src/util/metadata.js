@@ -611,7 +611,11 @@ export default {
     categories: ['ui'],
   },
   FolderMinus: {
-    keywords: 'direcotry group',
+    keywords: 'directory group',
+    categories: ['ui'],
+  },
+  FolderOpen: {
+    keywords: 'directory group',
     categories: ['ui'],
   },
   FolderPlus: {
