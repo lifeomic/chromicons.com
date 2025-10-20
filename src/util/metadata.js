@@ -1390,6 +1390,10 @@ export default {
     keywords: 'food pop drink beverage',
     categories: ['ui', 'health'],
   },
+  SoundWave: {
+    keywords: 'audio frequency music sound speaker vibration',
+    categories: ['ui'],
+  },
   Spaceship: {
     keywords: 'ship launch rocket space',
     categories: ['ui'],
