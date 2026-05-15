@@ -1407,8 +1407,20 @@ export default {
     keywords: 'ai artificial bot chat intelligence',
     categories: ['ui'],
   },
+  SparkleFilter: {
+    keywords: 'ai artificial filter funnel intelligence refine sort',
+    categories: ['ui'],
+  },
+  SparkleOutput: {
+    keywords: 'ai artificial export intelligence output results',
+    categories: ['ui'],
+  },
   SparkleRefresh: {
     keywords: 'ai artificial refresh intelligence',
+    categories: ['ui'],
+  },
+  SparkleSelect: {
+    keywords: 'ai artificial cursor intelligence select target',
     categories: ['ui'],
   },
   Speaker: {
